@@ -1,0 +1,5 @@
+__pycache__/
+.env
+*.json
+# Keep requirements.txt tracked, but ignore large generated logs if any
+*.log

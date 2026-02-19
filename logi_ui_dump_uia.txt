@@ -1,0 +1,1495 @@
+PID: 9696, Title: 아리랑콜센터-알렉스.기수신[메인/1등급], Class: SmartD2-
+Control Identifiers:
+
+Pane - '아리랑콜센터-알렉스.기수신[메인/1등급]'    (L0, T6, R725, B991)
+['아리랑콜센터-알렉스.기수신[메인/1등급]', '아리랑콜센터-알렉스.기수신[메인/1등급]Pane', 'Pane', 'Pane0', 'Pane1', '아리랑콜센터-알렉스.기수신[메인/1등급]0', '아리랑콜센터-알렉스.기수신[메인/1등급]1']
+child_window(title="아리랑콜센터-알렉스.기수신[메인/1등급]", control_type="Pane")
+   | 
+   | Pane - '작업 영역'    (L3, T35, R718, B965)
+   | ['작업 영역', 'Pane2', '작업 영역Pane']
+   | child_window(title="작업 영역", auto_id="59648", control_type="Pane")
+   |    | 
+   |    | Dialog - '기간별수신콜수'    (L7, T59, R712, B959)
+   |    | ['기간별수신콜수', 'Dialog', '기간별수신콜수Dialog']
+   |    | child_window(title="기간별수신콜수", auto_id="65280", control_type="Window")
+   |    |    | 
+   |    |    | Pane - ''    (L68, T69, R201, B90)
+   |    |    | ['Pane3', '기간Pane', '기간Pane0', '기간Pane1']
+   |    |    | child_window(auto_id="1204", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | CheckBox - ''    (L0, T0, R0, B0)
+   |    |    |    | ['CheckBox', 'CheckBox0', 'CheckBox1']
+   |    |    |    | 
+   |    |    |    | Button - ''    (L126, T3412291, R1763518, B2010574689)
+   |    |    |    | ['Button', 'Button0', 'Button1']
+   |    |    | 
+   |    |    | Pane - ''    (L222, T69, R355, B90)
+   |    |    | ['Pane4', '∼Pane', '∼Pane0', '∼Pane1']
+   |    |    | child_window(auto_id="1206", control_type="Pane")
+   |    |    |    | 
+   |    |    |    | CheckBox - ''    (L0, T0, R0, B0)
+   |    |    |    | ['CheckBox2']
+   |    |    |    | 
+   |    |    |    | Button - ''    (L280, T1447685, R1763672, B2010574689)
+   |    |    |    | ['Button2']
+   |    |    | 
+   |    |    | Static - '∼'    (L207, T72, R221, B96)
+   |    |    | ['Static', '∼', '∼Static', 'Static0', 'Static1']
+   |    |    | child_window(title="∼", control_type="Text")
+   |    |    | 
+   |    |    | Static - '기간'    (L18, T69, R65, B92)
+   |    |    | ['기간Static', '기간', 'Static2']
+   |    |    | child_window(title="기간", auto_id="2200", control_type="Text")
+   |    |    | 
+   |    |    | Button - '조건'    (L359, T72, R375, B87)
+   |    |    | ['조건', 'Button3', '조건Button']
+   |    |    | child_window(title="조건", auto_id="1186", control_type="Button")
+   |    |    | 
+   |    |    | Button - '조 회(V)'    (L621, T67, R728, B93)
+   |    |    | ['조 회(V)', 'Button4', '조 회(V)Button']
+   |    |    | child_window(title="조 회(V)", auto_id="2357", control_type="Button")
+   |    |    | 
+   |    |    | CheckBox - '전화받은건수기준'    (L446, T72, R586, B88)
+   |    |    | ['전화받은건수기준', 'CheckBox3', '전화받은건수기준CheckBox']
+   |    |    | child_window(title="전화받은건수기준", auto_id="2207", control_type="CheckBox")
+   |    |    | 
+   |    |    | Pane - ''    (L299, T100, R710, B957)
+   |    |    | ['Pane5', '∼Pane2']
+   |    |    | child_window(auto_id="5027", control_type="Pane")
+   |    |    | 
+   |    |    | Table - 'Report'    (L12, T100, R296, B957)
+   |    |    | ['ReportTable', 'Table', 'Report']
+   |    |    | child_window(title="Report", auto_id="1780", control_type="Table")
+   |    |    |    | 
+   |    |    |    | Thumb - ''    (L278, T939, R295, B956)
+   |    |    |    | ['∼Thumb', 'Thumb']
+   |    |    |    | 
+   |    |    |    | Header - 'Report Header'    (L13, T101, R278, B123)
+   |    |    |    | ['Report HeaderHeader', 'Header', 'Report Header', 'Header0', 'Header1']
+   |    |    |    | child_window(title="Report Header", control_type="Header")
+   |    |    |    |    | 
+   |    |    |    |    | Header - '코드'    (L13, T101, R53, B123)
+   |    |    |    |    | ['코드', 'Header2', '코드Header']
+   |    |    |    |    | child_window(title="코드", control_type="Header")
+   |    |    |    |    | 
+   |    |    |    |    | Header - '성명'    (L53, T101, R113, B123)
+   |    |    |    |    | ['성명', '성명Header', 'Header3']
+   |    |    |    |    | child_window(title="성명", control_type="Header")
+   |    |    |    |    | 
+   |    |    |    |    | Header - '고객(받음)'    (L113, T101, R163, B123)
+   |    |    |    |    | ['고객(받음)Header', 'Header4', '고객(받음)']
+   |    |    |    |    | child_window(title="고객(받음)", control_type="Header")
+   |    |    |    |    | 
+   |    |    |    |    | Header - '기사(받음)'    (L163, T101, R213, B123)
+   |    |    |    |    | ['기사(받음)Header', 'Header5', '기사(받음)']
+   |    |    |    |    | child_window(title="기사(받음)", control_type="Header")
+   |    |    |    |    | 
+   |    |    |    |    | Header - '고객(걸음)'    (L213, T101, R263, B123)
+   |    |    |    |    | ['고객(걸음)Header', '고객(걸음)', 'Header6']
+   |    |    |    |    | child_window(title="고객(걸음)", control_type="Header")
+   |    |    |    |    | 
+   |    |    |    |    | Header - '기사(걸음)'    (L263, T101, R313, B123)
+   |    |    |    |    | ['기사(걸음)', '기사(걸음)Header', 'Header7']
+   |    |    |    |    | child_window(title="기사(걸음)", control_type="Header")
+   |    |    |    |    | 
+   |    |    |    |    | Header - '합계(건)'    (L313, T101, R373, B123)
+   |    |    |    |    | ['합계(건)', 'Header8', '합계(건)Header']
+   |    |    |    |    | child_window(title="합계(건)", control_type="Header")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T123, R373, B142)
+   |    |    |    | ['Custom', 'Report Row', 'Report RowCustom', 'Custom0', 'Custom1', 'Report Row0', 'Report Row1', 'Report RowCustom0', 'Report RowCustom1']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1096'    (L13, T123, R53, B142)
+   |    |    |    |    | ['1096DataItem', 'DataItem', '1096', 'DataItem0', 'DataItem1']
+   |    |    |    |    | child_window(title="1096", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '김미진'    (L53, T123, R113, B142)
+   |    |    |    |    | ['김미진DataItem', '김미진', 'DataItem2']
+   |    |    |    |    | child_window(title="김미진", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '186'    (L113, T123, R163, B142)
+   |    |    |    |    | ['186DataItem', 'DataItem3', '186']
+   |    |    |    |    | child_window(title="186", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '45'    (L163, T123, R213, B142)
+   |    |    |    |    | ['45DataItem', '45', 'DataItem4']
+   |    |    |    |    | child_window(title="45", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '4'    (L213, T123, R263, B142)
+   |    |    |    |    | ['4', 'DataItem5', '4DataItem', '40', '41', '4DataItem0', '4DataItem1']
+   |    |    |    |    | child_window(title="4", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '9'    (L263, T123, R313, B142)
+   |    |    |    |    | ['9', 'DataItem6', '9DataItem', '91', '90', '9DataItem0', '9DataItem1', '910', '911']
+   |    |    |    |    | child_window(title="9", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '244'    (L313, T123, R373, B142)
+   |    |    |    |    | ['DataItem7', '244', '244DataItem']
+   |    |    |    |    | child_window(title="244", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T142, R373, B161)
+   |    |    |    | ['Custom2', 'Report Row2', 'Report RowCustom2']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1155'    (L13, T142, R53, B161)
+   |    |    |    |    | ['1155', '1155DataItem', 'DataItem8']
+   |    |    |    |    | child_window(title="1155", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '이지현'    (L53, T142, R113, B161)
+   |    |    |    |    | ['이지현', 'DataItem9', '이지현DataItem']
+   |    |    |    |    | child_window(title="이지현", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '156'    (L113, T142, R163, B161)
+   |    |    |    |    | ['DataItem10', '156', '156DataItem']
+   |    |    |    |    | child_window(title="156", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '29'    (L163, T142, R213, B161)
+   |    |    |    |    | ['29', 'DataItem11', '29DataItem', '290', '291', '29DataItem0', '29DataItem1']
+   |    |    |    |    | child_window(title="29", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '2'    (L213, T142, R263, B161)
+   |    |    |    |    | ['2DataItem', '2', 'DataItem12', '2DataItem0', '2DataItem1', '20', '21', '200', '201']
+   |    |    |    |    | child_window(title="2", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L263, T142, R313, B161)
+   |    |    |    |    | ['DataItem13', '∼DataItem', '∼DataItem0', '∼DataItem1']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '187'    (L313, T142, R373, B161)
+   |    |    |    |    | ['187DataItem', 'DataItem14', '187']
+   |    |    |    |    | child_window(title="187", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T161, R373, B180)
+   |    |    |    | ['Custom3', 'Report Row3', 'Report RowCustom3']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1072'    (L13, T161, R53, B180)
+   |    |    |    |    | ['1072', 'DataItem15', '1072DataItem']
+   |    |    |    |    | child_window(title="1072", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '김숙현'    (L53, T161, R113, B180)
+   |    |    |    |    | ['김숙현', 'DataItem16', '김숙현DataItem']
+   |    |    |    |    | child_window(title="김숙현", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '114'    (L113, T161, R163, B180)
+   |    |    |    |    | ['114DataItem', 'DataItem17', '114']
+   |    |    |    |    | child_window(title="114", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '37'    (L163, T161, R213, B180)
+   |    |    |    |    | ['37DataItem', 'DataItem18', '37', '37DataItem0', '37DataItem1', '370', '371']
+   |    |    |    |    | child_window(title="37", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '4'    (L213, T161, R263, B180)
+   |    |    |    |    | ['42', 'DataItem19', '4DataItem2', '420', '421']
+   |    |    |    |    | child_window(title="4", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '4'    (L263, T161, R313, B180)
+   |    |    |    |    | ['43', 'DataItem20', '4DataItem3', '430', '431']
+   |    |    |    |    | child_window(title="4", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '159'    (L313, T161, R373, B180)
+   |    |    |    |    | ['159', 'DataItem21', '159DataItem']
+   |    |    |    |    | child_window(title="159", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T180, R373, B199)
+   |    |    |    | ['Custom4', 'Report Row4', 'Report RowCustom4']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1178'    (L13, T180, R53, B199)
+   |    |    |    |    | ['1178DataItem', 'DataItem22', '1178']
+   |    |    |    |    | child_window(title="1178", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '박순미'    (L53, T180, R113, B199)
+   |    |    |    |    | ['박순미', '박순미DataItem', 'DataItem23']
+   |    |    |    |    | child_window(title="박순미", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '117'    (L113, T180, R163, B199)
+   |    |    |    |    | ['117DataItem', 'DataItem24', '117']
+   |    |    |    |    | child_window(title="117", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '15'    (L163, T180, R213, B199)
+   |    |    |    |    | ['15DataItem', '15', 'DataItem25', '15DataItem0', '15DataItem1', '150', '151']
+   |    |    |    |    | child_window(title="15", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '6'    (L213, T180, R263, B199)
+   |    |    |    |    | ['DataItem26', '6DataItem', '6', '6DataItem0', '6DataItem1', '60', '61']
+   |    |    |    |    | child_window(title="6", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '4'    (L263, T180, R313, B199)
+   |    |    |    |    | ['44', 'DataItem27', '4DataItem4']
+   |    |    |    |    | child_window(title="4", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '142'    (L313, T180, R373, B199)
+   |    |    |    |    | ['142DataItem', '142', 'DataItem28']
+   |    |    |    |    | child_window(title="142", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T199, R373, B218)
+   |    |    |    | ['Custom5', 'Report Row5', 'Report RowCustom5']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1082'    (L13, T199, R53, B218)
+   |    |    |    |    | ['1082', 'DataItem29', '1082DataItem']
+   |    |    |    |    | child_window(title="1082", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '함미선'    (L53, T199, R113, B218)
+   |    |    |    |    | ['함미선DataItem', '함미선', 'DataItem30']
+   |    |    |    |    | child_window(title="함미선", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '100'    (L113, T199, R163, B218)
+   |    |    |    |    | ['100DataItem', '100', 'DataItem31']
+   |    |    |    |    | child_window(title="100", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '25'    (L163, T199, R213, B218)
+   |    |    |    |    | ['25', 'DataItem32', '25DataItem']
+   |    |    |    |    | child_window(title="25", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '5'    (L213, T199, R263, B218)
+   |    |    |    |    | ['DataItem33', '5', '5DataItem', '50', '51', '5DataItem0', '5DataItem1']
+   |    |    |    |    | child_window(title="5", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '5'    (L263, T199, R313, B218)
+   |    |    |    |    | ['DataItem34', '52', '5DataItem2', '520', '521']
+   |    |    |    |    | child_window(title="5", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '135'    (L313, T199, R373, B218)
+   |    |    |    |    | ['DataItem35', '135', '135DataItem']
+   |    |    |    |    | child_window(title="135", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T218, R373, B237)
+   |    |    |    | ['Custom6', 'Report Row6', 'Report RowCustom6']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1229'    (L13, T218, R53, B237)
+   |    |    |    |    | ['1229', 'DataItem36', '1229DataItem']
+   |    |    |    |    | child_window(title="1229", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '서주야Fs'    (L53, T218, R113, B237)
+   |    |    |    |    | ['DataItem37', '서주야Fs', '서주야FsDataItem']
+   |    |    |    |    | child_window(title="서주야Fs", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '107'    (L113, T218, R163, B237)
+   |    |    |    |    | ['107', 'DataItem38', '107DataItem']
+   |    |    |    |    | child_window(title="107", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '2'    (L163, T218, R213, B237)
+   |    |    |    |    | ['2DataItem2', '22', 'DataItem39', '220', '221']
+   |    |    |    |    | child_window(title="2", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '24'    (L213, T218, R263, B237)
+   |    |    |    |    | ['DataItem40', '24', '24DataItem', '240', '241', '24DataItem0', '24DataItem1']
+   |    |    |    |    | child_window(title="24", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L263, T218, R313, B237)
+   |    |    |    |    | ['DataItem41', '∼DataItem2']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '133'    (L313, T218, R373, B237)
+   |    |    |    |    | ['133', '133DataItem', 'DataItem42', '1330', '1331', '133DataItem0', '133DataItem1']
+   |    |    |    |    | child_window(title="133", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T237, R373, B256)
+   |    |    |    | ['Custom7', 'Report Row7', 'Report RowCustom7']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1254'    (L13, T237, R53, B256)
+   |    |    |    |    | ['1254DataItem', '1254', 'DataItem43']
+   |    |    |    |    | child_window(title="1254", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '김은주Fs'    (L53, T237, R113, B256)
+   |    |    |    |    | ['김은주Fs', '김은주FsDataItem', 'DataItem44']
+   |    |    |    |    | child_window(title="김은주Fs", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '98'    (L113, T237, R163, B256)
+   |    |    |    |    | ['98DataItem', 'DataItem45', '98', '98DataItem0', '98DataItem1', '980', '981']
+   |    |    |    |    | child_window(title="98", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L163, T237, R213, B256)
+   |    |    |    |    | ['1', 'DataItem46', '1DataItem', '10', '11', '1DataItem0', '1DataItem1', '110', '111']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '29'    (L213, T237, R263, B256)
+   |    |    |    |    | ['292', 'DataItem47', '29DataItem2']
+   |    |    |    |    | child_window(title="29", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L263, T237, R313, B256)
+   |    |    |    |    | ['DataItem48', '∼DataItem3']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '128'    (L313, T237, R373, B256)
+   |    |    |    |    | ['128', '128DataItem', 'DataItem49']
+   |    |    |    |    | child_window(title="128", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T256, R373, B275)
+   |    |    |    | ['Custom8', 'Report Row8', 'Report RowCustom8']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1352'    (L13, T256, R53, B275)
+   |    |    |    |    | ['DataItem50', '1352', '1352DataItem']
+   |    |    |    |    | child_window(title="1352", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '정지수'    (L53, T256, R113, B275)
+   |    |    |    |    | ['정지수DataItem', 'DataItem51', '정지수']
+   |    |    |    |    | child_window(title="정지수", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '101'    (L113, T256, R163, B275)
+   |    |    |    |    | ['DataItem52', '101', '101DataItem', '1010', '1011', '101DataItem0', '101DataItem1']
+   |    |    |    |    | child_window(title="101", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '16'    (L163, T256, R213, B275)
+   |    |    |    |    | ['16', '16DataItem', 'DataItem53', '160', '161', '16DataItem0', '16DataItem1']
+   |    |    |    |    | child_window(title="16", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '5'    (L213, T256, R263, B275)
+   |    |    |    |    | ['DataItem54', '53', '5DataItem3']
+   |    |    |    |    | child_window(title="5", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '5'    (L263, T256, R313, B275)
+   |    |    |    |    | ['DataItem55', '54', '5DataItem4']
+   |    |    |    |    | child_window(title="5", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '127'    (L313, T256, R373, B275)
+   |    |    |    |    | ['127DataItem', '127', 'DataItem56']
+   |    |    |    |    | child_window(title="127", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T275, R373, B294)
+   |    |    |    | ['Custom9', 'Report Row9', 'Report RowCustom9']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '104'    (L13, T275, R53, B294)
+   |    |    |    |    | ['104', '104DataItem', 'DataItem57']
+   |    |    |    |    | child_window(title="104", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '젤다.최은미fo'    (L53, T275, R113, B294)
+   |    |    |    |    | ['젤다.최은미foDataItem', 'DataItem58', '젤다.최은미fo']
+   |    |    |    |    | child_window(title="젤다.최은미fo", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '47'    (L113, T275, R163, B294)
+   |    |    |    |    | ['47DataItem', 'DataItem59', '47', '47DataItem0', '47DataItem1', '470', '471']
+   |    |    |    |    | child_window(title="47", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '4'    (L163, T275, R213, B294)
+   |    |    |    |    | ['46', 'DataItem60', '4DataItem5']
+   |    |    |    |    | child_window(title="4", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '74'    (L213, T275, R263, B294)
+   |    |    |    |    | ['74', 'DataItem61', '74DataItem', '740', '741', '74DataItem0', '74DataItem1']
+   |    |    |    |    | child_window(title="74", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L263, T275, R313, B294)
+   |    |    |    |    | ['DataItem62', '∼DataItem4']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '125'    (L313, T275, R373, B294)
+   |    |    |    |    | ['125DataItem', 'DataItem63', '125', '125DataItem0', '125DataItem1', '1250', '1251']
+   |    |    |    |    | child_window(title="125", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T294, R373, B313)
+   |    |    |    | ['Custom10', 'Report Row10', 'Report RowCustom10']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1080'    (L13, T294, R53, B313)
+   |    |    |    |    | ['DataItem64', '1080', '1080DataItem']
+   |    |    |    |    | child_window(title="1080", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '오연옥'    (L53, T294, R113, B313)
+   |    |    |    |    | ['오연옥', '오연옥DataItem', 'DataItem65']
+   |    |    |    |    | child_window(title="오연옥", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '101'    (L113, T294, R163, B313)
+   |    |    |    |    | ['DataItem66', '1012', '101DataItem2']
+   |    |    |    |    | child_window(title="101", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '13'    (L163, T294, R213, B313)
+   |    |    |    |    | ['13', 'DataItem67', '13DataItem', '130', '131', '13DataItem0', '13DataItem1']
+   |    |    |    |    | child_window(title="13", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '4'    (L213, T294, R263, B313)
+   |    |    |    |    | ['48', 'DataItem68', '4DataItem6']
+   |    |    |    |    | child_window(title="4", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '2'    (L263, T294, R313, B313)
+   |    |    |    |    | ['2DataItem3', '23', 'DataItem69', '230', '231']
+   |    |    |    |    | child_window(title="2", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '120'    (L313, T294, R373, B313)
+   |    |    |    |    | ['120DataItem', 'DataItem70', '120']
+   |    |    |    |    | child_window(title="120", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T313, R373, B332)
+   |    |    |    | ['Custom11', 'Report Row11', 'Report RowCustom11']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1197'    (L13, T313, R53, B332)
+   |    |    |    |    | ['1197DataItem', '1197', 'DataItem71']
+   |    |    |    |    | child_window(title="1197", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '윤상민Fs'    (L53, T313, R113, B332)
+   |    |    |    |    | ['윤상민Fs', '윤상민FsDataItem', 'DataItem72']
+   |    |    |    |    | child_window(title="윤상민Fs", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '98'    (L113, T313, R163, B332)
+   |    |    |    |    | ['98DataItem2', 'DataItem73', '982']
+   |    |    |    |    | child_window(title="98", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L163, T313, R213, B332)
+   |    |    |    |    | ['DataItem74', '∼DataItem5']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '12'    (L213, T313, R263, B332)
+   |    |    |    |    | ['12', 'DataItem75', '12DataItem']
+   |    |    |    |    | child_window(title="12", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '2'    (L263, T313, R313, B332)
+   |    |    |    |    | ['2DataItem4', '26', 'DataItem76']
+   |    |    |    |    | child_window(title="2", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '112'    (L313, T313, R373, B332)
+   |    |    |    |    | ['112', 'DataItem77', '112DataItem', '112DataItem0', '112DataItem1']
+   |    |    |    |    | child_window(title="112", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T332, R373, B351)
+   |    |    |    | ['Custom12', 'Report Row12', 'Report RowCustom12']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1120'    (L13, T332, R53, B351)
+   |    |    |    |    | ['1120', 'DataItem78', '1120DataItem']
+   |    |    |    |    | child_window(title="1120", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '이명순'    (L53, T332, R113, B351)
+   |    |    |    |    | ['이명순', 'DataItem79', '이명순DataItem']
+   |    |    |    |    | child_window(title="이명순", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '72'    (L113, T332, R163, B351)
+   |    |    |    |    | ['72DataItem', '72', 'DataItem80']
+   |    |    |    |    | child_window(title="72", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '22'    (L163, T332, R213, B351)
+   |    |    |    |    | ['222', 'DataItem81', '22DataItem']
+   |    |    |    |    | child_window(title="22", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '8'    (L213, T332, R263, B351)
+   |    |    |    |    | ['8', '8DataItem', 'DataItem82', '81', '80', '8DataItem0', '8DataItem1']
+   |    |    |    |    | child_window(title="8", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '7'    (L263, T332, R313, B351)
+   |    |    |    |    | ['7', 'DataItem83', '7DataItem', '70', '71', '7DataItem0', '7DataItem1', '710', '711']
+   |    |    |    |    | child_window(title="7", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '109'    (L313, T332, R373, B351)
+   |    |    |    |    | ['109DataItem', 'DataItem84', '109']
+   |    |    |    |    | child_window(title="109", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T351, R373, B370)
+   |    |    |    | ['Custom13', 'Report Row13', 'Report RowCustom13']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1252'    (L13, T351, R53, B370)
+   |    |    |    |    | ['1252', 'DataItem85', '1252DataItem']
+   |    |    |    |    | child_window(title="1252", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '박한나(정은)Fs'    (L53, T351, R113, B370)
+   |    |    |    |    | ['박한나(정은)Fs', 'DataItem86', '박한나(정은)FsDataItem']
+   |    |    |    |    | child_window(title="박한나(정은)Fs", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '91'    (L113, T351, R163, B370)
+   |    |    |    |    | ['91DataItem', 'DataItem87', '91DataItem0', '91DataItem1']
+   |    |    |    |    | child_window(title="91", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L163, T351, R213, B370)
+   |    |    |    |    | ['14', 'DataItem88', '1DataItem2', '140', '141']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '14'    (L213, T351, R263, B370)
+   |    |    |    |    | ['143', 'DataItem89', '14DataItem', '14DataItem0', '14DataItem1']
+   |    |    |    |    | child_window(title="14", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L263, T351, R313, B370)
+   |    |    |    |    | ['DataItem90', '∼DataItem6']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '106'    (L313, T351, R373, B370)
+   |    |    |    |    | ['106', 'DataItem91', '106DataItem', '1060', '1061', '106DataItem0', '106DataItem1']
+   |    |    |    |    | child_window(title="106", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T370, R373, B389)
+   |    |    |    | ['Custom14', 'Report Row14', 'Report RowCustom14']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1413'    (L13, T370, R53, B389)
+   |    |    |    |    | ['1413DataItem', 'DataItem92', '1413']
+   |    |    |    |    | child_window(title="1413", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '최여옥'    (L53, T370, R113, B389)
+   |    |    |    |    | ['최여옥DataItem', 'DataItem93', '최여옥']
+   |    |    |    |    | child_window(title="최여옥", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '88'    (L113, T370, R163, B389)
+   |    |    |    |    | ['88DataItem', '88', 'DataItem94']
+   |    |    |    |    | child_window(title="88", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '14'    (L163, T370, R213, B389)
+   |    |    |    |    | ['144', 'DataItem95', '14DataItem2']
+   |    |    |    |    | child_window(title="14", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '3'    (L213, T370, R263, B389)
+   |    |    |    |    | ['3', 'DataItem96', '3DataItem', '30', '31', '3DataItem0', '3DataItem1', '310', '311', '300', '301']
+   |    |    |    |    | child_window(title="3", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L263, T370, R313, B389)
+   |    |    |    |    | ['17', 'DataItem97', '1DataItem3', '170', '171']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '106'    (L313, T370, R373, B389)
+   |    |    |    |    | ['1062', 'DataItem98', '106DataItem2']
+   |    |    |    |    | child_window(title="106", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T389, R373, B408)
+   |    |    |    | ['Custom15', 'Report Row15', 'Report RowCustom15']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1222'    (L13, T389, R53, B408)
+   |    |    |    |    | ['1222DataItem', 'DataItem99', '1222']
+   |    |    |    |    | child_window(title="1222", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '남미정Fs'    (L53, T389, R113, B408)
+   |    |    |    |    | ['남미정FsDataItem', 'DataItem100', '남미정Fs']
+   |    |    |    |    | child_window(title="남미정Fs", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '87'    (L113, T389, R163, B408)
+   |    |    |    |    | ['DataItem101', '87', '87DataItem']
+   |    |    |    |    | child_window(title="87", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L163, T389, R213, B408)
+   |    |    |    |    | ['18', 'DataItem102', '1DataItem4']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '15'    (L213, T389, R263, B408)
+   |    |    |    |    | ['15DataItem2', '152', 'DataItem103']
+   |    |    |    |    | child_window(title="15", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L263, T389, R313, B408)
+   |    |    |    |    | ['DataItem104', '∼DataItem7']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '103'    (L313, T389, R373, B408)
+   |    |    |    |    | ['103', 'DataItem105', '103DataItem']
+   |    |    |    |    | child_window(title="103", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T408, R373, B427)
+   |    |    |    | ['Custom16', 'Report Row16', 'Report RowCustom16']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1285'    (L13, T408, R53, B427)
+   |    |    |    |    | ['1285DataItem', '1285', 'DataItem106']
+   |    |    |    |    | child_window(title="1285", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '심은정Fs'    (L53, T408, R113, B427)
+   |    |    |    |    | ['심은정Fs', '심은정FsDataItem', 'DataItem107']
+   |    |    |    |    | child_window(title="심은정Fs", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '77'    (L113, T408, R163, B427)
+   |    |    |    |    | ['77', 'DataItem108', '77DataItem', '770', '771', '77DataItem0', '77DataItem1']
+   |    |    |    |    | child_window(title="77", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '3'    (L163, T408, R213, B427)
+   |    |    |    |    | ['32', 'DataItem109', '3DataItem2', '320', '321']
+   |    |    |    |    | child_window(title="3", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '17'    (L213, T408, R263, B427)
+   |    |    |    |    | ['DataItem110', '17DataItem', '172', '17DataItem0', '17DataItem1']
+   |    |    |    |    | child_window(title="17", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L263, T408, R313, B427)
+   |    |    |    |    | ['DataItem111', '∼DataItem8']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '97'    (L313, T408, R373, B427)
+   |    |    |    |    | ['97', 'DataItem112', '97DataItem', '970', '971', '97DataItem0', '97DataItem1']
+   |    |    |    |    | child_window(title="97", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T427, R373, B446)
+   |    |    |    | ['Custom17', 'Report Row17', 'Report RowCustom17']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1283'    (L13, T427, R53, B446)
+   |    |    |    |    | ['1283', '1283DataItem', 'DataItem113']
+   |    |    |    |    | child_window(title="1283", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '홍진희Fs'    (L53, T427, R113, B446)
+   |    |    |    |    | ['홍진희FsDataItem', 'DataItem114', '홍진희Fs']
+   |    |    |    |    | child_window(title="홍진희Fs", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '85'    (L113, T427, R163, B446)
+   |    |    |    |    | ['85DataItem', 'DataItem115', '85', '85DataItem0', '85DataItem1', '850', '851']
+   |    |    |    |    | child_window(title="85", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L163, T427, R213, B446)
+   |    |    |    |    | ['19', 'DataItem116', '1DataItem5']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '11'    (L213, T427, R263, B446)
+   |    |    |    |    | ['113', '11DataItem', 'DataItem117']
+   |    |    |    |    | child_window(title="11", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L263, T427, R313, B446)
+   |    |    |    |    | ['DataItem118', '∼DataItem9']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '97'    (L313, T427, R373, B446)
+   |    |    |    |    | ['972', 'DataItem119', '97DataItem2']
+   |    |    |    |    | child_window(title="97", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T446, R373, B465)
+   |    |    |    | ['Custom18', 'Report Row18', 'Report RowCustom18']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1168'    (L13, T446, R53, B465)
+   |    |    |    |    | ['1168', '1168DataItem', 'DataItem120']
+   |    |    |    |    | child_window(title="1168", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '유민정'    (L53, T446, R113, B465)
+   |    |    |    |    | ['유민정', 'DataItem121', '유민정DataItem']
+   |    |    |    |    | child_window(title="유민정", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '85'    (L113, T446, R163, B465)
+   |    |    |    |    | ['85DataItem2', 'DataItem122', '852']
+   |    |    |    |    | child_window(title="85", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '9'    (L163, T446, R213, B465)
+   |    |    |    |    | ['92', 'DataItem123', '9DataItem2', '920', '921']
+   |    |    |    |    | child_window(title="9", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L213, T446, R263, B465)
+   |    |    |    |    | ['DataItem124', '∼DataItem10']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L263, T446, R313, B465)
+   |    |    |    |    | ['115', 'DataItem125', '1DataItem6']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '95'    (L313, T446, R373, B465)
+   |    |    |    |    | ['95', 'DataItem126', '95DataItem', '950', '951', '95DataItem0', '95DataItem1']
+   |    |    |    |    | child_window(title="95", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T465, R373, B484)
+   |    |    |    | ['Custom19', 'Report Row19', 'Report RowCustom19']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1247'    (L13, T465, R53, B484)
+   |    |    |    |    | ['1247DataItem', '1247', 'DataItem127']
+   |    |    |    |    | child_window(title="1247", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '조시연Fs'    (L53, T465, R113, B484)
+   |    |    |    |    | ['조시연Fs', 'DataItem128', '조시연FsDataItem']
+   |    |    |    |    | child_window(title="조시연Fs", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '89'    (L113, T465, R163, B484)
+   |    |    |    |    | ['89DataItem', '89', 'DataItem129']
+   |    |    |    |    | child_window(title="89", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L163, T465, R213, B484)
+   |    |    |    |    | ['DataItem130', '∼DataItem11']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '5'    (L213, T465, R263, B484)
+   |    |    |    |    | ['DataItem131', '55', '5DataItem5']
+   |    |    |    |    | child_window(title="5", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L263, T465, R313, B484)
+   |    |    |    |    | ['116', 'DataItem132', '1DataItem7']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '95'    (L313, T465, R373, B484)
+   |    |    |    |    | ['952', 'DataItem133', '95DataItem2']
+   |    |    |    |    | child_window(title="95", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T484, R373, B503)
+   |    |    |    | ['Custom20', 'Report Row20', 'Report RowCustom20']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1279'    (L13, T484, R53, B503)
+   |    |    |    |    | ['1279', 'DataItem134', '1279DataItem']
+   |    |    |    |    | child_window(title="1279", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '이영환Fs'    (L53, T484, R113, B503)
+   |    |    |    |    | ['이영환Fs', 'DataItem135', '이영환FsDataItem']
+   |    |    |    |    | child_window(title="이영환Fs", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '82'    (L113, T484, R163, B503)
+   |    |    |    |    | ['DataItem136', '82DataItem', '82']
+   |    |    |    |    | child_window(title="82", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L163, T484, R213, B503)
+   |    |    |    |    | ['DataItem137', '∼DataItem12']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '10'    (L213, T484, R263, B503)
+   |    |    |    |    | ['102', 'DataItem138', '10DataItem']
+   |    |    |    |    | child_window(title="10", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L263, T484, R313, B503)
+   |    |    |    |    | ['118', 'DataItem139', '1DataItem8']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '93'    (L313, T484, R373, B503)
+   |    |    |    |    | ['93', '93DataItem', 'DataItem140']
+   |    |    |    |    | child_window(title="93", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T503, R373, B522)
+   |    |    |    | ['Custom21', 'Report Row21', 'Report RowCustom21']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1116'    (L13, T503, R53, B522)
+   |    |    |    |    | ['1116DataItem', 'DataItem141', '1116']
+   |    |    |    |    | child_window(title="1116", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '박지현'    (L53, T503, R113, B522)
+   |    |    |    |    | ['박지현DataItem', 'DataItem142', '박지현']
+   |    |    |    |    | child_window(title="박지현", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '74'    (L113, T503, R163, B522)
+   |    |    |    |    | ['742', 'DataItem143', '74DataItem2']
+   |    |    |    |    | child_window(title="74", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '15'    (L163, T503, R213, B522)
+   |    |    |    |    | ['15DataItem3', '153', 'DataItem144']
+   |    |    |    |    | child_window(title="15", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L213, T503, R263, B522)
+   |    |    |    |    | ['DataItem145', '∼DataItem13']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '3'    (L263, T503, R313, B522)
+   |    |    |    |    | ['33', 'DataItem146', '3DataItem3', '330', '331']
+   |    |    |    |    | child_window(title="3", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '92'    (L313, T503, R373, B522)
+   |    |    |    |    | ['DataItem147', '922', '92DataItem']
+   |    |    |    |    | child_window(title="92", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T522, R373, B541)
+   |    |    |    | ['Custom22', 'Report Row22', 'Report RowCustom22']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1214'    (L13, T522, R53, B541)
+   |    |    |    |    | ['1214', '1214DataItem', 'DataItem148']
+   |    |    |    |    | child_window(title="1214", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '엘사.박수인Fs'    (L53, T522, R113, B541)
+   |    |    |    |    | ['엘사.박수인Fs', 'DataItem149', '엘사.박수인FsDataItem']
+   |    |    |    |    | child_window(title="엘사.박수인Fs", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '73'    (L113, T522, R163, B541)
+   |    |    |    |    | ['73DataItem', 'DataItem150', '73']
+   |    |    |    |    | child_window(title="73", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L163, T522, R213, B541)
+   |    |    |    |    | ['DataItem151', '∼DataItem14']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '17'    (L213, T522, R263, B541)
+   |    |    |    |    | ['DataItem152', '17DataItem2', '173']
+   |    |    |    |    | child_window(title="17", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L263, T522, R313, B541)
+   |    |    |    |    | ['119', 'DataItem153', '1DataItem9']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '91'    (L313, T522, R373, B541)
+   |    |    |    |    | ['91DataItem2', '912', 'DataItem154']
+   |    |    |    |    | child_window(title="91", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T541, R373, B560)
+   |    |    |    | ['Custom23', 'Report Row23', 'Report RowCustom23']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1195'    (L13, T541, R53, B560)
+   |    |    |    |    | ['1195', '1195DataItem', 'DataItem155']
+   |    |    |    |    | child_window(title="1195", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '김보라Fs'    (L53, T541, R113, B560)
+   |    |    |    |    | ['김보라Fs', 'DataItem156', '김보라FsDataItem']
+   |    |    |    |    | child_window(title="김보라Fs", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '77'    (L113, T541, R163, B560)
+   |    |    |    |    | ['772', 'DataItem157', '77DataItem2']
+   |    |    |    |    | child_window(title="77", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L163, T541, R213, B560)
+   |    |    |    |    | ['DataItem158', '∼DataItem15']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '4'    (L213, T541, R263, B560)
+   |    |    |    |    | ['49', 'DataItem159', '4DataItem7']
+   |    |    |    |    | child_window(title="4", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L263, T541, R313, B560)
+   |    |    |    |    | ['DataItem160', '∼DataItem16']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '81'    (L313, T541, R373, B560)
+   |    |    |    |    | ['81DataItem', 'DataItem161']
+   |    |    |    |    | child_window(title="81", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T560, R373, B579)
+   |    |    |    | ['Custom24', 'Report Row24', 'Report RowCustom24']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '121'    (L13, T560, R53, B579)
+   |    |    |    |    | ['DataItem162', '121', '121DataItem']
+   |    |    |    |    | child_window(title="121", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '정예지f'    (L53, T560, R113, B579)
+   |    |    |    |    | ['정예지f', 'DataItem163', '정예지fDataItem']
+   |    |    |    |    | child_window(title="정예지f", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '42'    (L113, T560, R163, B579)
+   |    |    |    |    | ['422', 'DataItem164', '42DataItem']
+   |    |    |    |    | child_window(title="42", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L163, T560, R213, B579)
+   |    |    |    |    | ['122', 'DataItem165', '1DataItem10']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '33'    (L213, T560, R263, B579)
+   |    |    |    |    | ['332', 'DataItem166', '33DataItem']
+   |    |    |    |    | child_window(title="33", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '2'    (L263, T560, R313, B579)
+   |    |    |    |    | ['2DataItem5', '27', 'DataItem167']
+   |    |    |    |    | child_window(title="2", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '78'    (L313, T560, R373, B579)
+   |    |    |    |    | ['78', 'DataItem168', '78DataItem']
+   |    |    |    |    | child_window(title="78", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T579, R373, B598)
+   |    |    |    | ['Custom25', 'Report Row25', 'Report RowCustom25']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1284'    (L13, T579, R53, B598)
+   |    |    |    |    | ['DataItem169', '1284DataItem', '1284']
+   |    |    |    |    | child_window(title="1284", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '김나리FiT'    (L53, T579, R113, B598)
+   |    |    |    |    | ['김나리FiT', 'DataItem170', '김나리FiTDataItem']
+   |    |    |    |    | child_window(title="김나리FiT", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '69'    (L113, T579, R163, B598)
+   |    |    |    |    | ['69DataItem', '69', 'DataItem171']
+   |    |    |    |    | child_window(title="69", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L163, T579, R213, B598)
+   |    |    |    |    | ['DataItem172', '∼DataItem17']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '8'    (L213, T579, R263, B598)
+   |    |    |    |    | ['83', '8DataItem2', 'DataItem173']
+   |    |    |    |    | child_window(title="8", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L263, T579, R313, B598)
+   |    |    |    |    | ['DataItem174', '∼DataItem18']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '77'    (L313, T579, R373, B598)
+   |    |    |    |    | ['773', 'DataItem175', '77DataItem3']
+   |    |    |    |    | child_window(title="77", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T598, R373, B617)
+   |    |    |    | ['Custom26', 'Report Row26', 'Report RowCustom26']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1165'    (L13, T598, R53, B617)
+   |    |    |    |    | ['1165DataItem', 'DataItem176', '1165']
+   |    |    |    |    | child_window(title="1165", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '김정연'    (L53, T598, R113, B617)
+   |    |    |    |    | ['김정연DataItem', '김정연', 'DataItem177']
+   |    |    |    |    | child_window(title="김정연", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '62'    (L113, T598, R163, B617)
+   |    |    |    |    | ['62', 'DataItem178', '62DataItem']
+   |    |    |    |    | child_window(title="62", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '7'    (L163, T598, R213, B617)
+   |    |    |    |    | ['75', 'DataItem179', '7DataItem2', '750', '751']
+   |    |    |    |    | child_window(title="7", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '3'    (L213, T598, R263, B617)
+   |    |    |    |    | ['34', 'DataItem180', '3DataItem4']
+   |    |    |    |    | child_window(title="3", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '3'    (L263, T598, R313, B617)
+   |    |    |    |    | ['35', 'DataItem181', '3DataItem5']
+   |    |    |    |    | child_window(title="3", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '75'    (L313, T598, R373, B617)
+   |    |    |    |    | ['75DataItem', '752', 'DataItem182']
+   |    |    |    |    | child_window(title="75", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T617, R373, B636)
+   |    |    |    | ['Custom27', 'Report Row27', 'Report RowCustom27']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '29'    (L13, T617, R53, B636)
+   |    |    |    |    | ['293', 'DataItem183', '29DataItem3']
+   |    |    |    |    | child_window(title="29", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '클라라.고감지대리f'    (L53, T617, R113, B636)
+   |    |    |    |    | ['클라라.고감지대리f', 'DataItem184', '클라라.고감지대리fDataItem']
+   |    |    |    |    | child_window(title="클라라.고감지대리f", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '37'    (L113, T617, R163, B636)
+   |    |    |    |    | ['37DataItem2', 'DataItem185', '372']
+   |    |    |    |    | child_window(title="37", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '4'    (L163, T617, R213, B636)
+   |    |    |    |    | ['410', 'DataItem186', '4DataItem8']
+   |    |    |    |    | child_window(title="4", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '29'    (L213, T617, R263, B636)
+   |    |    |    |    | ['294', 'DataItem187', '29DataItem4']
+   |    |    |    |    | child_window(title="29", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L263, T617, R313, B636)
+   |    |    |    |    | ['123', 'DataItem188', '1DataItem11']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '71'    (L313, T617, R373, B636)
+   |    |    |    |    | ['712', 'DataItem189', '71DataItem']
+   |    |    |    |    | child_window(title="71", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T636, R373, B655)
+   |    |    |    | ['Custom28', 'Report Row28', 'Report RowCustom28']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '14'    (L13, T636, R53, B655)
+   |    |    |    |    | ['145', 'DataItem190', '14DataItem3']
+   |    |    |    |    | child_window(title="14", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '클로이.김소영프로f'    (L53, T636, R113, B655)
+   |    |    |    |    | ['클로이.김소영프로f', '클로이.김소영프로fDataItem', 'DataItem191']
+   |    |    |    |    | child_window(title="클로이.김소영프로f", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '52'    (L113, T636, R163, B655)
+   |    |    |    |    | ['52DataItem', 'DataItem192', '522']
+   |    |    |    |    | child_window(title="52", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '6'    (L163, T636, R213, B655)
+   |    |    |    |    | ['DataItem193', '6DataItem2', '63']
+   |    |    |    |    | child_window(title="6", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '7'    (L213, T636, R263, B655)
+   |    |    |    |    | ['76', 'DataItem194', '7DataItem3']
+   |    |    |    |    | child_window(title="7", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L263, T636, R313, B655)
+   |    |    |    |    | ['124', 'DataItem195', '1DataItem12']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '66'    (L313, T636, R373, B655)
+   |    |    |    |    | ['66', 'DataItem196', '66DataItem']
+   |    |    |    |    | child_window(title="66", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L13, T655, R373, B674)
+   |    |    |    | ['Custom29', 'Report Row29', 'Report RowCustom29']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '112'    (L13, T655, R53, B674)
+   |    |    |    |    | ['1122', 'DataItem197', '112DataItem2']
+   |    |    |    |    | child_window(title="112", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '백지희f'    (L53, T655, R113, B674)
+   |    |    |    |    | ['백지희fDataItem', 'DataItem198', '백지희f']
+   |    |    |    |    | child_window(title="백지희f", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '31'    (L113, T655, R163, B674)
+   |    |    |    |    | ['31DataItem', 'DataItem199', '312', '31DataItem0', '31DataItem1']
+   |    |    |    |    | child_window(title="31", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L163, T655, R213, B674)
+   |    |    |    |    | ['126', 'DataItem200', '1DataItem13']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '32'    (L213, T655, R263, B674)
+   |    |    |    |    | ['32DataItem', '322', 'DataItem201']
+   |    |    |    |    | child_window(title="32", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L263, T655, R313, B674)
+   |    |    |    |    | ['DataItem202', '∼DataItem19']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '64'    (L313, T655, R373, B674)
+   |    |    |    |    | ['64', '64DataItem', 'DataItem203']
+   |    |    |    |    | child_window(title="64", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L18, T674, R378, B693)
+   |    |    |    | ['Custom30', 'Report Row30', 'Report RowCustom30']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1305'    (L24, T677, R64, B696)
+   |    |    |    |    | ['1305', 'DataItem204', '1305DataItem']
+   |    |    |    |    | child_window(title="1305", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '변서윤ZF'    (L65, T679, R125, B698)
+   |    |    |    |    | ['변서윤ZF', 'DataItem205', '변서윤ZFDataItem']
+   |    |    |    |    | child_window(title="변서윤ZF", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '31'    (L127, T679, R177, B698)
+   |    |    |    |    | ['31DataItem2', 'DataItem206', '313']
+   |    |    |    |    | child_window(title="31", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L177, T679, R227, B698)
+   |    |    |    |    | ['DataItem207', '∼DataItem20']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '16'    (L227, T679, R277, B698)
+   |    |    |    |    | ['162', '16DataItem2', 'DataItem208']
+   |    |    |    |    | child_window(title="16", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L277, T679, R327, B698)
+   |    |    |    |    | ['DataItem209', '∼DataItem21']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '47'    (L327, T679, R387, B698)
+   |    |    |    |    | ['47DataItem2', 'DataItem210', '472']
+   |    |    |    |    | child_window(title="47", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L27, T698, R387, B717)
+   |    |    |    | ['Custom31', 'Report Row31', 'Report RowCustom31']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '15'    (L27, T698, R67, B717)
+   |    |    |    |    | ['15DataItem4', '154', 'DataItem211']
+   |    |    |    |    | child_window(title="15", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '에리카.박문주프로f'    (L67, T698, R127, B717)
+   |    |    |    |    | ['에리카.박문주프로f', 'DataItem212', '에리카.박문주프로fDataItem']
+   |    |    |    |    | child_window(title="에리카.박문주프로f", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '30'    (L127, T698, R177, B717)
+   |    |    |    |    | ['302', 'DataItem213', '30DataItem']
+   |    |    |    |    | child_window(title="30", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '2'    (L177, T698, R227, B717)
+   |    |    |    |    | ['2DataItem6', '28', 'DataItem214', '280', '281']
+   |    |    |    |    | child_window(title="2", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '13'    (L227, T698, R277, B717)
+   |    |    |    |    | ['132', 'DataItem215', '13DataItem2', '1320', '1321']
+   |    |    |    |    | child_window(title="13", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '2'    (L277, T698, R327, B717)
+   |    |    |    |    | ['2DataItem7', '210', 'DataItem216']
+   |    |    |    |    | child_window(title="2", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '47'    (L327, T698, R387, B717)
+   |    |    |    |    | ['47DataItem3', 'DataItem217', '473']
+   |    |    |    |    | child_window(title="47", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L27, T717, R387, B736)
+   |    |    |    | ['Custom32', 'Report Row32', 'Report RowCustom32']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '133'    (L27, T717, R67, B736)
+   |    |    |    |    | ['1332', '133DataItem2', 'DataItem218']
+   |    |    |    |    | child_window(title="133", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '이은경f.wd'    (L67, T717, R127, B736)
+   |    |    |    |    | ['이은경f.wd', 'DataItem219', '이은경f.wdDataItem']
+   |    |    |    |    | child_window(title="이은경f.wd", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '23'    (L127, T717, R177, B736)
+   |    |    |    |    | ['232', 'DataItem220', '23DataItem']
+   |    |    |    |    | child_window(title="23", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L177, T717, R227, B736)
+   |    |    |    |    | ['DataItem221', '∼DataItem22']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '20'    (L227, T717, R277, B736)
+   |    |    |    |    | ['202', 'DataItem222', '20DataItem', '20DataItem0', '20DataItem1']
+   |    |    |    |    | child_window(title="20", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L277, T717, R327, B736)
+   |    |    |    |    | ['DataItem223', '∼DataItem23']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '43'    (L327, T717, R387, B736)
+   |    |    |    |    | ['432', 'DataItem224', '43DataItem']
+   |    |    |    |    | child_window(title="43", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L27, T736, R387, B755)
+   |    |    |    | ['Custom33', 'Report Row33', 'Report RowCustom33']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1227'    (L27, T736, R67, B755)
+   |    |    |    |    | ['1227', 'DataItem225', '1227DataItem']
+   |    |    |    |    | child_window(title="1227", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '이장미FOs'    (L67, T736, R127, B755)
+   |    |    |    |    | ['이장미FOs', 'DataItem226', '이장미FOsDataItem']
+   |    |    |    |    | child_window(title="이장미FOs", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '14'    (L127, T736, R177, B755)
+   |    |    |    |    | ['146', 'DataItem227', '14DataItem4']
+   |    |    |    |    | child_window(title="14", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L177, T736, R227, B755)
+   |    |    |    |    | ['DataItem228', '∼DataItem24']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '14'    (L227, T736, R277, B755)
+   |    |    |    |    | ['147', 'DataItem229', '14DataItem5']
+   |    |    |    |    | child_window(title="14", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L277, T736, R327, B755)
+   |    |    |    |    | ['DataItem230', '∼DataItem25']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '28'    (L327, T736, R387, B755)
+   |    |    |    |    | ['28DataItem', '282', 'DataItem231']
+   |    |    |    |    | child_window(title="28", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L27, T755, R387, B774)
+   |    |    |    | ['Custom34', 'Report Row34', 'Report RowCustom34']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '3'    (L27, T755, R67, B774)
+   |    |    |    |    | ['36', 'DataItem232', '3DataItem6']
+   |    |    |    |    | child_window(title="3", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '톰.이상수실장AG'    (L67, T755, R127, B774)
+   |    |    |    |    | ['톰.이상수실장AGDataItem', '톰.이상수실장AG', 'DataItem233']
+   |    |    |    |    | child_window(title="톰.이상수실장AG", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '20'    (L127, T755, R177, B774)
+   |    |    |    |    | ['203', 'DataItem234', '20DataItem2']
+   |    |    |    |    | child_window(title="20", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '2'    (L177, T755, R227, B774)
+   |    |    |    |    | ['2DataItem8', '211', 'DataItem235']
+   |    |    |    |    | child_window(title="2", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '2'    (L227, T755, R277, B774)
+   |    |    |    |    | ['2DataItem9', '212', 'DataItem236']
+   |    |    |    |    | child_window(title="2", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L277, T755, R327, B774)
+   |    |    |    |    | ['DataItem237', '∼DataItem26']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '24'    (L327, T755, R387, B774)
+   |    |    |    |    | ['DataItem238', '242', '24DataItem2']
+   |    |    |    |    | child_window(title="24", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L27, T774, R387, B793)
+   |    |    |    | ['Custom35', 'Report Row35', 'Report RowCustom35']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '9991'    (L27, T774, R67, B793)
+   |    |    |    |    | ['9991', '9991DataItem', 'DataItem239']
+   |    |    |    |    | child_window(title="9991", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '카리나.표현정과장GA'    (L67, T774, R127, B793)
+   |    |    |    |    | ['카리나.표현정과장GA', '카리나.표현정과장GADataItem', 'DataItem240']
+   |    |    |    |    | child_window(title="카리나.표현정과장GA", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '8'    (L127, T774, R177, B793)
+   |    |    |    |    | ['84', '8DataItem3', 'DataItem241']
+   |    |    |    |    | child_window(title="8", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L177, T774, R227, B793)
+   |    |    |    |    | ['DataItem242', '∼DataItem27']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L227, T774, R277, B793)
+   |    |    |    |    | ['DataItem243', '∼DataItem28']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L277, T774, R327, B793)
+   |    |    |    |    | ['DataItem244', '∼DataItem29']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '8'    (L327, T774, R387, B793)
+   |    |    |    |    | ['86', '8DataItem4', 'DataItem245']
+   |    |    |    |    | child_window(title="8", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L27, T793, R387, B812)
+   |    |    |    | ['Custom36', 'Report Row36', 'Report RowCustom36']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1281'    (L27, T793, R67, B812)
+   |    |    |    |    | ['1281DataItem', '1281', 'DataItem246']
+   |    |    |    |    | child_window(title="1281", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '최수민FOi'    (L67, T793, R127, B812)
+   |    |    |    |    | ['최수민FOiDataItem', '최수민FOi', 'DataItem247']
+   |    |    |    |    | child_window(title="최수민FOi", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L127, T793, R177, B812)
+   |    |    |    |    | ['DataItem248', '기간DataItem', '기간DataItem0', '기간DataItem1']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L177, T793, R227, B812)
+   |    |    |    |    | ['DataItem249', '∼DataItem30']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '6'    (L227, T793, R277, B812)
+   |    |    |    |    | ['DataItem250', '6DataItem3', '65']
+   |    |    |    |    | child_window(title="6", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L277, T793, R327, B812)
+   |    |    |    |    | ['DataItem251', '∼DataItem31']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '6'    (L327, T793, R387, B812)
+   |    |    |    |    | ['DataItem252', '6DataItem4', '67']
+   |    |    |    |    | child_window(title="6", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L27, T812, R387, B831)
+   |    |    |    | ['Custom37', 'Report Row37', 'Report RowCustom37']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1292'    (L27, T812, R67, B831)
+   |    |    |    |    | ['1292DataItem', '1292', 'DataItem253']
+   |    |    |    |    | child_window(title="1292", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '이정은대리ZF'    (L67, T812, R127, B831)
+   |    |    |    |    | ['이정은대리ZFDataItem', '이정은대리ZF', 'DataItem254']
+   |    |    |    |    | child_window(title="이정은대리ZF", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '2'    (L127, T812, R177, B831)
+   |    |    |    |    | ['2DataItem10', '213', 'DataItem255']
+   |    |    |    |    | child_window(title="2", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L177, T812, R227, B831)
+   |    |    |    |    | ['DataItem256', '∼DataItem32']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '2'    (L227, T812, R277, B831)
+   |    |    |    |    | ['2DataItem11', '214', 'DataItem257']
+   |    |    |    |    | child_window(title="2", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L277, T812, R327, B831)
+   |    |    |    |    | ['DataItem258', '∼DataItem33']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '4'    (L327, T812, R387, B831)
+   |    |    |    |    | ['411', 'DataItem259', '4DataItem9']
+   |    |    |    |    | child_window(title="4", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L27, T831, R387, B850)
+   |    |    |    | ['Custom38', 'Report Row38', 'Report RowCustom38']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '125'    (L27, T831, R67, B850)
+   |    |    |    |    | ['125DataItem2', 'DataItem260', '1253']
+   |    |    |    |    | child_window(title="125", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '서효선fo'    (L67, T831, R127, B850)
+   |    |    |    |    | ['서효선foDataItem', '서효선fo', 'DataItem261']
+   |    |    |    |    | child_window(title="서효선fo", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '3'    (L127, T831, R177, B850)
+   |    |    |    |    | ['38', 'DataItem262', '3DataItem7']
+   |    |    |    |    | child_window(title="3", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L177, T831, R227, B850)
+   |    |    |    |    | ['DataItem263', '∼DataItem34']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L227, T831, R277, B850)
+   |    |    |    |    | ['129', 'DataItem264', '1DataItem14']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L277, T831, R327, B850)
+   |    |    |    |    | ['DataItem265', '∼DataItem35']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '4'    (L327, T831, R387, B850)
+   |    |    |    |    | ['412', 'DataItem266', '4DataItem10']
+   |    |    |    |    | child_window(title="4", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L27, T850, R387, B869)
+   |    |    |    | ['Custom39', 'Report Row39', 'Report RowCustom39']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1189'    (L27, T850, R67, B869)
+   |    |    |    |    | ['1189', 'DataItem267', '1189DataItem']
+   |    |    |    |    | child_window(title="1189", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '강소희대리F'    (L67, T850, R127, B869)
+   |    |    |    |    | ['강소희대리FDataItem', '강소희대리F', 'DataItem268']
+   |    |    |    |    | child_window(title="강소희대리F", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '2'    (L127, T850, R177, B869)
+   |    |    |    |    | ['2DataItem12', '215', 'DataItem269']
+   |    |    |    |    | child_window(title="2", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L177, T850, R227, B869)
+   |    |    |    |    | ['DataItem270', '∼DataItem36']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L227, T850, R277, B869)
+   |    |    |    |    | ['134', 'DataItem271', '1DataItem15']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L277, T850, R327, B869)
+   |    |    |    |    | ['DataItem272', '∼DataItem37']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '3'    (L327, T850, R387, B869)
+   |    |    |    |    | ['39', 'DataItem273', '3DataItem8']
+   |    |    |    |    | child_window(title="3", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L27, T869, R387, B888)
+   |    |    |    | ['Custom40', 'Report Row40', 'Report RowCustom40']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '6'    (L27, T869, R67, B888)
+   |    |    |    |    | ['DataItem274', '6DataItem5', '68']
+   |    |    |    |    | child_window(title="6", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '권민성'    (L67, T869, R127, B888)
+   |    |    |    |    | ['권민성DataItem', 'DataItem275', '권민성']
+   |    |    |    |    | child_window(title="권민성", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '3'    (L127, T869, R177, B888)
+   |    |    |    |    | ['314', 'DataItem276', '3DataItem9']
+   |    |    |    |    | child_window(title="3", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L177, T869, R227, B888)
+   |    |    |    |    | ['DataItem277', '∼DataItem38']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L227, T869, R277, B888)
+   |    |    |    |    | ['DataItem278', '∼DataItem39']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L277, T869, R327, B888)
+   |    |    |    |    | ['DataItem279', '∼DataItem40']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '3'    (L327, T869, R387, B888)
+   |    |    |    |    | ['315', 'DataItem280', '3DataItem10']
+   |    |    |    |    | child_window(title="3", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L27, T888, R387, B907)
+   |    |    |    | ['Custom41', 'Report Row41', 'Report RowCustom41']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '132'    (L27, T888, R67, B907)
+   |    |    |    |    | ['132DataItem', '1322', 'DataItem281']
+   |    |    |    |    | child_window(title="132", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '전아현fn'    (L67, T888, R127, B907)
+   |    |    |    |    | ['전아현fnDataItem', '전아현fn', 'DataItem282']
+   |    |    |    |    | child_window(title="전아현fn", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L127, T888, R177, B907)
+   |    |    |    |    | ['136', 'DataItem283', '1DataItem16']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L177, T888, R227, B907)
+   |    |    |    |    | ['DataItem284', '∼DataItem41']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L227, T888, R277, B907)
+   |    |    |    |    | ['137', 'DataItem285', '1DataItem17']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L277, T888, R327, B907)
+   |    |    |    |    | ['DataItem286', '∼DataItem42']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '2'    (L327, T888, R387, B907)
+   |    |    |    |    | ['2DataItem13', '216', 'DataItem287']
+   |    |    |    |    | child_window(title="2", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L27, T907, R387, B926)
+   |    |    |    | ['Custom42', 'Report Row42', 'Report RowCustom42']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1290'    (L27, T907, R67, B926)
+   |    |    |    |    | ['1290', 'DataItem288', '1290DataItem']
+   |    |    |    |    | child_window(title="1290", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '박영주과장ZF'    (L67, T907, R127, B926)
+   |    |    |    |    | ['박영주과장ZFDataItem', 'DataItem289', '박영주과장ZF']
+   |    |    |    |    | child_window(title="박영주과장ZF", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L127, T907, R177, B926)
+   |    |    |    |    | ['DataItem290', '기간DataItem2']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L177, T907, R227, B926)
+   |    |    |    |    | ['DataItem291', '∼DataItem43']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L227, T907, R277, B926)
+   |    |    |    |    | ['138', 'DataItem292', '1DataItem18']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L277, T907, R327, B926)
+   |    |    |    |    | ['DataItem293', '∼DataItem44']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '1'    (L327, T907, R387, B926)
+   |    |    |    |    | ['139', 'DataItem294', '1DataItem19']
+   |    |    |    |    | child_window(title="1", control_type="DataItem")
+   |    |    |    | 
+   |    |    |    | Custom - 'Report Row'    (L27, T926, R387, B945)
+   |    |    |    | ['Custom43', 'Report Row43', 'Report RowCustom43']
+   |    |    |    | child_window(title="Report Row", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L27, T926, R67, B945)
+   |    |    |    |    | ['DataItem295', '기간DataItem3']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '합계'    (L67, T926, R127, B945)
+   |    |    |    |    | ['합계DataItem', 'DataItem296', '합계']
+   |    |    |    |    | child_window(title="합계", control_type="DataItem")
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L127, T926, R177, B945)
+   |    |    |    |    | ['DataItem297', '기간DataItem4']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L177, T926, R227, B945)
+   |    |    |    |    | ['DataItem298', '∼DataItem45']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L227, T926, R277, B945)
+   |    |    |    |    | ['DataItem299', '∼DataItem46']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - ''    (L277, T926, R327, B945)
+   |    |    |    |    | ['DataItem300', '∼DataItem47']
+   |    |    |    |    | 
+   |    |    |    |    | DataItem - '3428'    (L327, T926, R387, B945)
+   |    |    |    |    | ['3428DataItem', 'DataItem301', '3428']
+   |    |    |    |    | child_window(title="3428", control_type="DataItem")
+   | 
+   | Pane - 'xtpBarTop'    (L17, T14, R736, B40)
+   | ['xtpBarTopPane', 'Pane6', 'xtpBarTop']
+   | child_window(title="xtpBarTop", auto_id="59419", control_type="Pane")
+   |    | 
+   |    | Toolbar - 'SYSTEM BUTTON'    (L666, T14, R736, B40)
+   |    | ['SYSTEM BUTTONToolbar', 'Toolbar', 'SYSTEM BUTTON', 'Toolbar0', 'Toolbar1']
+   |    | child_window(title="SYSTEM BUTTON", control_type="ToolBar")
+   |    |    | 
+   |    |    | Button - ''    (L668, T16, R690, B38)
+   |    |    | ['Button5']
+   |    |    | 
+   |    |    | Button - ''    (L690, T16, R712, B38)
+   |    |    | ['Button6']
+   |    |    | 
+   |    |    | Button - ''    (L712, T16, R734, B38)
+   |    |    | ['Button7']
+   |    | 
+   |    | Menu - 'MENU'    (L305, T14, R666, B40)
+   |    | ['MENU', 'MENUMenu', 'Menu']
+   |    | child_window(title="MENU", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - '홈'    (L307, T17, R336, B36)
+   |    |    | ['홈', '홈MenuItem', 'MenuItem', 'MenuItem0', 'MenuItem1']
+   |    |    | child_window(title="홈", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - '직원'    (L336, T17, R376, B36)
+   |    |    | ['직원', '직원MenuItem', 'MenuItem2']
+   |    |    | child_window(title="직원", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - '보기'    (L376, T17, R416, B36)
+   |    |    | ['보기', '보기MenuItem', 'MenuItem3']
+   |    |    | child_window(title="보기", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - '설정'    (L416, T17, R456, B36)
+   |    |    | ['설정', '설정MenuItem', 'MenuItem4']
+   |    |    | child_window(title="설정", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - '요청'    (L456, T17, R496, B36)
+   |    |    | ['MenuItem5', '요청MenuItem', '요청']
+   |    |    | child_window(title="요청", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - '원격연결요청'    (L496, T17, R580, B36)
+   |    |    | ['원격연결요청', '원격연결요청MenuItem', 'MenuItem6']
+   |    |    | child_window(title="원격연결요청", control_type="MenuItem")
+   |    |    | 
+   |    |    | MenuItem - '도움말'    (L580, T17, R631, B36)
+   |    |    | ['도움말MenuItem', 'MenuItem7', '도움말']
+   |    |    | child_window(title="도움말", control_type="MenuItem")
+   |    | 
+   |    | Toolbar - 'LOGO'    (L17, T14, R305, B40)
+   |    | ['LOGOToolbar', 'Toolbar2', 'LOGO']
+   |    | child_window(title="LOGO", control_type="ToolBar")
+   |    |    | 
+   |    |    | Button - 'Daeri'    (L19, T16, R41, B38)
+   |    |    | ['Button8', 'Daeri', 'DaeriButton']
+   |    |    | child_window(title="Daeri", control_type="Button")
+   |    |    | 
+   |    |    | Button - '아리랑콜센터-알렉스.기수신[메인/1등급]'    (L41, T16, R251, B38)
+   |    |    | ['아리랑콜센터-알렉스.기수신[메인/1등급]2', 'Button9', '아리랑콜센터-알렉스.기수신[메인/1등급]Button']
+   |    |    | child_window(title="아리랑콜센터-알렉스.기수신[메인/1등급]", control_type="Button")
+   |    |    | 
+   |    |    | Button - '12:42:19'    (L251, T16, R303, B38)
+   |    |    | ['12:41:56Button', 'Button10', '12:41:56']
+   |    |    | child_window(title="12:42:19", control_type="Button")
+   | 
+   | Pane - ''    (L17, T970, R736, B993)
+   | ['Pane7', '기간Pane2']
+   | child_window(auto_id="247210592", control_type="Pane")
+   | 
+   | Pane - 'Splitter'    (L732, T40, R736, B970)
+   | ['SplitterPane', 'Pane8', 'Splitter']
+   | child_window(title="Splitter", auto_id="246683304", control_type="Pane")

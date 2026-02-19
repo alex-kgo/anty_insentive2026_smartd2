@@ -1,0 +1,46 @@
+Window Title: 
+--------------------------------------------------
+Control Identifiers:
+
+Pane - ''    (L162, T142, R803, B539)
+['Pane', 'Ver. 18.94Pane']
+   | 
+   | Image - ''    (L163, T143, R803, B538)
+   | ['Image', 'Ver. 18.94Image']
+   | child_window(auto_id="623", control_type="Image")
+   | 
+   | Button - '인증'    (L210, T460, R298, B484)
+   | ['인증Button', '인증', 'Button', 'Button0', 'Button1']
+   | child_window(title="인증", auto_id="1647", control_type="Button")
+   | 
+   | Edit - ''    (L525, T361, R723, B389)
+   | ['Edit', 'Ver. 18.94Edit', 'Edit0', 'Edit1', 'Ver. 18.94Edit0', 'Ver. 18.94Edit1']
+   | child_window(auto_id="1649", control_type="Edit")
+   | 
+   | Edit - ''    (L525, T421, R723, B449)
+   | ['Edit2', 'Ver. 18.94Edit2']
+   | child_window(auto_id="2246", control_type="Edit")
+   | 
+   | Button - '로그인'    (L525, T455, R623, B485)
+   | ['로그인', 'Button2', '로그인Button']
+   | child_window(title="로그인", auto_id="2074", control_type="Button")
+   | 
+   | Button - '닫기'    (L627, T455, R725, B485)
+   | ['닫기Button', 'Button3', '닫기']
+   | child_window(title="닫기", auto_id="764", control_type="Button")
+   | 
+   | Button - 'X'    (L737, T177, R766, B206)
+   | ['XButton', 'X', 'Button4']
+   | child_window(title="X", auto_id="940", control_type="Button")
+   | 
+   | Button - '원격연결'    (L210, T424, R298, B448)
+   | ['원격연결', '원격연결Button', 'Button5']
+   | child_window(title="원격연결", auto_id="2422", control_type="Button")
+   | 
+   | Static - 'Ver. 18.94'    (L214, T210, R284, B225)
+   | ['Static', 'Ver. 18.94Static', 'Ver. 18.94']
+   | child_window(title="Ver. 18.94", auto_id="3111", control_type="Text")
+   | 
+   | Button - '체크'    (L667, T340, R722, B357)
+   | ['체크Button', 'Button6', '체크']
+   | child_window(title="체크", auto_id="2553", control_type="Button")

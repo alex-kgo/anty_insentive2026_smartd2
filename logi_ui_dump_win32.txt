@@ -1,0 +1,2758 @@
+PID: 9696, Title: 아리랑콜센터-알렉스.기수신[메인/1등급], Class: SmartD2-
+Control Identifiers:
+
+SmartD2- - '아리랑콜센터-알렉스.기수신[메인/1등급]'    (L14, T11, R739, B996)
+['아리랑콜센터-알렉스.기수신[메인/1등급]', '아리랑콜센터-알렉스.기수신[메인/1등급]SmartD2-', 'SmartD2-']
+child_window(title="아리랑콜센터-알렉스.기수신[메인/1등급]", class_name="SmartD2-")
+   | 
+   | MDIClient - ''    (L17, T40, R732, B970)
+   | ['기간MDIClient', 'MDIClient']
+   | child_window(class_name="MDIClient")
+   |    | 
+   |    | AfxFrameOrView110s - '기간별수신콜수'    (L21, T64, R726, B964)
+   |    | ['기간별수신콜수', 'AfxFrameOrView110s', '기간별수신콜수AfxFrameOrView110s', 'AfxFrameOrView110s0', 'AfxFrameOrView110s1']
+   |    | child_window(title="기간별수신콜수", class_name="AfxFrameOrView110s")
+   |    |    | 
+   |    |    | #32770 - ''    (L21, T64, R726, B964)
+   |    |    | ['#32770', '공지#32770', '#327700', '#327701']
+   |    |    | child_window(class_name="#32770")
+   |    |    |    | 
+   |    |    |    | DateTimePicker - '2026-02-18 07:00'    (L82, T74, R215, B95)
+   |    |    |    | ['DateTimePicker', '기간DateTimePicker', 'DateTimePicker0', 'DateTimePicker1', '기간DateTimePicker0', '기간DateTimePicker1']
+   |    |    |    | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   |    |    |    | 
+   |    |    |    | DateTimePicker - '2026-02-19 07:00'    (L236, T74, R369, B95)
+   |    |    |    | ['∼DateTimePicker', 'DateTimePicker2', '∼DateTimePicker0', '∼DateTimePicker1']
+   |    |    |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    |    |    | 
+   |    |    |    | Static - '∼'    (L221, T77, R235, B101)
+   |    |    |    | ['Static', '∼', '∼Static', 'Static0', 'Static1', '∼0', '∼1', '∼Static0', '∼Static1']
+   |    |    |    | child_window(title="∼", class_name="Static")
+   |    |    |    | 
+   |    |    |    | Static - '기간'    (L32, T74, R79, B97)
+   |    |    |    | ['기간Static', '기간', 'Static2', '기간Static0', '기간Static1', '기간0', '기간1']
+   |    |    |    | child_window(title="기간", class_name="Static")
+   |    |    |    | 
+   |    |    |    | CheckBox - '현금'    (L833, T74, R889, B90)
+   |    |    |    | ['CheckBox', '현금CheckBox', '현금', 'CheckBox0', 'CheckBox1']
+   |    |    |    | child_window(title="현금", class_name="Button")
+   |    |    |    | 
+   |    |    |    | CheckBox - '외상'    (L889, T74, R945, B90)
+   |    |    |    | ['외상CheckBox', 'CheckBox2', '외상']
+   |    |    |    | child_window(title="외상", class_name="Button")
+   |    |    |    | 
+   |    |    |    | CheckBox - '송금'    (L943, T74, R999, B90)
+   |    |    |    | ['송금', '송금CheckBox', 'CheckBox3']
+   |    |    |    | child_window(title="송금", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Static - '조건'    (L770, T72, R817, B95)
+   |    |    |    | ['조건Static', 'Static3', '조건']
+   |    |    |    | child_window(title="조건", class_name="Static")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L373, T77, R389, B92)
+   |    |    |    | ['Button', '요금문의 발생시에 요금문의폼으로 자동 전환Button', 'Button0', 'Button1']
+   |    |    |    | child_window(class_name="Button")
+   |    |    |    | 
+   |    |    |    | Button - '조 회(&V)'    (L635, T72, R742, B98)
+   |    |    |    | ['조 회(&V)', 'Button2', '조 회(&V)Button']
+   |    |    |    | child_window(title="조 회(&V)", class_name="Button")
+   |    |    |    | 
+   |    |    |    | CheckBox - '전화받은건수기준'    (L460, T77, R600, B93)
+   |    |    |    | ['전화받은건수기준', 'CheckBox4', '전화받은건수기준CheckBox']
+   |    |    |    | child_window(title="전화받은건수기준", class_name="Button")
+   |    |    |    | 
+   |    |    |    | XTPChartControl - ''    (L313, T105, R724, B962)
+   |    |    |    | ['오접수 수정시 오접수폼으로 자동 전환XTPChartControl', 'XTPChartControl']
+   |    |    |    | child_window(class_name="XTPChartControl")
+   |    |    |    | 
+   |    |    |    | XTPReport - ''    (L26, T105, R310, B962)
+   |    |    |    | ['XTPReport', '기간XTPReport', 'XTPReport0', 'XTPReport1', '기간XTPReport0', '기간XTPReport1']
+   |    |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | DateTimePicker - '2026-02-18 07:00'    (L82, T74, R215, B95)
+   |    |    | ['DateTimePicker', '기간DateTimePicker', 'DateTimePicker0', 'DateTimePicker1', '기간DateTimePicker0', '기간DateTimePicker1']
+   |    |    | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   |    |    | 
+   |    |    | DateTimePicker - '2026-02-19 07:00'    (L236, T74, R369, B95)
+   |    |    | ['∼DateTimePicker', 'DateTimePicker2', '∼DateTimePicker0', '∼DateTimePicker1']
+   |    |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    |    | 
+   |    |    | Static - '∼'    (L221, T77, R235, B101)
+   |    |    | ['Static', '∼', '∼Static', 'Static0', 'Static1', '∼0', '∼1', '∼Static0', '∼Static1']
+   |    |    | child_window(title="∼", class_name="Static")
+   |    |    | 
+   |    |    | Static - '기간'    (L32, T74, R79, B97)
+   |    |    | ['기간Static', '기간', 'Static2', '기간Static0', '기간Static1', '기간0', '기간1']
+   |    |    | child_window(title="기간", class_name="Static")
+   |    |    | 
+   |    |    | CheckBox - '현금'    (L833, T74, R889, B90)
+   |    |    | ['CheckBox', '현금CheckBox', '현금', 'CheckBox0', 'CheckBox1']
+   |    |    | child_window(title="현금", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '외상'    (L889, T74, R945, B90)
+   |    |    | ['외상CheckBox', 'CheckBox2', '외상']
+   |    |    | child_window(title="외상", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '송금'    (L943, T74, R999, B90)
+   |    |    | ['송금', '송금CheckBox', 'CheckBox3']
+   |    |    | child_window(title="송금", class_name="Button")
+   |    |    | 
+   |    |    | Static - '조건'    (L770, T72, R817, B95)
+   |    |    | ['조건Static', 'Static3', '조건']
+   |    |    | child_window(title="조건", class_name="Static")
+   |    |    | 
+   |    |    | Button - ''    (L373, T77, R389, B92)
+   |    |    | ['Button', '요금문의 발생시에 요금문의폼으로 자동 전환Button', 'Button0', 'Button1']
+   |    |    | child_window(class_name="Button")
+   |    |    | 
+   |    |    | Button - '조 회(&V)'    (L635, T72, R742, B98)
+   |    |    | ['조 회(&V)', 'Button2', '조 회(&V)Button']
+   |    |    | child_window(title="조 회(&V)", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '전화받은건수기준'    (L460, T77, R600, B93)
+   |    |    | ['전화받은건수기준', 'CheckBox4', '전화받은건수기준CheckBox']
+   |    |    | child_window(title="전화받은건수기준", class_name="Button")
+   |    |    | 
+   |    |    | XTPChartControl - ''    (L313, T105, R724, B962)
+   |    |    | ['오접수 수정시 오접수폼으로 자동 전환XTPChartControl', 'XTPChartControl']
+   |    |    | child_window(class_name="XTPChartControl")
+   |    |    | 
+   |    |    | XTPReport - ''    (L26, T105, R310, B962)
+   |    |    | ['XTPReport', '기간XTPReport', 'XTPReport0', 'XTPReport1', '기간XTPReport0', '기간XTPReport1']
+   |    |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | #32770 - ''    (L21, T64, R726, B964)
+   |    | ['#32770', '공지#32770', '#327700', '#327701']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | DateTimePicker - '2026-02-18 07:00'    (L82, T74, R215, B95)
+   |    |    | ['DateTimePicker', '기간DateTimePicker', 'DateTimePicker0', 'DateTimePicker1', '기간DateTimePicker0', '기간DateTimePicker1']
+   |    |    | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   |    |    | 
+   |    |    | DateTimePicker - '2026-02-19 07:00'    (L236, T74, R369, B95)
+   |    |    | ['∼DateTimePicker', 'DateTimePicker2', '∼DateTimePicker0', '∼DateTimePicker1']
+   |    |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    |    | 
+   |    |    | Static - '∼'    (L221, T77, R235, B101)
+   |    |    | ['Static', '∼', '∼Static', 'Static0', 'Static1', '∼0', '∼1', '∼Static0', '∼Static1']
+   |    |    | child_window(title="∼", class_name="Static")
+   |    |    | 
+   |    |    | Static - '기간'    (L32, T74, R79, B97)
+   |    |    | ['기간Static', '기간', 'Static2', '기간Static0', '기간Static1', '기간0', '기간1']
+   |    |    | child_window(title="기간", class_name="Static")
+   |    |    | 
+   |    |    | CheckBox - '현금'    (L833, T74, R889, B90)
+   |    |    | ['CheckBox', '현금CheckBox', '현금', 'CheckBox0', 'CheckBox1']
+   |    |    | child_window(title="현금", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '외상'    (L889, T74, R945, B90)
+   |    |    | ['외상CheckBox', 'CheckBox2', '외상']
+   |    |    | child_window(title="외상", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '송금'    (L943, T74, R999, B90)
+   |    |    | ['송금', '송금CheckBox', 'CheckBox3']
+   |    |    | child_window(title="송금", class_name="Button")
+   |    |    | 
+   |    |    | Static - '조건'    (L770, T72, R817, B95)
+   |    |    | ['조건Static', 'Static3', '조건']
+   |    |    | child_window(title="조건", class_name="Static")
+   |    |    | 
+   |    |    | Button - ''    (L373, T77, R389, B92)
+   |    |    | ['Button', '요금문의 발생시에 요금문의폼으로 자동 전환Button', 'Button0', 'Button1']
+   |    |    | child_window(class_name="Button")
+   |    |    | 
+   |    |    | Button - '조 회(&V)'    (L635, T72, R742, B98)
+   |    |    | ['조 회(&V)', 'Button2', '조 회(&V)Button']
+   |    |    | child_window(title="조 회(&V)", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '전화받은건수기준'    (L460, T77, R600, B93)
+   |    |    | ['전화받은건수기준', 'CheckBox4', '전화받은건수기준CheckBox']
+   |    |    | child_window(title="전화받은건수기준", class_name="Button")
+   |    |    | 
+   |    |    | XTPChartControl - ''    (L313, T105, R724, B962)
+   |    |    | ['오접수 수정시 오접수폼으로 자동 전환XTPChartControl', 'XTPChartControl']
+   |    |    | child_window(class_name="XTPChartControl")
+   |    |    | 
+   |    |    | XTPReport - ''    (L26, T105, R310, B962)
+   |    |    | ['XTPReport', '기간XTPReport', 'XTPReport0', 'XTPReport1', '기간XTPReport0', '기간XTPReport1']
+   |    |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | DateTimePicker - '2026-02-18 07:00'    (L82, T74, R215, B95)
+   |    | ['DateTimePicker', '기간DateTimePicker', 'DateTimePicker0', 'DateTimePicker1', '기간DateTimePicker0', '기간DateTimePicker1']
+   |    | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | DateTimePicker - '2026-02-19 07:00'    (L236, T74, R369, B95)
+   |    | ['∼DateTimePicker', 'DateTimePicker2', '∼DateTimePicker0', '∼DateTimePicker1']
+   |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | Static - '∼'    (L221, T77, R235, B101)
+   |    | ['Static', '∼', '∼Static', 'Static0', 'Static1', '∼0', '∼1', '∼Static0', '∼Static1']
+   |    | child_window(title="∼", class_name="Static")
+   |    | 
+   |    | Static - '기간'    (L32, T74, R79, B97)
+   |    | ['기간Static', '기간', 'Static2', '기간Static0', '기간Static1', '기간0', '기간1']
+   |    | child_window(title="기간", class_name="Static")
+   |    | 
+   |    | CheckBox - '현금'    (L833, T74, R889, B90)
+   |    | ['CheckBox', '현금CheckBox', '현금', 'CheckBox0', 'CheckBox1']
+   |    | child_window(title="현금", class_name="Button")
+   |    | 
+   |    | CheckBox - '외상'    (L889, T74, R945, B90)
+   |    | ['외상CheckBox', 'CheckBox2', '외상']
+   |    | child_window(title="외상", class_name="Button")
+   |    | 
+   |    | CheckBox - '송금'    (L943, T74, R999, B90)
+   |    | ['송금', '송금CheckBox', 'CheckBox3']
+   |    | child_window(title="송금", class_name="Button")
+   |    | 
+   |    | Static - '조건'    (L770, T72, R817, B95)
+   |    | ['조건Static', 'Static3', '조건']
+   |    | child_window(title="조건", class_name="Static")
+   |    | 
+   |    | Button - ''    (L373, T77, R389, B92)
+   |    | ['Button', '요금문의 발생시에 요금문의폼으로 자동 전환Button', 'Button0', 'Button1']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | Button - '조 회(&V)'    (L635, T72, R742, B98)
+   |    | ['조 회(&V)', 'Button2', '조 회(&V)Button']
+   |    | child_window(title="조 회(&V)", class_name="Button")
+   |    | 
+   |    | CheckBox - '전화받은건수기준'    (L460, T77, R600, B93)
+   |    | ['전화받은건수기준', 'CheckBox4', '전화받은건수기준CheckBox']
+   |    | child_window(title="전화받은건수기준", class_name="Button")
+   |    | 
+   |    | XTPChartControl - ''    (L313, T105, R724, B962)
+   |    | ['오접수 수정시 오접수폼으로 자동 전환XTPChartControl', 'XTPChartControl']
+   |    | child_window(class_name="XTPChartControl")
+   |    | 
+   |    | XTPReport - ''    (L26, T105, R310, B962)
+   |    | ['XTPReport', '기간XTPReport', 'XTPReport0', 'XTPReport1', '기간XTPReport0', '기간XTPReport1']
+   |    | child_window(class_name="XTPReport")
+   | 
+   | AfxFrameOrView110s - '기간별수신콜수'    (L21, T64, R726, B964)
+   | ['기간별수신콜수', 'AfxFrameOrView110s', '기간별수신콜수AfxFrameOrView110s', 'AfxFrameOrView110s0', 'AfxFrameOrView110s1']
+   | child_window(title="기간별수신콜수", class_name="AfxFrameOrView110s")
+   |    | 
+   |    | #32770 - ''    (L21, T64, R726, B964)
+   |    | ['#32770', '공지#32770', '#327700', '#327701']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | DateTimePicker - '2026-02-18 07:00'    (L82, T74, R215, B95)
+   |    |    | ['DateTimePicker', '기간DateTimePicker', 'DateTimePicker0', 'DateTimePicker1', '기간DateTimePicker0', '기간DateTimePicker1']
+   |    |    | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   |    |    | 
+   |    |    | DateTimePicker - '2026-02-19 07:00'    (L236, T74, R369, B95)
+   |    |    | ['∼DateTimePicker', 'DateTimePicker2', '∼DateTimePicker0', '∼DateTimePicker1']
+   |    |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    |    | 
+   |    |    | Static - '∼'    (L221, T77, R235, B101)
+   |    |    | ['Static', '∼', '∼Static', 'Static0', 'Static1', '∼0', '∼1', '∼Static0', '∼Static1']
+   |    |    | child_window(title="∼", class_name="Static")
+   |    |    | 
+   |    |    | Static - '기간'    (L32, T74, R79, B97)
+   |    |    | ['기간Static', '기간', 'Static2', '기간Static0', '기간Static1', '기간0', '기간1']
+   |    |    | child_window(title="기간", class_name="Static")
+   |    |    | 
+   |    |    | CheckBox - '현금'    (L833, T74, R889, B90)
+   |    |    | ['CheckBox', '현금CheckBox', '현금', 'CheckBox0', 'CheckBox1']
+   |    |    | child_window(title="현금", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '외상'    (L889, T74, R945, B90)
+   |    |    | ['외상CheckBox', 'CheckBox2', '외상']
+   |    |    | child_window(title="외상", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '송금'    (L943, T74, R999, B90)
+   |    |    | ['송금', '송금CheckBox', 'CheckBox3']
+   |    |    | child_window(title="송금", class_name="Button")
+   |    |    | 
+   |    |    | Static - '조건'    (L770, T72, R817, B95)
+   |    |    | ['조건Static', 'Static3', '조건']
+   |    |    | child_window(title="조건", class_name="Static")
+   |    |    | 
+   |    |    | Button - ''    (L373, T77, R389, B92)
+   |    |    | ['Button', '요금문의 발생시에 요금문의폼으로 자동 전환Button', 'Button0', 'Button1']
+   |    |    | child_window(class_name="Button")
+   |    |    | 
+   |    |    | Button - '조 회(&V)'    (L635, T72, R742, B98)
+   |    |    | ['조 회(&V)', 'Button2', '조 회(&V)Button']
+   |    |    | child_window(title="조 회(&V)", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '전화받은건수기준'    (L460, T77, R600, B93)
+   |    |    | ['전화받은건수기준', 'CheckBox4', '전화받은건수기준CheckBox']
+   |    |    | child_window(title="전화받은건수기준", class_name="Button")
+   |    |    | 
+   |    |    | XTPChartControl - ''    (L313, T105, R724, B962)
+   |    |    | ['오접수 수정시 오접수폼으로 자동 전환XTPChartControl', 'XTPChartControl']
+   |    |    | child_window(class_name="XTPChartControl")
+   |    |    | 
+   |    |    | XTPReport - ''    (L26, T105, R310, B962)
+   |    |    | ['XTPReport', '기간XTPReport', 'XTPReport0', 'XTPReport1', '기간XTPReport0', '기간XTPReport1']
+   |    |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | DateTimePicker - '2026-02-18 07:00'    (L82, T74, R215, B95)
+   |    | ['DateTimePicker', '기간DateTimePicker', 'DateTimePicker0', 'DateTimePicker1', '기간DateTimePicker0', '기간DateTimePicker1']
+   |    | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | DateTimePicker - '2026-02-19 07:00'    (L236, T74, R369, B95)
+   |    | ['∼DateTimePicker', 'DateTimePicker2', '∼DateTimePicker0', '∼DateTimePicker1']
+   |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | Static - '∼'    (L221, T77, R235, B101)
+   |    | ['Static', '∼', '∼Static', 'Static0', 'Static1', '∼0', '∼1', '∼Static0', '∼Static1']
+   |    | child_window(title="∼", class_name="Static")
+   |    | 
+   |    | Static - '기간'    (L32, T74, R79, B97)
+   |    | ['기간Static', '기간', 'Static2', '기간Static0', '기간Static1', '기간0', '기간1']
+   |    | child_window(title="기간", class_name="Static")
+   |    | 
+   |    | CheckBox - '현금'    (L833, T74, R889, B90)
+   |    | ['CheckBox', '현금CheckBox', '현금', 'CheckBox0', 'CheckBox1']
+   |    | child_window(title="현금", class_name="Button")
+   |    | 
+   |    | CheckBox - '외상'    (L889, T74, R945, B90)
+   |    | ['외상CheckBox', 'CheckBox2', '외상']
+   |    | child_window(title="외상", class_name="Button")
+   |    | 
+   |    | CheckBox - '송금'    (L943, T74, R999, B90)
+   |    | ['송금', '송금CheckBox', 'CheckBox3']
+   |    | child_window(title="송금", class_name="Button")
+   |    | 
+   |    | Static - '조건'    (L770, T72, R817, B95)
+   |    | ['조건Static', 'Static3', '조건']
+   |    | child_window(title="조건", class_name="Static")
+   |    | 
+   |    | Button - ''    (L373, T77, R389, B92)
+   |    | ['Button', '요금문의 발생시에 요금문의폼으로 자동 전환Button', 'Button0', 'Button1']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | Button - '조 회(&V)'    (L635, T72, R742, B98)
+   |    | ['조 회(&V)', 'Button2', '조 회(&V)Button']
+   |    | child_window(title="조 회(&V)", class_name="Button")
+   |    | 
+   |    | CheckBox - '전화받은건수기준'    (L460, T77, R600, B93)
+   |    | ['전화받은건수기준', 'CheckBox4', '전화받은건수기준CheckBox']
+   |    | child_window(title="전화받은건수기준", class_name="Button")
+   |    | 
+   |    | XTPChartControl - ''    (L313, T105, R724, B962)
+   |    | ['오접수 수정시 오접수폼으로 자동 전환XTPChartControl', 'XTPChartControl']
+   |    | child_window(class_name="XTPChartControl")
+   |    | 
+   |    | XTPReport - ''    (L26, T105, R310, B962)
+   |    | ['XTPReport', '기간XTPReport', 'XTPReport0', 'XTPReport1', '기간XTPReport0', '기간XTPReport1']
+   |    | child_window(class_name="XTPReport")
+   | 
+   | #32770 - ''    (L21, T64, R726, B964)
+   | ['#32770', '공지#32770', '#327700', '#327701']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | DateTimePicker - '2026-02-18 07:00'    (L82, T74, R215, B95)
+   |    | ['DateTimePicker', '기간DateTimePicker', 'DateTimePicker0', 'DateTimePicker1', '기간DateTimePicker0', '기간DateTimePicker1']
+   |    | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | DateTimePicker - '2026-02-19 07:00'    (L236, T74, R369, B95)
+   |    | ['∼DateTimePicker', 'DateTimePicker2', '∼DateTimePicker0', '∼DateTimePicker1']
+   |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | Static - '∼'    (L221, T77, R235, B101)
+   |    | ['Static', '∼', '∼Static', 'Static0', 'Static1', '∼0', '∼1', '∼Static0', '∼Static1']
+   |    | child_window(title="∼", class_name="Static")
+   |    | 
+   |    | Static - '기간'    (L32, T74, R79, B97)
+   |    | ['기간Static', '기간', 'Static2', '기간Static0', '기간Static1', '기간0', '기간1']
+   |    | child_window(title="기간", class_name="Static")
+   |    | 
+   |    | CheckBox - '현금'    (L833, T74, R889, B90)
+   |    | ['CheckBox', '현금CheckBox', '현금', 'CheckBox0', 'CheckBox1']
+   |    | child_window(title="현금", class_name="Button")
+   |    | 
+   |    | CheckBox - '외상'    (L889, T74, R945, B90)
+   |    | ['외상CheckBox', 'CheckBox2', '외상']
+   |    | child_window(title="외상", class_name="Button")
+   |    | 
+   |    | CheckBox - '송금'    (L943, T74, R999, B90)
+   |    | ['송금', '송금CheckBox', 'CheckBox3']
+   |    | child_window(title="송금", class_name="Button")
+   |    | 
+   |    | Static - '조건'    (L770, T72, R817, B95)
+   |    | ['조건Static', 'Static3', '조건']
+   |    | child_window(title="조건", class_name="Static")
+   |    | 
+   |    | Button - ''    (L373, T77, R389, B92)
+   |    | ['Button', '요금문의 발생시에 요금문의폼으로 자동 전환Button', 'Button0', 'Button1']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | Button - '조 회(&V)'    (L635, T72, R742, B98)
+   |    | ['조 회(&V)', 'Button2', '조 회(&V)Button']
+   |    | child_window(title="조 회(&V)", class_name="Button")
+   |    | 
+   |    | CheckBox - '전화받은건수기준'    (L460, T77, R600, B93)
+   |    | ['전화받은건수기준', 'CheckBox4', '전화받은건수기준CheckBox']
+   |    | child_window(title="전화받은건수기준", class_name="Button")
+   |    | 
+   |    | XTPChartControl - ''    (L313, T105, R724, B962)
+   |    | ['오접수 수정시 오접수폼으로 자동 전환XTPChartControl', 'XTPChartControl']
+   |    | child_window(class_name="XTPChartControl")
+   |    | 
+   |    | XTPReport - ''    (L26, T105, R310, B962)
+   |    | ['XTPReport', '기간XTPReport', 'XTPReport0', 'XTPReport1', '기간XTPReport0', '기간XTPReport1']
+   |    | child_window(class_name="XTPReport")
+   | 
+   | DateTimePicker - '2026-02-18 07:00'    (L82, T74, R215, B95)
+   | ['DateTimePicker', '기간DateTimePicker', 'DateTimePicker0', 'DateTimePicker1', '기간DateTimePicker0', '기간DateTimePicker1']
+   | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   | 
+   | DateTimePicker - '2026-02-19 07:00'    (L236, T74, R369, B95)
+   | ['∼DateTimePicker', 'DateTimePicker2', '∼DateTimePicker0', '∼DateTimePicker1']
+   | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   | 
+   | Static - '∼'    (L221, T77, R235, B101)
+   | ['Static', '∼', '∼Static', 'Static0', 'Static1', '∼0', '∼1', '∼Static0', '∼Static1']
+   | child_window(title="∼", class_name="Static")
+   | 
+   | Static - '기간'    (L32, T74, R79, B97)
+   | ['기간Static', '기간', 'Static2', '기간Static0', '기간Static1', '기간0', '기간1']
+   | child_window(title="기간", class_name="Static")
+   | 
+   | CheckBox - '현금'    (L833, T74, R889, B90)
+   | ['CheckBox', '현금CheckBox', '현금', 'CheckBox0', 'CheckBox1']
+   | child_window(title="현금", class_name="Button")
+   | 
+   | CheckBox - '외상'    (L889, T74, R945, B90)
+   | ['외상CheckBox', 'CheckBox2', '외상']
+   | child_window(title="외상", class_name="Button")
+   | 
+   | CheckBox - '송금'    (L943, T74, R999, B90)
+   | ['송금', '송금CheckBox', 'CheckBox3']
+   | child_window(title="송금", class_name="Button")
+   | 
+   | Static - '조건'    (L770, T72, R817, B95)
+   | ['조건Static', 'Static3', '조건']
+   | child_window(title="조건", class_name="Static")
+   | 
+   | Button - ''    (L373, T77, R389, B92)
+   | ['Button', '요금문의 발생시에 요금문의폼으로 자동 전환Button', 'Button0', 'Button1']
+   | child_window(class_name="Button")
+   | 
+   | Button - '조 회(&V)'    (L635, T72, R742, B98)
+   | ['조 회(&V)', 'Button2', '조 회(&V)Button']
+   | child_window(title="조 회(&V)", class_name="Button")
+   | 
+   | CheckBox - '전화받은건수기준'    (L460, T77, R600, B93)
+   | ['전화받은건수기준', 'CheckBox4', '전화받은건수기준CheckBox']
+   | child_window(title="전화받은건수기준", class_name="Button")
+   | 
+   | XTPChartControl - ''    (L313, T105, R724, B962)
+   | ['오접수 수정시 오접수폼으로 자동 전환XTPChartControl', 'XTPChartControl']
+   | child_window(class_name="XTPChartControl")
+   | 
+   | XTPReport - ''    (L26, T105, R310, B962)
+   | ['XTPReport', '기간XTPReport', 'XTPReport0', 'XTPReport1', '기간XTPReport0', '기간XTPReport1']
+   | child_window(class_name="XTPReport")
+   | 
+   | StatusBar - '준비'    (L17, T781, R1283, B800)
+   | ['준비', '준비StatusBar', 'StatusBar']
+   | child_window(title="준비", class_name="msctls_statusbar32")
+   | 
+   | XTPDockBar - 'xtpBarTop'    (L17, T14, R736, B40)
+   | ['XTPDockBar', 'xtpBarTop', 'xtpBarTopXTPDockBar', 'XTPDockBar0', 'XTPDockBar1']
+   | child_window(title="xtpBarTop", class_name="XTPDockBar")
+   |    | 
+   |    | XTPToolBar - 'SYSTEM BUTTON'    (L666, T14, R736, B40)
+   |    | ['SYSTEM BUTTON', 'XTPToolBar', 'SYSTEM BUTTONXTPToolBar', 'XTPToolBar0', 'XTPToolBar1']
+   |    | child_window(title="SYSTEM BUTTON", class_name="XTPToolBar")
+   |    | 
+   |    | XTPToolBar - 'MENU'    (L305, T14, R666, B40)
+   |    | ['MENU', 'XTPToolBar2', 'MENUXTPToolBar']
+   |    | child_window(title="MENU", class_name="XTPToolBar")
+   |    | 
+   |    | XTPToolBar - 'LOGO'    (L17, T14, R305, B40)
+   |    | ['LOGO', 'XTPToolBar3', 'LOGOXTPToolBar']
+   |    | child_window(title="LOGO", class_name="XTPToolBar")
+   | 
+   | XTPToolBar - 'SYSTEM BUTTON'    (L666, T14, R736, B40)
+   | ['SYSTEM BUTTON', 'XTPToolBar', 'SYSTEM BUTTONXTPToolBar', 'XTPToolBar0', 'XTPToolBar1']
+   | child_window(title="SYSTEM BUTTON", class_name="XTPToolBar")
+   | 
+   | XTPToolBar - 'MENU'    (L305, T14, R666, B40)
+   | ['MENU', 'XTPToolBar2', 'MENUXTPToolBar']
+   | child_window(title="MENU", class_name="XTPToolBar")
+   | 
+   | XTPToolBar - 'LOGO'    (L17, T14, R305, B40)
+   | ['LOGO', 'XTPToolBar3', 'LOGOXTPToolBar']
+   | child_window(title="LOGO", class_name="XTPToolBar")
+   | 
+   | XTPDockBar - 'xtpBarBottom'    (L17, T993, R736, B993)
+   | ['xtpBarBottomXTPDockBar', 'XTPDockBar2', 'xtpBarBottom']
+   | child_window(title="xtpBarBottom", class_name="XTPDockBar")
+   | 
+   | XTPDockBar - 'xtpBarLeft'    (L17, T40, R17, B993)
+   | ['XTPDockBar3', 'xtpBarLeft', 'xtpBarLeftXTPDockBar']
+   | child_window(title="xtpBarLeft", class_name="XTPDockBar")
+   | 
+   | XTPDockBar - 'xtpBarRight'    (L736, T40, R736, B993)
+   | ['xtpBarRightXTPDockBar', 'XTPDockBar4', 'xtpBarRight']
+   | child_window(title="xtpBarRight", class_name="XTPDockBar")
+   | 
+   | XTPDockingPaneManager - ''    (L17, T14, R17, B14)
+   | ['XTPDockingPaneManager', '아리랑콜센터-알렉스.기수신[메인/1등급]XTPDockingPaneManager', 'XTPDockingPaneManager0', 'XTPDockingPaneManager1', '아리랑콜센터-알렉스.기수신[메인/1등급]XTPDockingPaneManager0', '아리랑콜센터-알렉스.기수신[메인/1등급]XTPDockingPaneManager1']
+   | child_window(class_name="XTPDockingPaneManager")
+   | 
+   | XTPDockingPaneManager - ''    (L17, T14, R17, B14)
+   | ['XTPDockingPaneManager2', '아리랑콜센터-알렉스.기수신[메인/1등급]XTPDockingPaneManager2']
+   | child_window(class_name="XTPDockingPaneManager")
+   | 
+   | XTPDockingPaneManager - ''    (L17, T14, R17, B14)
+   | ['XTPDockingPaneManager3', '아리랑콜센터-알렉스.기수신[메인/1등급]XTPDockingPaneManager3']
+   | child_window(class_name="XTPDockingPaneManager")
+   | 
+   | AfxFrameOrView110s - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]AfxFrameOrView110s', 'AfxFrameOrView110s2', '아리랑콜센터-알렉스.기수신[메인/1등급]AfxFrameOrView110s0', '아리랑콜센터-알렉스.기수신[메인/1등급]AfxFrameOrView110s1']
+   | child_window(class_name="AfxFrameOrView110s")
+   |    | 
+   |    | #32770 - ''    (L17, T14, R17, B14)
+   |    | ['아리랑콜센터-알렉스.기수신[메인/1등급]#32770', '#327702', '아리랑콜센터-알렉스.기수신[메인/1등급]#327700', '아리랑콜센터-알렉스.기수신[메인/1등급]#327701']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | XTPReport - ''    (L24, T42, R230, B281)
+   |    |    | ['XTPReport2', '요금XTPReport', '요금XTPReport0', '요금XTPReport1']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | Edit - ''    (L52, T19, R121, B39)
+   |    |    | ['기간Edit', 'Edit', '기간Edit0', '기간Edit1', 'Edit0', 'Edit1']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Static - '검색'    (L24, T23, R48, B38)
+   |    |    | ['Static4', '검색Static', '검색', '검색Static0', '검색Static1', '검색0', '검색1']
+   |    |    | child_window(title="검색", class_name="Static")
+   |    |    | 
+   |    |    | CheckBox - '확장'    (L126, T21, R165, B37)
+   |    |    | ['확장', '확장CheckBox', 'CheckBox5', '확장0', '확장1', '확장CheckBox0', '확장CheckBox1']
+   |    |    | child_window(title="확장", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '체크모드'    (L171, T21, R233, B37)
+   |    |    | ['체크모드CheckBox', 'CheckBox6', '체크모드', '체크모드CheckBox0', '체크모드CheckBox1', '체크모드0', '체크모드1']
+   |    |    | child_window(title="체크모드", class_name="Button")
+   |    | 
+   |    | XTPReport - ''    (L24, T42, R230, B281)
+   |    | ['XTPReport2', '요금XTPReport', '요금XTPReport0', '요금XTPReport1']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Edit - ''    (L52, T19, R121, B39)
+   |    | ['기간Edit', 'Edit', '기간Edit0', '기간Edit1', 'Edit0', 'Edit1']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Static - '검색'    (L24, T23, R48, B38)
+   |    | ['Static4', '검색Static', '검색', '검색Static0', '검색Static1', '검색0', '검색1']
+   |    | child_window(title="검색", class_name="Static")
+   |    | 
+   |    | CheckBox - '확장'    (L126, T21, R165, B37)
+   |    | ['확장', '확장CheckBox', 'CheckBox5', '확장0', '확장1', '확장CheckBox0', '확장CheckBox1']
+   |    | child_window(title="확장", class_name="Button")
+   |    | 
+   |    | CheckBox - '체크모드'    (L171, T21, R233, B37)
+   |    | ['체크모드CheckBox', 'CheckBox6', '체크모드', '체크모드CheckBox0', '체크모드CheckBox1', '체크모드0', '체크모드1']
+   |    | child_window(title="체크모드", class_name="Button")
+   | 
+   | #32770 - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]#32770', '#327702', '아리랑콜센터-알렉스.기수신[메인/1등급]#327700', '아리랑콜센터-알렉스.기수신[메인/1등급]#327701']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | XTPReport - ''    (L24, T42, R230, B281)
+   |    | ['XTPReport2', '요금XTPReport', '요금XTPReport0', '요금XTPReport1']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Edit - ''    (L52, T19, R121, B39)
+   |    | ['기간Edit', 'Edit', '기간Edit0', '기간Edit1', 'Edit0', 'Edit1']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Static - '검색'    (L24, T23, R48, B38)
+   |    | ['Static4', '검색Static', '검색', '검색Static0', '검색Static1', '검색0', '검색1']
+   |    | child_window(title="검색", class_name="Static")
+   |    | 
+   |    | CheckBox - '확장'    (L126, T21, R165, B37)
+   |    | ['확장', '확장CheckBox', 'CheckBox5', '확장0', '확장1', '확장CheckBox0', '확장CheckBox1']
+   |    | child_window(title="확장", class_name="Button")
+   |    | 
+   |    | CheckBox - '체크모드'    (L171, T21, R233, B37)
+   |    | ['체크모드CheckBox', 'CheckBox6', '체크모드', '체크모드CheckBox0', '체크모드CheckBox1', '체크모드0', '체크모드1']
+   |    | child_window(title="체크모드", class_name="Button")
+   | 
+   | XTPReport - ''    (L24, T42, R230, B281)
+   | ['XTPReport2', '요금XTPReport', '요금XTPReport0', '요금XTPReport1']
+   | child_window(class_name="XTPReport")
+   | 
+   | Edit - ''    (L52, T19, R121, B39)
+   | ['기간Edit', 'Edit', '기간Edit0', '기간Edit1', 'Edit0', 'Edit1']
+   | child_window(class_name="Edit")
+   | 
+   | Static - '검색'    (L24, T23, R48, B38)
+   | ['Static4', '검색Static', '검색', '검색Static0', '검색Static1', '검색0', '검색1']
+   | child_window(title="검색", class_name="Static")
+   | 
+   | CheckBox - '확장'    (L126, T21, R165, B37)
+   | ['확장', '확장CheckBox', 'CheckBox5', '확장0', '확장1', '확장CheckBox0', '확장CheckBox1']
+   | child_window(title="확장", class_name="Button")
+   | 
+   | CheckBox - '체크모드'    (L171, T21, R233, B37)
+   | ['체크모드CheckBox', 'CheckBox6', '체크모드', '체크모드CheckBox0', '체크모드CheckBox1', '체크모드0', '체크모드1']
+   | child_window(title="체크모드", class_name="Button")
+   | 
+   | AfxFrameOrView110s - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]AfxFrameOrView110s2', 'AfxFrameOrView110s3']
+   | child_window(class_name="AfxFrameOrView110s")
+   |    | 
+   |    | #32770 - ''    (L17, T14, R17, B14)
+   |    | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327702', '#327703']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | XTPReport - ''    (L24, T42, R230, B281)
+   |    |    | ['XTPReport3', '요금XTPReport2']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | Edit - '2026-02-18 00:00'    (L52, T19, R121, B39)
+   |    |    | ['기간Edit2', 'Edit2']
+   |    |    | child_window(title="2026-02-18 00:00", class_name="Edit")
+   |    |    | 
+   |    |    | Static - '검색'    (L24, T23, R48, B38)
+   |    |    | ['Static5', '검색Static2', '검색2']
+   |    |    | child_window(title="검색", class_name="Static")
+   |    |    | 
+   |    |    | CheckBox - '확장'    (L126, T21, R165, B37)
+   |    |    | ['확장2', '확장CheckBox2', 'CheckBox7']
+   |    |    | child_window(title="확장", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '체크모드'    (L171, T21, R233, B37)
+   |    |    | ['체크모드CheckBox2', 'CheckBox8', '체크모드2']
+   |    |    | child_window(title="체크모드", class_name="Button")
+   |    |    | 
+   |    |    | XTPReport - ''    (L24, T42, R230, B281)
+   |    |    | ['XTPReport4', '요금XTPReport3']
+   |    |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | XTPReport - ''    (L24, T42, R230, B281)
+   |    | ['XTPReport3', '요금XTPReport2']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Edit - '2026-02-18 00:00'    (L52, T19, R121, B39)
+   |    | ['기간Edit2', 'Edit2']
+   |    | child_window(title="2026-02-18 00:00", class_name="Edit")
+   |    | 
+   |    | Static - '검색'    (L24, T23, R48, B38)
+   |    | ['Static5', '검색Static2', '검색2']
+   |    | child_window(title="검색", class_name="Static")
+   |    | 
+   |    | CheckBox - '확장'    (L126, T21, R165, B37)
+   |    | ['확장2', '확장CheckBox2', 'CheckBox7']
+   |    | child_window(title="확장", class_name="Button")
+   |    | 
+   |    | CheckBox - '체크모드'    (L171, T21, R233, B37)
+   |    | ['체크모드CheckBox2', 'CheckBox8', '체크모드2']
+   |    | child_window(title="체크모드", class_name="Button")
+   |    | 
+   |    | XTPReport - ''    (L24, T42, R230, B281)
+   |    | ['XTPReport4', '요금XTPReport3']
+   |    | child_window(class_name="XTPReport")
+   | 
+   | #32770 - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327702', '#327703']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | XTPReport - ''    (L24, T42, R230, B281)
+   |    | ['XTPReport3', '요금XTPReport2']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Edit - '2026-02-18 00:00'    (L52, T19, R121, B39)
+   |    | ['기간Edit2', 'Edit2']
+   |    | child_window(title="2026-02-18 00:00", class_name="Edit")
+   |    | 
+   |    | Static - '검색'    (L24, T23, R48, B38)
+   |    | ['Static5', '검색Static2', '검색2']
+   |    | child_window(title="검색", class_name="Static")
+   |    | 
+   |    | CheckBox - '확장'    (L126, T21, R165, B37)
+   |    | ['확장2', '확장CheckBox2', 'CheckBox7']
+   |    | child_window(title="확장", class_name="Button")
+   |    | 
+   |    | CheckBox - '체크모드'    (L171, T21, R233, B37)
+   |    | ['체크모드CheckBox2', 'CheckBox8', '체크모드2']
+   |    | child_window(title="체크모드", class_name="Button")
+   |    | 
+   |    | XTPReport - ''    (L24, T42, R230, B281)
+   |    | ['XTPReport4', '요금XTPReport3']
+   |    | child_window(class_name="XTPReport")
+   | 
+   | XTPReport - ''    (L24, T42, R230, B281)
+   | ['XTPReport3', '요금XTPReport2']
+   | child_window(class_name="XTPReport")
+   | 
+   | Edit - '2026-02-18 00:00'    (L52, T19, R121, B39)
+   | ['기간Edit2', 'Edit2']
+   | child_window(title="2026-02-18 00:00", class_name="Edit")
+   | 
+   | Static - '검색'    (L24, T23, R48, B38)
+   | ['Static5', '검색Static2', '검색2']
+   | child_window(title="검색", class_name="Static")
+   | 
+   | CheckBox - '확장'    (L126, T21, R165, B37)
+   | ['확장2', '확장CheckBox2', 'CheckBox7']
+   | child_window(title="확장", class_name="Button")
+   | 
+   | CheckBox - '체크모드'    (L171, T21, R233, B37)
+   | ['체크모드CheckBox2', 'CheckBox8', '체크모드2']
+   | child_window(title="체크모드", class_name="Button")
+   | 
+   | XTPReport - ''    (L24, T42, R230, B281)
+   | ['XTPReport4', '요금XTPReport3']
+   | child_window(class_name="XTPReport")
+   | 
+   | AfxFrameOrView110s - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]AfxFrameOrView110s3', 'AfxFrameOrView110s4']
+   | child_window(class_name="AfxFrameOrView110s")
+   |    | 
+   |    | #32770 - ''    (L17, T14, R17, B14)
+   |    | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327703', '#327704']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Static - '요금'    (L26, T25, R52, B42)
+   |    |    | ['Static6', '요금Static', '요금']
+   |    |    | child_window(title="요금", class_name="Static")
+   |    |    | 
+   |    |    | Edit - '2026-02-19 00:00'    (L59, T22, R178, B48)
+   |    |    | ['정보Edit', 'Edit3', '요금Edit', '정보Edit0', '정보Edit1']
+   |    |    | child_window(title="2026-02-19 00:00", class_name="Edit")
+   |    |    | 
+   |    |    | Static - '설명'    (L194, T25, R220, B42)
+   |    |    | ['설명', 'Static7', '설명Static']
+   |    |    | child_window(title="설명", class_name="Static")
+   |    |    | 
+   |    |    | Edit - ''    (L227, T22, R497, B48)
+   |    |    | ['설명Edit', '고객복사Edit', 'Edit4']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | XTPReport - ''    (L19, T52, R842, B222)
+   |    |    | ['XTPReport5', '기간XTPReport2']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | CheckBox - '요금문의 답변시 구간 요금 자동입력됨(경유제외)'    (L523, T25, R838, B46)
+   |    |    | ['요금문의 답변시 구간 요금 자동입력됨(경유제외)CheckBox', '요금문의 답변시 구간 요금 자동입력됨(경유제외)', 'CheckBox9']
+   |    |    | child_window(title="요금문의 답변시 구간 요금 자동입력됨(경유제외)", class_name="Button")
+   |    | 
+   |    | Static - '요금'    (L26, T25, R52, B42)
+   |    | ['Static6', '요금Static', '요금']
+   |    | child_window(title="요금", class_name="Static")
+   |    | 
+   |    | Edit - '2026-02-19 00:00'    (L59, T22, R178, B48)
+   |    | ['정보Edit', 'Edit3', '요금Edit', '정보Edit0', '정보Edit1']
+   |    | child_window(title="2026-02-19 00:00", class_name="Edit")
+   |    | 
+   |    | Static - '설명'    (L194, T25, R220, B42)
+   |    | ['설명', 'Static7', '설명Static']
+   |    | child_window(title="설명", class_name="Static")
+   |    | 
+   |    | Edit - ''    (L227, T22, R497, B48)
+   |    | ['설명Edit', '고객복사Edit', 'Edit4']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | XTPReport - ''    (L19, T52, R842, B222)
+   |    | ['XTPReport5', '기간XTPReport2']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | CheckBox - '요금문의 답변시 구간 요금 자동입력됨(경유제외)'    (L523, T25, R838, B46)
+   |    | ['요금문의 답변시 구간 요금 자동입력됨(경유제외)CheckBox', '요금문의 답변시 구간 요금 자동입력됨(경유제외)', 'CheckBox9']
+   |    | child_window(title="요금문의 답변시 구간 요금 자동입력됨(경유제외)", class_name="Button")
+   | 
+   | #32770 - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327703', '#327704']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | Static - '요금'    (L26, T25, R52, B42)
+   |    | ['Static6', '요금Static', '요금']
+   |    | child_window(title="요금", class_name="Static")
+   |    | 
+   |    | Edit - '2026-02-19 00:00'    (L59, T22, R178, B48)
+   |    | ['정보Edit', 'Edit3', '요금Edit', '정보Edit0', '정보Edit1']
+   |    | child_window(title="2026-02-19 00:00", class_name="Edit")
+   |    | 
+   |    | Static - '설명'    (L194, T25, R220, B42)
+   |    | ['설명', 'Static7', '설명Static']
+   |    | child_window(title="설명", class_name="Static")
+   |    | 
+   |    | Edit - ''    (L227, T22, R497, B48)
+   |    | ['설명Edit', '고객복사Edit', 'Edit4']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | XTPReport - ''    (L19, T52, R842, B222)
+   |    | ['XTPReport5', '기간XTPReport2']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | CheckBox - '요금문의 답변시 구간 요금 자동입력됨(경유제외)'    (L523, T25, R838, B46)
+   |    | ['요금문의 답변시 구간 요금 자동입력됨(경유제외)CheckBox', '요금문의 답변시 구간 요금 자동입력됨(경유제외)', 'CheckBox9']
+   |    | child_window(title="요금문의 답변시 구간 요금 자동입력됨(경유제외)", class_name="Button")
+   | 
+   | Static - '요금'    (L26, T25, R52, B42)
+   | ['Static6', '요금Static', '요금']
+   | child_window(title="요금", class_name="Static")
+   | 
+   | Edit - '2026-02-19 00:00'    (L59, T22, R178, B48)
+   | ['정보Edit', 'Edit3', '요금Edit', '정보Edit0', '정보Edit1']
+   | child_window(title="2026-02-19 00:00", class_name="Edit")
+   | 
+   | Static - '설명'    (L194, T25, R220, B42)
+   | ['설명', 'Static7', '설명Static']
+   | child_window(title="설명", class_name="Static")
+   | 
+   | Edit - ''    (L227, T22, R497, B48)
+   | ['설명Edit', '고객복사Edit', 'Edit4']
+   | child_window(class_name="Edit")
+   | 
+   | XTPReport - ''    (L19, T52, R842, B222)
+   | ['XTPReport5', '기간XTPReport2']
+   | child_window(class_name="XTPReport")
+   | 
+   | CheckBox - '요금문의 답변시 구간 요금 자동입력됨(경유제외)'    (L523, T25, R838, B46)
+   | ['요금문의 답변시 구간 요금 자동입력됨(경유제외)CheckBox', '요금문의 답변시 구간 요금 자동입력됨(경유제외)', 'CheckBox9']
+   | child_window(title="요금문의 답변시 구간 요금 자동입력됨(경유제외)", class_name="Button")
+   | 
+   | AfxFrameOrView110s - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]AfxFrameOrView110s4', 'AfxFrameOrView110s5']
+   | child_window(class_name="AfxFrameOrView110s")
+   |    | 
+   |    | #32770 - ''    (L17, T14, R17, B14)
+   |    | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327704', '#327705']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Button - '공지관리'    (L1038, T37, R1105, B79)
+   |    |    | ['공지관리Button', '공지관리', 'Button3']
+   |    |    | child_window(title="공지관리", class_name="Button")
+   |    |    | 
+   |    |    | Edit - ''    (L58, T19, R247, B39)
+   |    |    | ['정보Edit2', 'Edit5']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Static - '정보'    (L28, T22, R56, B36)
+   |    |    | ['Static8', '정보', '정보Static']
+   |    |    | child_window(title="정보", class_name="Static")
+   |    |    | 
+   |    |    | Static - '공지'    (L28, T48, R56, B62)
+   |    |    | ['공지', 'Static9', '공지Static']
+   |    |    | child_window(title="공지", class_name="Static")
+   |    |    | 
+   |    |    | XTPReport - ''    (L58, T43, R1000, B94)
+   |    |    | ['XTPReport6', '공지XTPReport']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | Button - '갱신'    (L52, T75, R120, B95)
+   |    |    | ['갱신', 'Button4', '갱신Button', '갱신0', '갱신1', '갱신Button0', '갱신Button1']
+   |    |    | child_window(title="갱신", class_name="Button")
+   |    | 
+   |    | Button - '공지관리'    (L1038, T37, R1105, B79)
+   |    | ['공지관리Button', '공지관리', 'Button3']
+   |    | child_window(title="공지관리", class_name="Button")
+   |    | 
+   |    | Edit - ''    (L58, T19, R247, B39)
+   |    | ['정보Edit2', 'Edit5']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Static - '정보'    (L28, T22, R56, B36)
+   |    | ['Static8', '정보', '정보Static']
+   |    | child_window(title="정보", class_name="Static")
+   |    | 
+   |    | Static - '공지'    (L28, T48, R56, B62)
+   |    | ['공지', 'Static9', '공지Static']
+   |    | child_window(title="공지", class_name="Static")
+   |    | 
+   |    | XTPReport - ''    (L58, T43, R1000, B94)
+   |    | ['XTPReport6', '공지XTPReport']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Button - '갱신'    (L52, T75, R120, B95)
+   |    | ['갱신', 'Button4', '갱신Button', '갱신0', '갱신1', '갱신Button0', '갱신Button1']
+   |    | child_window(title="갱신", class_name="Button")
+   | 
+   | #32770 - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327704', '#327705']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | Button - '공지관리'    (L1038, T37, R1105, B79)
+   |    | ['공지관리Button', '공지관리', 'Button3']
+   |    | child_window(title="공지관리", class_name="Button")
+   |    | 
+   |    | Edit - ''    (L58, T19, R247, B39)
+   |    | ['정보Edit2', 'Edit5']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Static - '정보'    (L28, T22, R56, B36)
+   |    | ['Static8', '정보', '정보Static']
+   |    | child_window(title="정보", class_name="Static")
+   |    | 
+   |    | Static - '공지'    (L28, T48, R56, B62)
+   |    | ['공지', 'Static9', '공지Static']
+   |    | child_window(title="공지", class_name="Static")
+   |    | 
+   |    | XTPReport - ''    (L58, T43, R1000, B94)
+   |    | ['XTPReport6', '공지XTPReport']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Button - '갱신'    (L52, T75, R120, B95)
+   |    | ['갱신', 'Button4', '갱신Button', '갱신0', '갱신1', '갱신Button0', '갱신Button1']
+   |    | child_window(title="갱신", class_name="Button")
+   | 
+   | Button - '공지관리'    (L1038, T37, R1105, B79)
+   | ['공지관리Button', '공지관리', 'Button3']
+   | child_window(title="공지관리", class_name="Button")
+   | 
+   | Edit - ''    (L58, T19, R247, B39)
+   | ['정보Edit2', 'Edit5']
+   | child_window(class_name="Edit")
+   | 
+   | Static - '정보'    (L28, T22, R56, B36)
+   | ['Static8', '정보', '정보Static']
+   | child_window(title="정보", class_name="Static")
+   | 
+   | Static - '공지'    (L28, T48, R56, B62)
+   | ['공지', 'Static9', '공지Static']
+   | child_window(title="공지", class_name="Static")
+   | 
+   | XTPReport - ''    (L58, T43, R1000, B94)
+   | ['XTPReport6', '공지XTPReport']
+   | child_window(class_name="XTPReport")
+   | 
+   | Button - '갱신'    (L52, T75, R120, B95)
+   | ['갱신', 'Button4', '갱신Button', '갱신0', '갱신1', '갱신Button0', '갱신Button1']
+   | child_window(title="갱신", class_name="Button")
+   | 
+   | AfxFrameOrView110s - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]AfxFrameOrView110s5', 'AfxFrameOrView110s6']
+   | child_window(class_name="AfxFrameOrView110s")
+   |    | 
+   |    | #32770 - ''    (L17, T14, R17, B14)
+   |    | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327705', '#327706']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Button - '메모장열기'    (L665, T16, R753, B39)
+   |    |    | ['메모장열기', 'Button5', '메모장열기Button']
+   |    |    | child_window(title="메모장열기", class_name="Button")
+   |    |    | 
+   |    |    | Edit - ''    (L19, T16, R224, B96)
+   |    |    | ['검색Edit', 'Edit6', '검색Edit0', '검색Edit1']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Button - '메모장열기'    (L665, T16, R753, B39)
+   |    | ['메모장열기', 'Button5', '메모장열기Button']
+   |    | child_window(title="메모장열기", class_name="Button")
+   |    | 
+   |    | Edit - ''    (L19, T16, R224, B96)
+   |    | ['검색Edit', 'Edit6', '검색Edit0', '검색Edit1']
+   |    | child_window(class_name="Edit")
+   | 
+   | #32770 - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327705', '#327706']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | Button - '메모장열기'    (L665, T16, R753, B39)
+   |    | ['메모장열기', 'Button5', '메모장열기Button']
+   |    | child_window(title="메모장열기", class_name="Button")
+   |    | 
+   |    | Edit - ''    (L19, T16, R224, B96)
+   |    | ['검색Edit', 'Edit6', '검색Edit0', '검색Edit1']
+   |    | child_window(class_name="Edit")
+   | 
+   | Button - '메모장열기'    (L665, T16, R753, B39)
+   | ['메모장열기', 'Button5', '메모장열기Button']
+   | child_window(title="메모장열기", class_name="Button")
+   | 
+   | Edit - ''    (L19, T16, R224, B96)
+   | ['검색Edit', 'Edit6', '검색Edit0', '검색Edit1']
+   | child_window(class_name="Edit")
+   | 
+   | AfxFrameOrView110s - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]AfxFrameOrView110s6', 'AfxFrameOrView110s7']
+   | child_window(class_name="AfxFrameOrView110s")
+   |    | 
+   |    | #32770 - ''    (L17, T14, R17, B14)
+   |    | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327706', '#327707']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Button - '갱신'    (L520, T45, R608, B68)
+   |    |    | ['갱신2', 'Button6', '갱신Button2']
+   |    |    | child_window(title="갱신", class_name="Button")
+   |    |    | 
+   |    |    | XTPReport - ''    (L19, T43, R395, B150)
+   |    |    | ['XTPReport7', '기간XTPReport3']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | Edit - ''    (L58, T19, R149, B40)
+   |    |    | ['정보Edit3', 'Edit7']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | CheckBox - '고객복사'    (L156, T22, R228, B36)
+   |    |    | ['고객복사', '고객복사CheckBox', 'CheckBox10']
+   |    |    | child_window(title="고객복사", class_name="Button")
+   |    |    | 
+   |    |    | Static - '검색'    (L26, T24, R52, B38)
+   |    |    | ['Static10', '검색Static3', '검색3']
+   |    |    | child_window(title="검색", class_name="Static")
+   |    |    | 
+   |    |    | Button - '통합으로변경'    (L324, T19, R401, B39)
+   |    |    | ['통합으로변경Button', 'Button7', '통합으로변경', '통합으로변경Button0', '통합으로변경Button1']
+   |    |    | child_window(title="통합으로변경", class_name="Button")
+   |    |    | 
+   |    |    | Static - '오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)'    (L413, T24, R970, B36)
+   |    |    | ['Static11', '오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)', '오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)Static']
+   |    |    | child_window(title="오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)", class_name="Static")
+   |    |    | 
+   |    |    | Button - '고객복사 설명'    (L231, T19, R319, B39)
+   |    |    | ['고객복사 설명', 'Button8', '고객복사 설명Button']
+   |    |    | child_window(title="고객복사 설명", class_name="Button")
+   |    | 
+   |    | Button - '갱신'    (L520, T45, R608, B68)
+   |    | ['갱신2', 'Button6', '갱신Button2']
+   |    | child_window(title="갱신", class_name="Button")
+   |    | 
+   |    | XTPReport - ''    (L19, T43, R395, B150)
+   |    | ['XTPReport7', '기간XTPReport3']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Edit - ''    (L58, T19, R149, B40)
+   |    | ['정보Edit3', 'Edit7']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | CheckBox - '고객복사'    (L156, T22, R228, B36)
+   |    | ['고객복사', '고객복사CheckBox', 'CheckBox10']
+   |    | child_window(title="고객복사", class_name="Button")
+   |    | 
+   |    | Static - '검색'    (L26, T24, R52, B38)
+   |    | ['Static10', '검색Static3', '검색3']
+   |    | child_window(title="검색", class_name="Static")
+   |    | 
+   |    | Button - '통합으로변경'    (L324, T19, R401, B39)
+   |    | ['통합으로변경Button', 'Button7', '통합으로변경', '통합으로변경Button0', '통합으로변경Button1']
+   |    | child_window(title="통합으로변경", class_name="Button")
+   |    | 
+   |    | Static - '오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)'    (L413, T24, R970, B36)
+   |    | ['Static11', '오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)', '오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)Static']
+   |    | child_window(title="오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)", class_name="Static")
+   |    | 
+   |    | Button - '고객복사 설명'    (L231, T19, R319, B39)
+   |    | ['고객복사 설명', 'Button8', '고객복사 설명Button']
+   |    | child_window(title="고객복사 설명", class_name="Button")
+   | 
+   | #32770 - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327706', '#327707']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | Button - '갱신'    (L520, T45, R608, B68)
+   |    | ['갱신2', 'Button6', '갱신Button2']
+   |    | child_window(title="갱신", class_name="Button")
+   |    | 
+   |    | XTPReport - ''    (L19, T43, R395, B150)
+   |    | ['XTPReport7', '기간XTPReport3']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Edit - ''    (L58, T19, R149, B40)
+   |    | ['정보Edit3', 'Edit7']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | CheckBox - '고객복사'    (L156, T22, R228, B36)
+   |    | ['고객복사', '고객복사CheckBox', 'CheckBox10']
+   |    | child_window(title="고객복사", class_name="Button")
+   |    | 
+   |    | Static - '검색'    (L26, T24, R52, B38)
+   |    | ['Static10', '검색Static3', '검색3']
+   |    | child_window(title="검색", class_name="Static")
+   |    | 
+   |    | Button - '통합으로변경'    (L324, T19, R401, B39)
+   |    | ['통합으로변경Button', 'Button7', '통합으로변경', '통합으로변경Button0', '통합으로변경Button1']
+   |    | child_window(title="통합으로변경", class_name="Button")
+   |    | 
+   |    | Static - '오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)'    (L413, T24, R970, B36)
+   |    | ['Static11', '오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)', '오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)Static']
+   |    | child_window(title="오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)", class_name="Static")
+   |    | 
+   |    | Button - '고객복사 설명'    (L231, T19, R319, B39)
+   |    | ['고객복사 설명', 'Button8', '고객복사 설명Button']
+   |    | child_window(title="고객복사 설명", class_name="Button")
+   | 
+   | Button - '갱신'    (L520, T45, R608, B68)
+   | ['갱신2', 'Button6', '갱신Button2']
+   | child_window(title="갱신", class_name="Button")
+   | 
+   | XTPReport - ''    (L19, T43, R395, B150)
+   | ['XTPReport7', '기간XTPReport3']
+   | child_window(class_name="XTPReport")
+   | 
+   | Edit - ''    (L58, T19, R149, B40)
+   | ['정보Edit3', 'Edit7']
+   | child_window(class_name="Edit")
+   | 
+   | CheckBox - '고객복사'    (L156, T22, R228, B36)
+   | ['고객복사', '고객복사CheckBox', 'CheckBox10']
+   | child_window(title="고객복사", class_name="Button")
+   | 
+   | Static - '검색'    (L26, T24, R52, B38)
+   | ['Static10', '검색Static3', '검색3']
+   | child_window(title="검색", class_name="Static")
+   | 
+   | Button - '통합으로변경'    (L324, T19, R401, B39)
+   | ['통합으로변경Button', 'Button7', '통합으로변경', '통합으로변경Button0', '통합으로변경Button1']
+   | child_window(title="통합으로변경", class_name="Button")
+   | 
+   | Static - '오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)'    (L413, T24, R970, B36)
+   | ['Static11', '오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)', '오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)Static']
+   | child_window(title="오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)", class_name="Static")
+   | 
+   | Button - '고객복사 설명'    (L231, T19, R319, B39)
+   | ['고객복사 설명', 'Button8', '고객복사 설명Button']
+   | child_window(title="고객복사 설명", class_name="Button")
+   | 
+   | AfxFrameOrView110s - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]AfxFrameOrView110s7', 'AfxFrameOrView110s8']
+   | child_window(class_name="AfxFrameOrView110s")
+   |    | 
+   |    | #32770 - ''    (L17, T14, R17, B14)
+   |    | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327707', '#327708']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Button - '모드'    (L668, T18, R701, B44)
+   |    |    | ['모드', 'Button9', '모드Button']
+   |    |    | child_window(title="모드", class_name="Button")
+   |    |    | 
+   |    |    | Button - '설정'    (L682, T153, R715, B179)
+   |    |    | ['설정', 'Button10', '설정Button', '설정0', '설정1', '설정Button0', '설정Button1']
+   |    |    | child_window(title="설정", class_name="Button")
+   |    |    | 
+   |    |    | Button - '+'    (L668, T45, R701, B71)
+   |    |    | ['Button11', '+Button', '+']
+   |    |    | child_window(title="+", class_name="Button")
+   |    |    | 
+   |    |    | Button - '-'    (L668, T72, R701, B98)
+   |    |    | ['-Button', 'Button12', '-']
+   |    |    | child_window(title="-", class_name="Button")
+   |    |    | 
+   |    |    | Button - '확장'    (L668, T129, R701, B192)
+   |    |    | ['확장3', '확장Button', 'Button13']
+   |    |    | child_window(title="확장", class_name="Button")
+   |    |    | 
+   |    |    | Static - '접수탭을 클릭 후 지도 확인이 가능합니다.'    (L47, T93, R635, B105)
+   |    |    | ['접수탭을 클릭 후 지도 확인이 가능합니다.', '접수탭을 클릭 후 지도 확인이 가능합니다.Static', 'Static12']
+   |    |    | child_window(title="접수탭을 클릭 후 지도 확인이 가능합니다.", class_name="Static")
+   |    | 
+   |    | Button - '모드'    (L668, T18, R701, B44)
+   |    | ['모드', 'Button9', '모드Button']
+   |    | child_window(title="모드", class_name="Button")
+   |    | 
+   |    | Button - '설정'    (L682, T153, R715, B179)
+   |    | ['설정', 'Button10', '설정Button', '설정0', '설정1', '설정Button0', '설정Button1']
+   |    | child_window(title="설정", class_name="Button")
+   |    | 
+   |    | Button - '+'    (L668, T45, R701, B71)
+   |    | ['Button11', '+Button', '+']
+   |    | child_window(title="+", class_name="Button")
+   |    | 
+   |    | Button - '-'    (L668, T72, R701, B98)
+   |    | ['-Button', 'Button12', '-']
+   |    | child_window(title="-", class_name="Button")
+   |    | 
+   |    | Button - '확장'    (L668, T129, R701, B192)
+   |    | ['확장3', '확장Button', 'Button13']
+   |    | child_window(title="확장", class_name="Button")
+   |    | 
+   |    | Static - '접수탭을 클릭 후 지도 확인이 가능합니다.'    (L47, T93, R635, B105)
+   |    | ['접수탭을 클릭 후 지도 확인이 가능합니다.', '접수탭을 클릭 후 지도 확인이 가능합니다.Static', 'Static12']
+   |    | child_window(title="접수탭을 클릭 후 지도 확인이 가능합니다.", class_name="Static")
+   | 
+   | #32770 - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327707', '#327708']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | Button - '모드'    (L668, T18, R701, B44)
+   |    | ['모드', 'Button9', '모드Button']
+   |    | child_window(title="모드", class_name="Button")
+   |    | 
+   |    | Button - '설정'    (L682, T153, R715, B179)
+   |    | ['설정', 'Button10', '설정Button', '설정0', '설정1', '설정Button0', '설정Button1']
+   |    | child_window(title="설정", class_name="Button")
+   |    | 
+   |    | Button - '+'    (L668, T45, R701, B71)
+   |    | ['Button11', '+Button', '+']
+   |    | child_window(title="+", class_name="Button")
+   |    | 
+   |    | Button - '-'    (L668, T72, R701, B98)
+   |    | ['-Button', 'Button12', '-']
+   |    | child_window(title="-", class_name="Button")
+   |    | 
+   |    | Button - '확장'    (L668, T129, R701, B192)
+   |    | ['확장3', '확장Button', 'Button13']
+   |    | child_window(title="확장", class_name="Button")
+   |    | 
+   |    | Static - '접수탭을 클릭 후 지도 확인이 가능합니다.'    (L47, T93, R635, B105)
+   |    | ['접수탭을 클릭 후 지도 확인이 가능합니다.', '접수탭을 클릭 후 지도 확인이 가능합니다.Static', 'Static12']
+   |    | child_window(title="접수탭을 클릭 후 지도 확인이 가능합니다.", class_name="Static")
+   | 
+   | Button - '모드'    (L668, T18, R701, B44)
+   | ['모드', 'Button9', '모드Button']
+   | child_window(title="모드", class_name="Button")
+   | 
+   | Button - '설정'    (L682, T153, R715, B179)
+   | ['설정', 'Button10', '설정Button', '설정0', '설정1', '설정Button0', '설정Button1']
+   | child_window(title="설정", class_name="Button")
+   | 
+   | Button - '+'    (L668, T45, R701, B71)
+   | ['Button11', '+Button', '+']
+   | child_window(title="+", class_name="Button")
+   | 
+   | Button - '-'    (L668, T72, R701, B98)
+   | ['-Button', 'Button12', '-']
+   | child_window(title="-", class_name="Button")
+   | 
+   | Button - '확장'    (L668, T129, R701, B192)
+   | ['확장3', '확장Button', 'Button13']
+   | child_window(title="확장", class_name="Button")
+   | 
+   | Static - '접수탭을 클릭 후 지도 확인이 가능합니다.'    (L47, T93, R635, B105)
+   | ['접수탭을 클릭 후 지도 확인이 가능합니다.', '접수탭을 클릭 후 지도 확인이 가능합니다.Static', 'Static12']
+   | child_window(title="접수탭을 클릭 후 지도 확인이 가능합니다.", class_name="Static")
+   | 
+   | AfxFrameOrView110s - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]AfxFrameOrView110s8', 'AfxFrameOrView110s9']
+   | child_window(class_name="AfxFrameOrView110s")
+   |    | 
+   |    | #32770 - ''    (L17, T14, R17, B14)
+   |    | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327708', '#327709']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Button - '갱신'    (L479, T19, R551, B39)
+   |    |    | ['갱신3', 'Button14', '갱신Button3']
+   |    |    | child_window(title="갱신", class_name="Button")
+   |    |    | 
+   |    |    | XTPReport - ''    (L19, T43, R395, B150)
+   |    |    | ['XTPReport8', '기간XTPReport4']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | Static - '[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.'    (L24, T24, R479, B36)
+   |    |    | ['[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.', 'Static13', '[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.Static']
+   |    |    | child_window(title="[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.", class_name="Static")
+   |    | 
+   |    | Button - '갱신'    (L479, T19, R551, B39)
+   |    | ['갱신3', 'Button14', '갱신Button3']
+   |    | child_window(title="갱신", class_name="Button")
+   |    | 
+   |    | XTPReport - ''    (L19, T43, R395, B150)
+   |    | ['XTPReport8', '기간XTPReport4']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Static - '[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.'    (L24, T24, R479, B36)
+   |    | ['[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.', 'Static13', '[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.Static']
+   |    | child_window(title="[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.", class_name="Static")
+   | 
+   | #32770 - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327708', '#327709']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | Button - '갱신'    (L479, T19, R551, B39)
+   |    | ['갱신3', 'Button14', '갱신Button3']
+   |    | child_window(title="갱신", class_name="Button")
+   |    | 
+   |    | XTPReport - ''    (L19, T43, R395, B150)
+   |    | ['XTPReport8', '기간XTPReport4']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Static - '[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.'    (L24, T24, R479, B36)
+   |    | ['[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.', 'Static13', '[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.Static']
+   |    | child_window(title="[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.", class_name="Static")
+   | 
+   | Button - '갱신'    (L479, T19, R551, B39)
+   | ['갱신3', 'Button14', '갱신Button3']
+   | child_window(title="갱신", class_name="Button")
+   | 
+   | XTPReport - ''    (L19, T43, R395, B150)
+   | ['XTPReport8', '기간XTPReport4']
+   | child_window(class_name="XTPReport")
+   | 
+   | Static - '[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.'    (L24, T24, R479, B36)
+   | ['[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.', 'Static13', '[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.Static']
+   | child_window(title="[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.", class_name="Static")
+   | 
+   | AfxFrameOrView110s - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]AfxFrameOrView110s9', 'AfxFrameOrView110s10']
+   | child_window(class_name="AfxFrameOrView110s")
+   |    | 
+   |    | #32770 - ''    (L17, T14, R17, B14)
+   |    | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327709', '#3277010']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | XTPReport - ''    (L19, T46, R971, B172)
+   |    |    | ['XTPReport9', '기간XTPReport5']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | Static - '∼'    (L177, T24, R191, B38)
+   |    |    | ['Static14', '∼2', '∼Static2']
+   |    |    | child_window(title="∼", class_name="Static")
+   |    |    | 
+   |    |    | Static - '기간'    (L19, T22, R51, B43)
+   |    |    | ['기간Static2', '기간2', 'Static15']
+   |    |    | child_window(title="기간", class_name="Static")
+   |    |    | 
+   |    |    | Button - '조 회(&R)'    (L339, T21, R428, B42)
+   |    |    | ['조 회(&R)', '조 회(&R)Button', 'Button15']
+   |    |    | child_window(title="조 회(&R)", class_name="Button")
+   |    |    | 
+   |    |    | DateTimePicker - '2026-02-19 07:00'    (L52, T21, R171, B42)
+   |    |    | ['DateTimePicker3', '기간DateTimePicker2']
+   |    |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    |    | 
+   |    |    | DateTimePicker - '2026-02-20 07:00'    (L191, T21, R310, B42)
+   |    |    | ['∼DateTimePicker2', 'DateTimePicker4']
+   |    |    | child_window(title="2026-02-20 07:00", class_name="SysDateTimePick32")
+   |    |    | 
+   |    |    | Button - ''    (L315, T22, R333, B40)
+   |    |    | ['통합으로변경Button2', 'Button16']
+   |    |    | child_window(class_name="Button")
+   |    |    | 
+   |    |    | Edit - ''    (L467, T21, R558, B42)
+   |    |    | ['검색Edit2', 'Edit8']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Static - '검색'    (L439, T25, R465, B37)
+   |    |    | ['Static16', '검색Static4', '검색4']
+   |    |    | child_window(title="검색", class_name="Static")
+   |    | 
+   |    | XTPReport - ''    (L19, T46, R971, B172)
+   |    | ['XTPReport9', '기간XTPReport5']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Static - '∼'    (L177, T24, R191, B38)
+   |    | ['Static14', '∼2', '∼Static2']
+   |    | child_window(title="∼", class_name="Static")
+   |    | 
+   |    | Static - '기간'    (L19, T22, R51, B43)
+   |    | ['기간Static2', '기간2', 'Static15']
+   |    | child_window(title="기간", class_name="Static")
+   |    | 
+   |    | Button - '조 회(&R)'    (L339, T21, R428, B42)
+   |    | ['조 회(&R)', '조 회(&R)Button', 'Button15']
+   |    | child_window(title="조 회(&R)", class_name="Button")
+   |    | 
+   |    | DateTimePicker - '2026-02-19 07:00'    (L52, T21, R171, B42)
+   |    | ['DateTimePicker3', '기간DateTimePicker2']
+   |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | DateTimePicker - '2026-02-20 07:00'    (L191, T21, R310, B42)
+   |    | ['∼DateTimePicker2', 'DateTimePicker4']
+   |    | child_window(title="2026-02-20 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | Button - ''    (L315, T22, R333, B40)
+   |    | ['통합으로변경Button2', 'Button16']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | Edit - ''    (L467, T21, R558, B42)
+   |    | ['검색Edit2', 'Edit8']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Static - '검색'    (L439, T25, R465, B37)
+   |    | ['Static16', '검색Static4', '검색4']
+   |    | child_window(title="검색", class_name="Static")
+   | 
+   | #32770 - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]#327709', '#3277010']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | XTPReport - ''    (L19, T46, R971, B172)
+   |    | ['XTPReport9', '기간XTPReport5']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Static - '∼'    (L177, T24, R191, B38)
+   |    | ['Static14', '∼2', '∼Static2']
+   |    | child_window(title="∼", class_name="Static")
+   |    | 
+   |    | Static - '기간'    (L19, T22, R51, B43)
+   |    | ['기간Static2', '기간2', 'Static15']
+   |    | child_window(title="기간", class_name="Static")
+   |    | 
+   |    | Button - '조 회(&R)'    (L339, T21, R428, B42)
+   |    | ['조 회(&R)', '조 회(&R)Button', 'Button15']
+   |    | child_window(title="조 회(&R)", class_name="Button")
+   |    | 
+   |    | DateTimePicker - '2026-02-19 07:00'    (L52, T21, R171, B42)
+   |    | ['DateTimePicker3', '기간DateTimePicker2']
+   |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | DateTimePicker - '2026-02-20 07:00'    (L191, T21, R310, B42)
+   |    | ['∼DateTimePicker2', 'DateTimePicker4']
+   |    | child_window(title="2026-02-20 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | Button - ''    (L315, T22, R333, B40)
+   |    | ['통합으로변경Button2', 'Button16']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | Edit - ''    (L467, T21, R558, B42)
+   |    | ['검색Edit2', 'Edit8']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Static - '검색'    (L439, T25, R465, B37)
+   |    | ['Static16', '검색Static4', '검색4']
+   |    | child_window(title="검색", class_name="Static")
+   | 
+   | XTPReport - ''    (L19, T46, R971, B172)
+   | ['XTPReport9', '기간XTPReport5']
+   | child_window(class_name="XTPReport")
+   | 
+   | Static - '∼'    (L177, T24, R191, B38)
+   | ['Static14', '∼2', '∼Static2']
+   | child_window(title="∼", class_name="Static")
+   | 
+   | Static - '기간'    (L19, T22, R51, B43)
+   | ['기간Static2', '기간2', 'Static15']
+   | child_window(title="기간", class_name="Static")
+   | 
+   | Button - '조 회(&R)'    (L339, T21, R428, B42)
+   | ['조 회(&R)', '조 회(&R)Button', 'Button15']
+   | child_window(title="조 회(&R)", class_name="Button")
+   | 
+   | DateTimePicker - '2026-02-19 07:00'    (L52, T21, R171, B42)
+   | ['DateTimePicker3', '기간DateTimePicker2']
+   | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   | 
+   | DateTimePicker - '2026-02-20 07:00'    (L191, T21, R310, B42)
+   | ['∼DateTimePicker2', 'DateTimePicker4']
+   | child_window(title="2026-02-20 07:00", class_name="SysDateTimePick32")
+   | 
+   | Button - ''    (L315, T22, R333, B40)
+   | ['통합으로변경Button2', 'Button16']
+   | child_window(class_name="Button")
+   | 
+   | Edit - ''    (L467, T21, R558, B42)
+   | ['검색Edit2', 'Edit8']
+   | child_window(class_name="Edit")
+   | 
+   | Static - '검색'    (L439, T25, R465, B37)
+   | ['Static16', '검색Static4', '검색4']
+   | child_window(title="검색", class_name="Static")
+   | 
+   | AfxFrameOrView110s - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]AfxFrameOrView110s10', 'AfxFrameOrView110s11']
+   | child_window(class_name="AfxFrameOrView110s")
+   |    | 
+   |    | #32770 - ''    (L17, T14, R17, B14)
+   |    | ['아리랑콜센터-알렉스.기수신[메인/1등급]#3277010', '#3277011']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | XTPReport - ''    (L19, T43, R971, B177)
+   |    |    | ['XTPReport10', '기간XTPReport6']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | Edit - ''    (L51, T19, R142, B40)
+   |    |    | ['기간Edit3', 'Edit9']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Static - '검색'    (L23, T24, R49, B36)
+   |    |    | ['Static17', '검색Static5', '검색5']
+   |    |    | child_window(title="검색", class_name="Static")
+   |    |    | 
+   |    |    | Static - '다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.'    (L201, T25, R635, B37)
+   |    |    | ['다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.', 'Static18', '다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.Static']
+   |    |    | child_window(title="다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.", class_name="Static")
+   |    |    | 
+   |    |    | Button - '스크O'    (L145, T18, R191, B41)
+   |    |    | ['스크OButton', 'Button17', '스크O']
+   |    |    | child_window(title="스크O", class_name="Button")
+   |    | 
+   |    | XTPReport - ''    (L19, T43, R971, B177)
+   |    | ['XTPReport10', '기간XTPReport6']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Edit - ''    (L51, T19, R142, B40)
+   |    | ['기간Edit3', 'Edit9']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Static - '검색'    (L23, T24, R49, B36)
+   |    | ['Static17', '검색Static5', '검색5']
+   |    | child_window(title="검색", class_name="Static")
+   |    | 
+   |    | Static - '다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.'    (L201, T25, R635, B37)
+   |    | ['다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.', 'Static18', '다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.Static']
+   |    | child_window(title="다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.", class_name="Static")
+   |    | 
+   |    | Button - '스크O'    (L145, T18, R191, B41)
+   |    | ['스크OButton', 'Button17', '스크O']
+   |    | child_window(title="스크O", class_name="Button")
+   | 
+   | #32770 - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]#3277010', '#3277011']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | XTPReport - ''    (L19, T43, R971, B177)
+   |    | ['XTPReport10', '기간XTPReport6']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Edit - ''    (L51, T19, R142, B40)
+   |    | ['기간Edit3', 'Edit9']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Static - '검색'    (L23, T24, R49, B36)
+   |    | ['Static17', '검색Static5', '검색5']
+   |    | child_window(title="검색", class_name="Static")
+   |    | 
+   |    | Static - '다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.'    (L201, T25, R635, B37)
+   |    | ['다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.', 'Static18', '다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.Static']
+   |    | child_window(title="다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.", class_name="Static")
+   |    | 
+   |    | Button - '스크O'    (L145, T18, R191, B41)
+   |    | ['스크OButton', 'Button17', '스크O']
+   |    | child_window(title="스크O", class_name="Button")
+   | 
+   | XTPReport - ''    (L19, T43, R971, B177)
+   | ['XTPReport10', '기간XTPReport6']
+   | child_window(class_name="XTPReport")
+   | 
+   | Edit - ''    (L51, T19, R142, B40)
+   | ['기간Edit3', 'Edit9']
+   | child_window(class_name="Edit")
+   | 
+   | Static - '검색'    (L23, T24, R49, B36)
+   | ['Static17', '검색Static5', '검색5']
+   | child_window(title="검색", class_name="Static")
+   | 
+   | Static - '다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.'    (L201, T25, R635, B37)
+   | ['다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.', 'Static18', '다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.Static']
+   | child_window(title="다른 상담원이 접수중인 오더를 더블 클릭하시면, 접수창을 공유 할 수 있습니다.", class_name="Static")
+   | 
+   | Button - '스크O'    (L145, T18, R191, B41)
+   | ['스크OButton', 'Button17', '스크O']
+   | child_window(title="스크O", class_name="Button")
+   | 
+   | AfxFrameOrView110s - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]AfxFrameOrView110s11', 'AfxFrameOrView110s12']
+   | child_window(class_name="AfxFrameOrView110s")
+   |    | 
+   |    | #32770 - ''    (L17, T14, R17, B14)
+   |    | ['아리랑콜센터-알렉스.기수신[메인/1등급]#3277011', '#3277012']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | CheckBox - '접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)'    (L66, T51, R616, B69)
+   |    |    | ['접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)CheckBox', '접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)', 'CheckBox11']
+   |    |    | child_window(title="접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '요금문의 발생시에 요금문의폼으로 자동 전환'    (L66, T76, R332, B94)
+   |    |    | ['요금문의 발생시에 요금문의폼으로 자동 전환', 'CheckBox12', '요금문의 발생시에 요금문의폼으로 자동 전환CheckBox']
+   |    |    | child_window(title="요금문의 발생시에 요금문의폼으로 자동 전환", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '오접수 수정시 오접수폼으로 자동 전환'    (L66, T102, R332, B120)
+   |    |    | ['오접수 수정시 오접수폼으로 자동 전환', 'CheckBox13', '오접수 수정시 오접수폼으로 자동 전환CheckBox']
+   |    |    | child_window(title="오접수 수정시 오접수폼으로 자동 전환", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '오더이동 후 이전폼으로 자동 전환'    (L66, T128, R332, B146)
+   |    |    | ['CheckBox14', '오더이동 후 이전폼으로 자동 전환', '오더이동 후 이전폼으로 자동 전환CheckBox']
+   |    |    | child_window(title="오더이동 후 이전폼으로 자동 전환", class_name="Button")
+   |    |    | 
+   |    |    | CheckBox - '오더 드래시에 오더이동폼으로 자동변경'    (L66, T156, R332, B174)
+   |    |    | ['오더 드래시에 오더이동폼으로 자동변경CheckBox', '오더 드래시에 오더이동폼으로 자동변경', 'CheckBox15']
+   |    |    | child_window(title="오더 드래시에 오더이동폼으로 자동변경", class_name="Button")
+   |    |    | 
+   |    |    | Button - '하단 폼 초기 상태로'    (L352, T74, R525, B135)
+   |    |    | ['하단 폼 초기 상태로', 'Button18', '하단 폼 초기 상태로Button']
+   |    |    | child_window(title="하단 폼 초기 상태로", class_name="Button")
+   |    |    | 
+   |    |    | Button - '프로그램 크래쉬 테스트'    (L352, T142, R525, B167)
+   |    |    | ['프로그램 크래쉬 테스트Button', '프로그램 크래쉬 테스트', 'Button19']
+   |    |    | child_window(title="프로그램 크래쉬 테스트", class_name="Button")
+   |    |    | 
+   |    |    | Static - '분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)'    (L112, T186, R518, B200)
+   |    |    | ['Static19', '분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)', '분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)Static']
+   |    |    | child_window(title="분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)", class_name="Static")
+   |    |    | 
+   |    |    | ComboBox - ''    (L66, T182, R108, B204)
+   |    |    | ['오더 드래시에 오더이동폼으로 자동변경ComboBox', 'ComboBox']
+   |    |    | child_window(class_name="ComboBox")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L69, T185, R88, B201)
+   |    |    |    | ['Edit10', '오더 드래시에 오더이동폼으로 자동변경Edit']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Edit - ''    (L69, T185, R88, B201)
+   |    |    | ['Edit10', '오더 드래시에 오더이동폼으로 자동변경Edit']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | CheckBox - '접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)'    (L66, T51, R616, B69)
+   |    | ['접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)CheckBox', '접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)', 'CheckBox11']
+   |    | child_window(title="접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)", class_name="Button")
+   |    | 
+   |    | CheckBox - '요금문의 발생시에 요금문의폼으로 자동 전환'    (L66, T76, R332, B94)
+   |    | ['요금문의 발생시에 요금문의폼으로 자동 전환', 'CheckBox12', '요금문의 발생시에 요금문의폼으로 자동 전환CheckBox']
+   |    | child_window(title="요금문의 발생시에 요금문의폼으로 자동 전환", class_name="Button")
+   |    | 
+   |    | CheckBox - '오접수 수정시 오접수폼으로 자동 전환'    (L66, T102, R332, B120)
+   |    | ['오접수 수정시 오접수폼으로 자동 전환', 'CheckBox13', '오접수 수정시 오접수폼으로 자동 전환CheckBox']
+   |    | child_window(title="오접수 수정시 오접수폼으로 자동 전환", class_name="Button")
+   |    | 
+   |    | CheckBox - '오더이동 후 이전폼으로 자동 전환'    (L66, T128, R332, B146)
+   |    | ['CheckBox14', '오더이동 후 이전폼으로 자동 전환', '오더이동 후 이전폼으로 자동 전환CheckBox']
+   |    | child_window(title="오더이동 후 이전폼으로 자동 전환", class_name="Button")
+   |    | 
+   |    | CheckBox - '오더 드래시에 오더이동폼으로 자동변경'    (L66, T156, R332, B174)
+   |    | ['오더 드래시에 오더이동폼으로 자동변경CheckBox', '오더 드래시에 오더이동폼으로 자동변경', 'CheckBox15']
+   |    | child_window(title="오더 드래시에 오더이동폼으로 자동변경", class_name="Button")
+   |    | 
+   |    | Button - '하단 폼 초기 상태로'    (L352, T74, R525, B135)
+   |    | ['하단 폼 초기 상태로', 'Button18', '하단 폼 초기 상태로Button']
+   |    | child_window(title="하단 폼 초기 상태로", class_name="Button")
+   |    | 
+   |    | Button - '프로그램 크래쉬 테스트'    (L352, T142, R525, B167)
+   |    | ['프로그램 크래쉬 테스트Button', '프로그램 크래쉬 테스트', 'Button19']
+   |    | child_window(title="프로그램 크래쉬 테스트", class_name="Button")
+   |    | 
+   |    | Static - '분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)'    (L112, T186, R518, B200)
+   |    | ['Static19', '분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)', '분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)Static']
+   |    | child_window(title="분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)", class_name="Static")
+   |    | 
+   |    | ComboBox - ''    (L66, T182, R108, B204)
+   |    | ['오더 드래시에 오더이동폼으로 자동변경ComboBox', 'ComboBox']
+   |    | child_window(class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - ''    (L69, T185, R88, B201)
+   |    |    | ['Edit10', '오더 드래시에 오더이동폼으로 자동변경Edit']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Edit - ''    (L69, T185, R88, B201)
+   |    | ['Edit10', '오더 드래시에 오더이동폼으로 자동변경Edit']
+   |    | child_window(class_name="Edit")
+   | 
+   | #32770 - ''    (L17, T14, R17, B14)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]#3277011', '#3277012']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | CheckBox - '접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)'    (L66, T51, R616, B69)
+   |    | ['접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)CheckBox', '접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)', 'CheckBox11']
+   |    | child_window(title="접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)", class_name="Button")
+   |    | 
+   |    | CheckBox - '요금문의 발생시에 요금문의폼으로 자동 전환'    (L66, T76, R332, B94)
+   |    | ['요금문의 발생시에 요금문의폼으로 자동 전환', 'CheckBox12', '요금문의 발생시에 요금문의폼으로 자동 전환CheckBox']
+   |    | child_window(title="요금문의 발생시에 요금문의폼으로 자동 전환", class_name="Button")
+   |    | 
+   |    | CheckBox - '오접수 수정시 오접수폼으로 자동 전환'    (L66, T102, R332, B120)
+   |    | ['오접수 수정시 오접수폼으로 자동 전환', 'CheckBox13', '오접수 수정시 오접수폼으로 자동 전환CheckBox']
+   |    | child_window(title="오접수 수정시 오접수폼으로 자동 전환", class_name="Button")
+   |    | 
+   |    | CheckBox - '오더이동 후 이전폼으로 자동 전환'    (L66, T128, R332, B146)
+   |    | ['CheckBox14', '오더이동 후 이전폼으로 자동 전환', '오더이동 후 이전폼으로 자동 전환CheckBox']
+   |    | child_window(title="오더이동 후 이전폼으로 자동 전환", class_name="Button")
+   |    | 
+   |    | CheckBox - '오더 드래시에 오더이동폼으로 자동변경'    (L66, T156, R332, B174)
+   |    | ['오더 드래시에 오더이동폼으로 자동변경CheckBox', '오더 드래시에 오더이동폼으로 자동변경', 'CheckBox15']
+   |    | child_window(title="오더 드래시에 오더이동폼으로 자동변경", class_name="Button")
+   |    | 
+   |    | Button - '하단 폼 초기 상태로'    (L352, T74, R525, B135)
+   |    | ['하단 폼 초기 상태로', 'Button18', '하단 폼 초기 상태로Button']
+   |    | child_window(title="하단 폼 초기 상태로", class_name="Button")
+   |    | 
+   |    | Button - '프로그램 크래쉬 테스트'    (L352, T142, R525, B167)
+   |    | ['프로그램 크래쉬 테스트Button', '프로그램 크래쉬 테스트', 'Button19']
+   |    | child_window(title="프로그램 크래쉬 테스트", class_name="Button")
+   |    | 
+   |    | Static - '분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)'    (L112, T186, R518, B200)
+   |    | ['Static19', '분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)', '분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)Static']
+   |    | child_window(title="분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)", class_name="Static")
+   |    | 
+   |    | ComboBox - ''    (L66, T182, R108, B204)
+   |    | ['오더 드래시에 오더이동폼으로 자동변경ComboBox', 'ComboBox']
+   |    | child_window(class_name="ComboBox")
+   |    |    | 
+   |    |    | Edit - ''    (L69, T185, R88, B201)
+   |    |    | ['Edit10', '오더 드래시에 오더이동폼으로 자동변경Edit']
+   |    |    | child_window(class_name="Edit")
+   |    | 
+   |    | Edit - ''    (L69, T185, R88, B201)
+   |    | ['Edit10', '오더 드래시에 오더이동폼으로 자동변경Edit']
+   |    | child_window(class_name="Edit")
+   | 
+   | CheckBox - '접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)'    (L66, T51, R616, B69)
+   | ['접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)CheckBox', '접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)', 'CheckBox11']
+   | child_window(title="접수화면이 아니면, 하단폼이 자동으로 사라짐(정산, 통계 등등의 탭들로 이동시에 하단폼 축소됨)", class_name="Button")
+   | 
+   | CheckBox - '요금문의 발생시에 요금문의폼으로 자동 전환'    (L66, T76, R332, B94)
+   | ['요금문의 발생시에 요금문의폼으로 자동 전환', 'CheckBox12', '요금문의 발생시에 요금문의폼으로 자동 전환CheckBox']
+   | child_window(title="요금문의 발생시에 요금문의폼으로 자동 전환", class_name="Button")
+   | 
+   | CheckBox - '오접수 수정시 오접수폼으로 자동 전환'    (L66, T102, R332, B120)
+   | ['오접수 수정시 오접수폼으로 자동 전환', 'CheckBox13', '오접수 수정시 오접수폼으로 자동 전환CheckBox']
+   | child_window(title="오접수 수정시 오접수폼으로 자동 전환", class_name="Button")
+   | 
+   | CheckBox - '오더이동 후 이전폼으로 자동 전환'    (L66, T128, R332, B146)
+   | ['CheckBox14', '오더이동 후 이전폼으로 자동 전환', '오더이동 후 이전폼으로 자동 전환CheckBox']
+   | child_window(title="오더이동 후 이전폼으로 자동 전환", class_name="Button")
+   | 
+   | CheckBox - '오더 드래시에 오더이동폼으로 자동변경'    (L66, T156, R332, B174)
+   | ['오더 드래시에 오더이동폼으로 자동변경CheckBox', '오더 드래시에 오더이동폼으로 자동변경', 'CheckBox15']
+   | child_window(title="오더 드래시에 오더이동폼으로 자동변경", class_name="Button")
+   | 
+   | Button - '하단 폼 초기 상태로'    (L352, T74, R525, B135)
+   | ['하단 폼 초기 상태로', 'Button18', '하단 폼 초기 상태로Button']
+   | child_window(title="하단 폼 초기 상태로", class_name="Button")
+   | 
+   | Button - '프로그램 크래쉬 테스트'    (L352, T142, R525, B167)
+   | ['프로그램 크래쉬 테스트Button', '프로그램 크래쉬 테스트', 'Button19']
+   | child_window(title="프로그램 크래쉬 테스트", class_name="Button")
+   | 
+   | Static - '분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)'    (L112, T186, R518, B200)
+   | ['Static19', '분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)', '분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)Static']
+   | child_window(title="분동안 하단 폼 이동 없을 시 콜리스트로 자동 전환(0분은 이동안함)", class_name="Static")
+   | 
+   | ComboBox - ''    (L66, T182, R108, B204)
+   | ['오더 드래시에 오더이동폼으로 자동변경ComboBox', 'ComboBox']
+   | child_window(class_name="ComboBox")
+   |    | 
+   |    | Edit - ''    (L69, T185, R88, B201)
+   |    | ['Edit10', '오더 드래시에 오더이동폼으로 자동변경Edit']
+   |    | child_window(class_name="Edit")
+   | 
+   | Edit - ''    (L69, T185, R88, B201)
+   | ['Edit10', '오더 드래시에 오더이동폼으로 자동변경Edit']
+   | child_window(class_name="Edit")
+   | 
+   | AfxControlBar110s - ''    (L17, T40, R732, B40)
+   | ['AfxControlBar110s', '기간AfxControlBar110s', 'AfxControlBar110s0', 'AfxControlBar110s1']
+   | child_window(class_name="AfxControlBar110s")
+   | 
+   | AfxControlBar110s - ''    (L17, T970, R732, B970)
+   | ['AfxControlBar110s2', '아리랑콜센터-알렉스.기수신[메인/1등급]AfxControlBar110s', '아리랑콜센터-알렉스.기수신[메인/1등급]AfxControlBar110s0', '아리랑콜센터-알렉스.기수신[메인/1등급]AfxControlBar110s1']
+   | child_window(class_name="AfxControlBar110s")
+   | 
+   | AfxControlBar110s - ''    (L17, T40, R17, B970)
+   | ['AfxControlBar110s3', '아리랑콜센터-알렉스.기수신[메인/1등급]AfxControlBar110s2']
+   | child_window(class_name="AfxControlBar110s")
+   | 
+   | AfxControlBar110s - ''    (L732, T40, R732, B970)
+   | ['AfxControlBar110s4', '아리랑콜센터-알렉스.기수신[메인/1등급]AfxControlBar110s3']
+   | child_window(class_name="AfxControlBar110s")
+   | 
+   | XTPDockingPaneTabbedContainer - '콜리스트'    (L17, T14, R17, B14)
+   | ['XTPDockingPaneTabbedContainer', '콜리스트XTPDockingPaneTabbedContainer', '콜리스트', 'XTPDockingPaneTabbedContainer0', 'XTPDockingPaneTabbedContainer1']
+   | child_window(title="콜리스트", class_name="XTPDockingPaneTabbedContainer")
+   |    | 
+   |    | AfxFrameOrView110s - ''    (L17, T14, R736, B289)
+   |    | ['AfxFrameOrView110s13', '검색AfxFrameOrView110s']
+   |    | child_window(class_name="AfxFrameOrView110s")
+   |    |    | 
+   |    |    | #32770 - ''    (L17, T14, R736, B289)
+   |    |    | ['#3277013', '검색#32770']
+   |    |    | child_window(class_name="#32770")
+   |    |    |    | 
+   |    |    |    | Static - '상태'    (L24, T23, R49, B35)
+   |    |    |    | ['상태', 'Static20', '상태Static']
+   |    |    |    | child_window(title="상태", class_name="Static")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L495, T17, R586, B38)
+   |    |    |    | ['[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.Edit', 'Edit11']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Button - '전화받기'    (L589, T17, R657, B38)
+   |    |    |    | ['전화받기', '전화받기Button', 'Button20']
+   |    |    |    | child_window(title="전화받기", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Button - '끊기'    (L659, T17, R726, B38)
+   |    |    |    | ['Button21', '끊기', '끊기Button']
+   |    |    |    | child_window(title="끊기", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Edit - '연결안됨-IP/내선번호 입력요망'    (L54, T17, R194, B38)
+   |    |    |    | ['정보Edit4', 'Edit12']
+   |    |    |    | child_window(title="연결안됨-IP/내선번호 입력요망", class_name="Edit")
+   |    |    |    | 
+   |    |    |    | XTPReport - ''    (L17, T44, R734, B287)
+   |    |    |    | ['XTPReport11', '기간XTPReport7']
+   |    |    |    | child_window(class_name="XTPReport")
+   |    |    |    | 
+   |    |    |    | XTPReport - ''    (L1182, T67, R1182, B287)
+   |    |    |    | ['XTPReport12', '공지관리XTPReport']
+   |    |    |    | child_window(class_name="XTPReport")
+   |    |    |    | 
+   |    |    |    | Button - 'Up'    (L651, T125, R676, B146)
+   |    |    |    | ['Button22', 'UpButton', 'Up']
+   |    |    |    | child_window(title="Up", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Button - 'Dn'    (L679, T125, R704, B146)
+   |    |    |    | ['Button23', 'Dn', 'DnButton']
+   |    |    |    | child_window(title="Dn", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Button - '설정'    (L203, T17, R249, B38)
+   |    |    |    | ['설정2', 'Button24', '설정Button2']
+   |    |    |    | child_window(title="설정", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Static - '검색'    (L467, T22, R493, B34)
+   |    |    |    | ['Static21', '검색Static6', '검색6']
+   |    |    |    | child_window(title="검색", class_name="Static")
+   |    |    |    | 
+   |    |    |    | CheckBox - '갱신중지'    (L255, T20, R327, B37)
+   |    |    |    | ['갱신중지', '갱신중지CheckBox', 'CheckBox16']
+   |    |    |    | child_window(title="갱신중지", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Static - 'Static'    (L1023, T43, R1023, B66)
+   |    |    |    | ['StaticStatic', 'Static22']
+   |    |    |    | child_window(title="Static", class_name="Static")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L808, T17, R913, B38)
+   |    |    |    | ['요금문의 답변시 구간 요금 자동입력됨(경유제외)Edit', 'Edit13']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Button - '걸기'    (L1022, T17, R1062, B38)
+   |    |    |    | ['Button25', '걸기Button', '걸기']
+   |    |    |    | child_window(title="걸기", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Button - '메모리걸기▷'    (L1127, T17, R1209, B38)
+   |    |    |    | ['메모리걸기▷Button', 'Button26', '메모리걸기▷']
+   |    |    |    | child_window(title="메모리걸기▷", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Button - '이전조회'    (L1064, T17, R1124, B38)
+   |    |    |    | ['이전조회Button', '이전조회', 'Button27']
+   |    |    |    | child_window(title="이전조회", class_name="Button")
+   |    |    |    | 
+   |    |    |    | XTPReport - ''    (L17, T44, R734, B287)
+   |    |    |    | ['XTPReport13', '기간XTPReport8']
+   |    |    |    | child_window(class_name="XTPReport")
+   |    |    |    | 
+   |    |    |    | DateTimePicker - '2026-02-18 07:00'    (L54, T19, R173, B40)
+   |    |    |    | ['DateTimePicker5', '정보DateTimePicker']
+   |    |    |    | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   |    |    |    | 
+   |    |    |    | DateTimePicker - '2026-02-19 07:00'    (L192, T19, R311, B40)
+   |    |    |    | ['스크ODateTimePicker', 'DateTimePicker6']
+   |    |    |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    |    |    | 
+   |    |    |    | Static - '∼'    (L176, T23, R190, B35)
+   |    |    |    | ['Static23', '∼3', '∼Static3']
+   |    |    |    | child_window(title="∼", class_name="Static")
+   |    |    |    | 
+   |    |    |    | Static - '기간'    (L24, T22, R49, B40)
+   |    |    |    | ['기간Static3', '기간3', 'Static24']
+   |    |    |    | child_window(title="기간", class_name="Static")
+   |    |    |    | 
+   |    |    |    | Button - ''    (L313, T22, R329, B37)
+   |    |    |    | ['통합으로변경Button3', 'Button28']
+   |    |    |    | child_window(class_name="Button")
+   |    |    |    | 
+   |    |    |    | Button - '갱 신'    (L332, T17, R385, B38)
+   |    |    |    | ['갱 신Button', 'Button29', '갱 신']
+   |    |    |    | child_window(title="갱 신", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Button - '아웃바운드오더생성'    (L1261, T100, R1385, B121)
+   |    |    |    | ['아웃바운드오더생성Button', 'Button30', '아웃바운드오더생성']
+   |    |    |    | child_window(title="아웃바운드오더생성", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Edit - '연결안됨'    (L332, T17, R390, B38)
+   |    |    |    | ['Edit14', '통합으로변경Edit']
+   |    |    |    | child_window(title="연결안됨", class_name="Edit")
+   |    |    |    | 
+   |    |    |    | Button - '휴식모드'    (L393, T17, R461, B38)
+   |    |    |    | ['휴식모드Button', 'Button31', '휴식모드']
+   |    |    |    | child_window(title="휴식모드", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Button - '아웃바운드번호등록'    (L1326, T17, R1450, B38)
+   |    |    |    | ['아웃바운드번호등록Button', 'Button32', '아웃바운드번호등록']
+   |    |    |    | child_window(title="아웃바운드번호등록", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Button - '○아리랑콜▷'    (L728, T17, R807, B38)
+   |    |    |    | ['○아리랑콜▷', '○아리랑콜▷Button', 'Button33']
+   |    |    |    | child_window(title="○아리랑콜▷", class_name="Button")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L915, T17, R1020, B38)
+   |    |    |    | ['오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)Edit', 'Edit15']
+   |    |    |    | child_window(class_name="Edit")
+   |    |    |    | 
+   |    |    |    | CheckBox - '자동 아웃 바운드'    (L1214, T20, R1326, B35)
+   |    |    |    | ['자동 아웃 바운드CheckBox', 'CheckBox17', '자동 아웃 바운드']
+   |    |    |    | child_window(title="자동 아웃 바운드", class_name="Button")
+   |    |    | 
+   |    |    | Static - '상태'    (L24, T23, R49, B35)
+   |    |    | ['상태', 'Static20', '상태Static']
+   |    |    | child_window(title="상태", class_name="Static")
+   |    |    | 
+   |    |    | Edit - ''    (L495, T17, R586, B38)
+   |    |    | ['[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.Edit', 'Edit11']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Button - '전화받기'    (L589, T17, R657, B38)
+   |    |    | ['전화받기', '전화받기Button', 'Button20']
+   |    |    | child_window(title="전화받기", class_name="Button")
+   |    |    | 
+   |    |    | Button - '끊기'    (L659, T17, R726, B38)
+   |    |    | ['Button21', '끊기', '끊기Button']
+   |    |    | child_window(title="끊기", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '연결안됨-IP/내선번호 입력요망'    (L54, T17, R194, B38)
+   |    |    | ['정보Edit4', 'Edit12']
+   |    |    | child_window(title="연결안됨-IP/내선번호 입력요망", class_name="Edit")
+   |    |    | 
+   |    |    | XTPReport - ''    (L17, T44, R734, B287)
+   |    |    | ['XTPReport11', '기간XTPReport7']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | XTPReport - ''    (L1182, T67, R1182, B287)
+   |    |    | ['XTPReport12', '공지관리XTPReport']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | Button - 'Up'    (L651, T125, R676, B146)
+   |    |    | ['Button22', 'UpButton', 'Up']
+   |    |    | child_window(title="Up", class_name="Button")
+   |    |    | 
+   |    |    | Button - 'Dn'    (L679, T125, R704, B146)
+   |    |    | ['Button23', 'Dn', 'DnButton']
+   |    |    | child_window(title="Dn", class_name="Button")
+   |    |    | 
+   |    |    | Button - '설정'    (L203, T17, R249, B38)
+   |    |    | ['설정2', 'Button24', '설정Button2']
+   |    |    | child_window(title="설정", class_name="Button")
+   |    |    | 
+   |    |    | Static - '검색'    (L467, T22, R493, B34)
+   |    |    | ['Static21', '검색Static6', '검색6']
+   |    |    | child_window(title="검색", class_name="Static")
+   |    |    | 
+   |    |    | CheckBox - '갱신중지'    (L255, T20, R327, B37)
+   |    |    | ['갱신중지', '갱신중지CheckBox', 'CheckBox16']
+   |    |    | child_window(title="갱신중지", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Static'    (L1023, T43, R1023, B66)
+   |    |    | ['StaticStatic', 'Static22']
+   |    |    | child_window(title="Static", class_name="Static")
+   |    |    | 
+   |    |    | Edit - ''    (L808, T17, R913, B38)
+   |    |    | ['요금문의 답변시 구간 요금 자동입력됨(경유제외)Edit', 'Edit13']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Button - '걸기'    (L1022, T17, R1062, B38)
+   |    |    | ['Button25', '걸기Button', '걸기']
+   |    |    | child_window(title="걸기", class_name="Button")
+   |    |    | 
+   |    |    | Button - '메모리걸기▷'    (L1127, T17, R1209, B38)
+   |    |    | ['메모리걸기▷Button', 'Button26', '메모리걸기▷']
+   |    |    | child_window(title="메모리걸기▷", class_name="Button")
+   |    |    | 
+   |    |    | Button - '이전조회'    (L1064, T17, R1124, B38)
+   |    |    | ['이전조회Button', '이전조회', 'Button27']
+   |    |    | child_window(title="이전조회", class_name="Button")
+   |    |    | 
+   |    |    | XTPReport - ''    (L17, T44, R734, B287)
+   |    |    | ['XTPReport13', '기간XTPReport8']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | DateTimePicker - '2026-02-18 07:00'    (L54, T19, R173, B40)
+   |    |    | ['DateTimePicker5', '정보DateTimePicker']
+   |    |    | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   |    |    | 
+   |    |    | DateTimePicker - '2026-02-19 07:00'    (L192, T19, R311, B40)
+   |    |    | ['스크ODateTimePicker', 'DateTimePicker6']
+   |    |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    |    | 
+   |    |    | Static - '∼'    (L176, T23, R190, B35)
+   |    |    | ['Static23', '∼3', '∼Static3']
+   |    |    | child_window(title="∼", class_name="Static")
+   |    |    | 
+   |    |    | Static - '기간'    (L24, T22, R49, B40)
+   |    |    | ['기간Static3', '기간3', 'Static24']
+   |    |    | child_window(title="기간", class_name="Static")
+   |    |    | 
+   |    |    | Button - ''    (L313, T22, R329, B37)
+   |    |    | ['통합으로변경Button3', 'Button28']
+   |    |    | child_window(class_name="Button")
+   |    |    | 
+   |    |    | Button - '갱 신'    (L332, T17, R385, B38)
+   |    |    | ['갱 신Button', 'Button29', '갱 신']
+   |    |    | child_window(title="갱 신", class_name="Button")
+   |    |    | 
+   |    |    | Button - '아웃바운드오더생성'    (L1261, T100, R1385, B121)
+   |    |    | ['아웃바운드오더생성Button', 'Button30', '아웃바운드오더생성']
+   |    |    | child_window(title="아웃바운드오더생성", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '연결안됨'    (L332, T17, R390, B38)
+   |    |    | ['Edit14', '통합으로변경Edit']
+   |    |    | child_window(title="연결안됨", class_name="Edit")
+   |    |    | 
+   |    |    | Button - '휴식모드'    (L393, T17, R461, B38)
+   |    |    | ['휴식모드Button', 'Button31', '휴식모드']
+   |    |    | child_window(title="휴식모드", class_name="Button")
+   |    |    | 
+   |    |    | Button - '아웃바운드번호등록'    (L1326, T17, R1450, B38)
+   |    |    | ['아웃바운드번호등록Button', 'Button32', '아웃바운드번호등록']
+   |    |    | child_window(title="아웃바운드번호등록", class_name="Button")
+   |    |    | 
+   |    |    | Button - '○아리랑콜▷'    (L728, T17, R807, B38)
+   |    |    | ['○아리랑콜▷', '○아리랑콜▷Button', 'Button33']
+   |    |    | child_window(title="○아리랑콜▷", class_name="Button")
+   |    |    | 
+   |    |    | Edit - ''    (L915, T17, R1020, B38)
+   |    |    | ['오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)Edit', 'Edit15']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | CheckBox - '자동 아웃 바운드'    (L1214, T20, R1326, B35)
+   |    |    | ['자동 아웃 바운드CheckBox', 'CheckBox17', '자동 아웃 바운드']
+   |    |    | child_window(title="자동 아웃 바운드", class_name="Button")
+   |    | 
+   |    | #32770 - ''    (L17, T14, R736, B289)
+   |    | ['#3277013', '검색#32770']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Static - '상태'    (L24, T23, R49, B35)
+   |    |    | ['상태', 'Static20', '상태Static']
+   |    |    | child_window(title="상태", class_name="Static")
+   |    |    | 
+   |    |    | Edit - ''    (L495, T17, R586, B38)
+   |    |    | ['[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.Edit', 'Edit11']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Button - '전화받기'    (L589, T17, R657, B38)
+   |    |    | ['전화받기', '전화받기Button', 'Button20']
+   |    |    | child_window(title="전화받기", class_name="Button")
+   |    |    | 
+   |    |    | Button - '끊기'    (L659, T17, R726, B38)
+   |    |    | ['Button21', '끊기', '끊기Button']
+   |    |    | child_window(title="끊기", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '연결안됨-IP/내선번호 입력요망'    (L54, T17, R194, B38)
+   |    |    | ['정보Edit4', 'Edit12']
+   |    |    | child_window(title="연결안됨-IP/내선번호 입력요망", class_name="Edit")
+   |    |    | 
+   |    |    | XTPReport - ''    (L17, T44, R734, B287)
+   |    |    | ['XTPReport11', '기간XTPReport7']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | XTPReport - ''    (L1182, T67, R1182, B287)
+   |    |    | ['XTPReport12', '공지관리XTPReport']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | Button - 'Up'    (L651, T125, R676, B146)
+   |    |    | ['Button22', 'UpButton', 'Up']
+   |    |    | child_window(title="Up", class_name="Button")
+   |    |    | 
+   |    |    | Button - 'Dn'    (L679, T125, R704, B146)
+   |    |    | ['Button23', 'Dn', 'DnButton']
+   |    |    | child_window(title="Dn", class_name="Button")
+   |    |    | 
+   |    |    | Button - '설정'    (L203, T17, R249, B38)
+   |    |    | ['설정2', 'Button24', '설정Button2']
+   |    |    | child_window(title="설정", class_name="Button")
+   |    |    | 
+   |    |    | Static - '검색'    (L467, T22, R493, B34)
+   |    |    | ['Static21', '검색Static6', '검색6']
+   |    |    | child_window(title="검색", class_name="Static")
+   |    |    | 
+   |    |    | CheckBox - '갱신중지'    (L255, T20, R327, B37)
+   |    |    | ['갱신중지', '갱신중지CheckBox', 'CheckBox16']
+   |    |    | child_window(title="갱신중지", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Static'    (L1023, T43, R1023, B66)
+   |    |    | ['StaticStatic', 'Static22']
+   |    |    | child_window(title="Static", class_name="Static")
+   |    |    | 
+   |    |    | Edit - ''    (L808, T17, R913, B38)
+   |    |    | ['요금문의 답변시 구간 요금 자동입력됨(경유제외)Edit', 'Edit13']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Button - '걸기'    (L1022, T17, R1062, B38)
+   |    |    | ['Button25', '걸기Button', '걸기']
+   |    |    | child_window(title="걸기", class_name="Button")
+   |    |    | 
+   |    |    | Button - '메모리걸기▷'    (L1127, T17, R1209, B38)
+   |    |    | ['메모리걸기▷Button', 'Button26', '메모리걸기▷']
+   |    |    | child_window(title="메모리걸기▷", class_name="Button")
+   |    |    | 
+   |    |    | Button - '이전조회'    (L1064, T17, R1124, B38)
+   |    |    | ['이전조회Button', '이전조회', 'Button27']
+   |    |    | child_window(title="이전조회", class_name="Button")
+   |    |    | 
+   |    |    | XTPReport - ''    (L17, T44, R734, B287)
+   |    |    | ['XTPReport13', '기간XTPReport8']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | DateTimePicker - '2026-02-18 07:00'    (L54, T19, R173, B40)
+   |    |    | ['DateTimePicker5', '정보DateTimePicker']
+   |    |    | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   |    |    | 
+   |    |    | DateTimePicker - '2026-02-19 07:00'    (L192, T19, R311, B40)
+   |    |    | ['스크ODateTimePicker', 'DateTimePicker6']
+   |    |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    |    | 
+   |    |    | Static - '∼'    (L176, T23, R190, B35)
+   |    |    | ['Static23', '∼3', '∼Static3']
+   |    |    | child_window(title="∼", class_name="Static")
+   |    |    | 
+   |    |    | Static - '기간'    (L24, T22, R49, B40)
+   |    |    | ['기간Static3', '기간3', 'Static24']
+   |    |    | child_window(title="기간", class_name="Static")
+   |    |    | 
+   |    |    | Button - ''    (L313, T22, R329, B37)
+   |    |    | ['통합으로변경Button3', 'Button28']
+   |    |    | child_window(class_name="Button")
+   |    |    | 
+   |    |    | Button - '갱 신'    (L332, T17, R385, B38)
+   |    |    | ['갱 신Button', 'Button29', '갱 신']
+   |    |    | child_window(title="갱 신", class_name="Button")
+   |    |    | 
+   |    |    | Button - '아웃바운드오더생성'    (L1261, T100, R1385, B121)
+   |    |    | ['아웃바운드오더생성Button', 'Button30', '아웃바운드오더생성']
+   |    |    | child_window(title="아웃바운드오더생성", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '연결안됨'    (L332, T17, R390, B38)
+   |    |    | ['Edit14', '통합으로변경Edit']
+   |    |    | child_window(title="연결안됨", class_name="Edit")
+   |    |    | 
+   |    |    | Button - '휴식모드'    (L393, T17, R461, B38)
+   |    |    | ['휴식모드Button', 'Button31', '휴식모드']
+   |    |    | child_window(title="휴식모드", class_name="Button")
+   |    |    | 
+   |    |    | Button - '아웃바운드번호등록'    (L1326, T17, R1450, B38)
+   |    |    | ['아웃바운드번호등록Button', 'Button32', '아웃바운드번호등록']
+   |    |    | child_window(title="아웃바운드번호등록", class_name="Button")
+   |    |    | 
+   |    |    | Button - '○아리랑콜▷'    (L728, T17, R807, B38)
+   |    |    | ['○아리랑콜▷', '○아리랑콜▷Button', 'Button33']
+   |    |    | child_window(title="○아리랑콜▷", class_name="Button")
+   |    |    | 
+   |    |    | Edit - ''    (L915, T17, R1020, B38)
+   |    |    | ['오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)Edit', 'Edit15']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | CheckBox - '자동 아웃 바운드'    (L1214, T20, R1326, B35)
+   |    |    | ['자동 아웃 바운드CheckBox', 'CheckBox17', '자동 아웃 바운드']
+   |    |    | child_window(title="자동 아웃 바운드", class_name="Button")
+   |    | 
+   |    | Static - '상태'    (L24, T23, R49, B35)
+   |    | ['상태', 'Static20', '상태Static']
+   |    | child_window(title="상태", class_name="Static")
+   |    | 
+   |    | Edit - ''    (L495, T17, R586, B38)
+   |    | ['[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.Edit', 'Edit11']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Button - '전화받기'    (L589, T17, R657, B38)
+   |    | ['전화받기', '전화받기Button', 'Button20']
+   |    | child_window(title="전화받기", class_name="Button")
+   |    | 
+   |    | Button - '끊기'    (L659, T17, R726, B38)
+   |    | ['Button21', '끊기', '끊기Button']
+   |    | child_window(title="끊기", class_name="Button")
+   |    | 
+   |    | Edit - '연결안됨-IP/내선번호 입력요망'    (L54, T17, R194, B38)
+   |    | ['정보Edit4', 'Edit12']
+   |    | child_window(title="연결안됨-IP/내선번호 입력요망", class_name="Edit")
+   |    | 
+   |    | XTPReport - ''    (L17, T44, R734, B287)
+   |    | ['XTPReport11', '기간XTPReport7']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | XTPReport - ''    (L1182, T67, R1182, B287)
+   |    | ['XTPReport12', '공지관리XTPReport']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Button - 'Up'    (L651, T125, R676, B146)
+   |    | ['Button22', 'UpButton', 'Up']
+   |    | child_window(title="Up", class_name="Button")
+   |    | 
+   |    | Button - 'Dn'    (L679, T125, R704, B146)
+   |    | ['Button23', 'Dn', 'DnButton']
+   |    | child_window(title="Dn", class_name="Button")
+   |    | 
+   |    | Button - '설정'    (L203, T17, R249, B38)
+   |    | ['설정2', 'Button24', '설정Button2']
+   |    | child_window(title="설정", class_name="Button")
+   |    | 
+   |    | Static - '검색'    (L467, T22, R493, B34)
+   |    | ['Static21', '검색Static6', '검색6']
+   |    | child_window(title="검색", class_name="Static")
+   |    | 
+   |    | CheckBox - '갱신중지'    (L255, T20, R327, B37)
+   |    | ['갱신중지', '갱신중지CheckBox', 'CheckBox16']
+   |    | child_window(title="갱신중지", class_name="Button")
+   |    | 
+   |    | Static - 'Static'    (L1023, T43, R1023, B66)
+   |    | ['StaticStatic', 'Static22']
+   |    | child_window(title="Static", class_name="Static")
+   |    | 
+   |    | Edit - ''    (L808, T17, R913, B38)
+   |    | ['요금문의 답변시 구간 요금 자동입력됨(경유제외)Edit', 'Edit13']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Button - '걸기'    (L1022, T17, R1062, B38)
+   |    | ['Button25', '걸기Button', '걸기']
+   |    | child_window(title="걸기", class_name="Button")
+   |    | 
+   |    | Button - '메모리걸기▷'    (L1127, T17, R1209, B38)
+   |    | ['메모리걸기▷Button', 'Button26', '메모리걸기▷']
+   |    | child_window(title="메모리걸기▷", class_name="Button")
+   |    | 
+   |    | Button - '이전조회'    (L1064, T17, R1124, B38)
+   |    | ['이전조회Button', '이전조회', 'Button27']
+   |    | child_window(title="이전조회", class_name="Button")
+   |    | 
+   |    | XTPReport - ''    (L17, T44, R734, B287)
+   |    | ['XTPReport13', '기간XTPReport8']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | DateTimePicker - '2026-02-18 07:00'    (L54, T19, R173, B40)
+   |    | ['DateTimePicker5', '정보DateTimePicker']
+   |    | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | DateTimePicker - '2026-02-19 07:00'    (L192, T19, R311, B40)
+   |    | ['스크ODateTimePicker', 'DateTimePicker6']
+   |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | Static - '∼'    (L176, T23, R190, B35)
+   |    | ['Static23', '∼3', '∼Static3']
+   |    | child_window(title="∼", class_name="Static")
+   |    | 
+   |    | Static - '기간'    (L24, T22, R49, B40)
+   |    | ['기간Static3', '기간3', 'Static24']
+   |    | child_window(title="기간", class_name="Static")
+   |    | 
+   |    | Button - ''    (L313, T22, R329, B37)
+   |    | ['통합으로변경Button3', 'Button28']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | Button - '갱 신'    (L332, T17, R385, B38)
+   |    | ['갱 신Button', 'Button29', '갱 신']
+   |    | child_window(title="갱 신", class_name="Button")
+   |    | 
+   |    | Button - '아웃바운드오더생성'    (L1261, T100, R1385, B121)
+   |    | ['아웃바운드오더생성Button', 'Button30', '아웃바운드오더생성']
+   |    | child_window(title="아웃바운드오더생성", class_name="Button")
+   |    | 
+   |    | Edit - '연결안됨'    (L332, T17, R390, B38)
+   |    | ['Edit14', '통합으로변경Edit']
+   |    | child_window(title="연결안됨", class_name="Edit")
+   |    | 
+   |    | Button - '휴식모드'    (L393, T17, R461, B38)
+   |    | ['휴식모드Button', 'Button31', '휴식모드']
+   |    | child_window(title="휴식모드", class_name="Button")
+   |    | 
+   |    | Button - '아웃바운드번호등록'    (L1326, T17, R1450, B38)
+   |    | ['아웃바운드번호등록Button', 'Button32', '아웃바운드번호등록']
+   |    | child_window(title="아웃바운드번호등록", class_name="Button")
+   |    | 
+   |    | Button - '○아리랑콜▷'    (L728, T17, R807, B38)
+   |    | ['○아리랑콜▷', '○아리랑콜▷Button', 'Button33']
+   |    | child_window(title="○아리랑콜▷", class_name="Button")
+   |    | 
+   |    | Edit - ''    (L915, T17, R1020, B38)
+   |    | ['오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)Edit', 'Edit15']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | CheckBox - '자동 아웃 바운드'    (L1214, T20, R1326, B35)
+   |    | ['자동 아웃 바운드CheckBox', 'CheckBox17', '자동 아웃 바운드']
+   |    | child_window(title="자동 아웃 바운드", class_name="Button")
+   | 
+   | AfxFrameOrView110s - ''    (L17, T14, R736, B289)
+   | ['AfxFrameOrView110s13', '검색AfxFrameOrView110s']
+   | child_window(class_name="AfxFrameOrView110s")
+   |    | 
+   |    | #32770 - ''    (L17, T14, R736, B289)
+   |    | ['#3277013', '검색#32770']
+   |    | child_window(class_name="#32770")
+   |    |    | 
+   |    |    | Static - '상태'    (L24, T23, R49, B35)
+   |    |    | ['상태', 'Static20', '상태Static']
+   |    |    | child_window(title="상태", class_name="Static")
+   |    |    | 
+   |    |    | Edit - ''    (L495, T17, R586, B38)
+   |    |    | ['[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.Edit', 'Edit11']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Button - '전화받기'    (L589, T17, R657, B38)
+   |    |    | ['전화받기', '전화받기Button', 'Button20']
+   |    |    | child_window(title="전화받기", class_name="Button")
+   |    |    | 
+   |    |    | Button - '끊기'    (L659, T17, R726, B38)
+   |    |    | ['Button21', '끊기', '끊기Button']
+   |    |    | child_window(title="끊기", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '연결안됨-IP/내선번호 입력요망'    (L54, T17, R194, B38)
+   |    |    | ['정보Edit4', 'Edit12']
+   |    |    | child_window(title="연결안됨-IP/내선번호 입력요망", class_name="Edit")
+   |    |    | 
+   |    |    | XTPReport - ''    (L17, T44, R734, B287)
+   |    |    | ['XTPReport11', '기간XTPReport7']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | XTPReport - ''    (L1182, T67, R1182, B287)
+   |    |    | ['XTPReport12', '공지관리XTPReport']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | Button - 'Up'    (L651, T125, R676, B146)
+   |    |    | ['Button22', 'UpButton', 'Up']
+   |    |    | child_window(title="Up", class_name="Button")
+   |    |    | 
+   |    |    | Button - 'Dn'    (L679, T125, R704, B146)
+   |    |    | ['Button23', 'Dn', 'DnButton']
+   |    |    | child_window(title="Dn", class_name="Button")
+   |    |    | 
+   |    |    | Button - '설정'    (L203, T17, R249, B38)
+   |    |    | ['설정2', 'Button24', '설정Button2']
+   |    |    | child_window(title="설정", class_name="Button")
+   |    |    | 
+   |    |    | Static - '검색'    (L467, T22, R493, B34)
+   |    |    | ['Static21', '검색Static6', '검색6']
+   |    |    | child_window(title="검색", class_name="Static")
+   |    |    | 
+   |    |    | CheckBox - '갱신중지'    (L255, T20, R327, B37)
+   |    |    | ['갱신중지', '갱신중지CheckBox', 'CheckBox16']
+   |    |    | child_window(title="갱신중지", class_name="Button")
+   |    |    | 
+   |    |    | Static - 'Static'    (L1023, T43, R1023, B66)
+   |    |    | ['StaticStatic', 'Static22']
+   |    |    | child_window(title="Static", class_name="Static")
+   |    |    | 
+   |    |    | Edit - ''    (L808, T17, R913, B38)
+   |    |    | ['요금문의 답변시 구간 요금 자동입력됨(경유제외)Edit', 'Edit13']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | Button - '걸기'    (L1022, T17, R1062, B38)
+   |    |    | ['Button25', '걸기Button', '걸기']
+   |    |    | child_window(title="걸기", class_name="Button")
+   |    |    | 
+   |    |    | Button - '메모리걸기▷'    (L1127, T17, R1209, B38)
+   |    |    | ['메모리걸기▷Button', 'Button26', '메모리걸기▷']
+   |    |    | child_window(title="메모리걸기▷", class_name="Button")
+   |    |    | 
+   |    |    | Button - '이전조회'    (L1064, T17, R1124, B38)
+   |    |    | ['이전조회Button', '이전조회', 'Button27']
+   |    |    | child_window(title="이전조회", class_name="Button")
+   |    |    | 
+   |    |    | XTPReport - ''    (L17, T44, R734, B287)
+   |    |    | ['XTPReport13', '기간XTPReport8']
+   |    |    | child_window(class_name="XTPReport")
+   |    |    | 
+   |    |    | DateTimePicker - '2026-02-18 07:00'    (L54, T19, R173, B40)
+   |    |    | ['DateTimePicker5', '정보DateTimePicker']
+   |    |    | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   |    |    | 
+   |    |    | DateTimePicker - '2026-02-19 07:00'    (L192, T19, R311, B40)
+   |    |    | ['스크ODateTimePicker', 'DateTimePicker6']
+   |    |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    |    | 
+   |    |    | Static - '∼'    (L176, T23, R190, B35)
+   |    |    | ['Static23', '∼3', '∼Static3']
+   |    |    | child_window(title="∼", class_name="Static")
+   |    |    | 
+   |    |    | Static - '기간'    (L24, T22, R49, B40)
+   |    |    | ['기간Static3', '기간3', 'Static24']
+   |    |    | child_window(title="기간", class_name="Static")
+   |    |    | 
+   |    |    | Button - ''    (L313, T22, R329, B37)
+   |    |    | ['통합으로변경Button3', 'Button28']
+   |    |    | child_window(class_name="Button")
+   |    |    | 
+   |    |    | Button - '갱 신'    (L332, T17, R385, B38)
+   |    |    | ['갱 신Button', 'Button29', '갱 신']
+   |    |    | child_window(title="갱 신", class_name="Button")
+   |    |    | 
+   |    |    | Button - '아웃바운드오더생성'    (L1261, T100, R1385, B121)
+   |    |    | ['아웃바운드오더생성Button', 'Button30', '아웃바운드오더생성']
+   |    |    | child_window(title="아웃바운드오더생성", class_name="Button")
+   |    |    | 
+   |    |    | Edit - '연결안됨'    (L332, T17, R390, B38)
+   |    |    | ['Edit14', '통합으로변경Edit']
+   |    |    | child_window(title="연결안됨", class_name="Edit")
+   |    |    | 
+   |    |    | Button - '휴식모드'    (L393, T17, R461, B38)
+   |    |    | ['휴식모드Button', 'Button31', '휴식모드']
+   |    |    | child_window(title="휴식모드", class_name="Button")
+   |    |    | 
+   |    |    | Button - '아웃바운드번호등록'    (L1326, T17, R1450, B38)
+   |    |    | ['아웃바운드번호등록Button', 'Button32', '아웃바운드번호등록']
+   |    |    | child_window(title="아웃바운드번호등록", class_name="Button")
+   |    |    | 
+   |    |    | Button - '○아리랑콜▷'    (L728, T17, R807, B38)
+   |    |    | ['○아리랑콜▷', '○아리랑콜▷Button', 'Button33']
+   |    |    | child_window(title="○아리랑콜▷", class_name="Button")
+   |    |    | 
+   |    |    | Edit - ''    (L915, T17, R1020, B38)
+   |    |    | ['오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)Edit', 'Edit15']
+   |    |    | child_window(class_name="Edit")
+   |    |    | 
+   |    |    | CheckBox - '자동 아웃 바운드'    (L1214, T20, R1326, B35)
+   |    |    | ['자동 아웃 바운드CheckBox', 'CheckBox17', '자동 아웃 바운드']
+   |    |    | child_window(title="자동 아웃 바운드", class_name="Button")
+   |    | 
+   |    | Static - '상태'    (L24, T23, R49, B35)
+   |    | ['상태', 'Static20', '상태Static']
+   |    | child_window(title="상태", class_name="Static")
+   |    | 
+   |    | Edit - ''    (L495, T17, R586, B38)
+   |    | ['[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.Edit', 'Edit11']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Button - '전화받기'    (L589, T17, R657, B38)
+   |    | ['전화받기', '전화받기Button', 'Button20']
+   |    | child_window(title="전화받기", class_name="Button")
+   |    | 
+   |    | Button - '끊기'    (L659, T17, R726, B38)
+   |    | ['Button21', '끊기', '끊기Button']
+   |    | child_window(title="끊기", class_name="Button")
+   |    | 
+   |    | Edit - '연결안됨-IP/내선번호 입력요망'    (L54, T17, R194, B38)
+   |    | ['정보Edit4', 'Edit12']
+   |    | child_window(title="연결안됨-IP/내선번호 입력요망", class_name="Edit")
+   |    | 
+   |    | XTPReport - ''    (L17, T44, R734, B287)
+   |    | ['XTPReport11', '기간XTPReport7']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | XTPReport - ''    (L1182, T67, R1182, B287)
+   |    | ['XTPReport12', '공지관리XTPReport']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Button - 'Up'    (L651, T125, R676, B146)
+   |    | ['Button22', 'UpButton', 'Up']
+   |    | child_window(title="Up", class_name="Button")
+   |    | 
+   |    | Button - 'Dn'    (L679, T125, R704, B146)
+   |    | ['Button23', 'Dn', 'DnButton']
+   |    | child_window(title="Dn", class_name="Button")
+   |    | 
+   |    | Button - '설정'    (L203, T17, R249, B38)
+   |    | ['설정2', 'Button24', '설정Button2']
+   |    | child_window(title="설정", class_name="Button")
+   |    | 
+   |    | Static - '검색'    (L467, T22, R493, B34)
+   |    | ['Static21', '검색Static6', '검색6']
+   |    | child_window(title="검색", class_name="Static")
+   |    | 
+   |    | CheckBox - '갱신중지'    (L255, T20, R327, B37)
+   |    | ['갱신중지', '갱신중지CheckBox', 'CheckBox16']
+   |    | child_window(title="갱신중지", class_name="Button")
+   |    | 
+   |    | Static - 'Static'    (L1023, T43, R1023, B66)
+   |    | ['StaticStatic', 'Static22']
+   |    | child_window(title="Static", class_name="Static")
+   |    | 
+   |    | Edit - ''    (L808, T17, R913, B38)
+   |    | ['요금문의 답변시 구간 요금 자동입력됨(경유제외)Edit', 'Edit13']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Button - '걸기'    (L1022, T17, R1062, B38)
+   |    | ['Button25', '걸기Button', '걸기']
+   |    | child_window(title="걸기", class_name="Button")
+   |    | 
+   |    | Button - '메모리걸기▷'    (L1127, T17, R1209, B38)
+   |    | ['메모리걸기▷Button', 'Button26', '메모리걸기▷']
+   |    | child_window(title="메모리걸기▷", class_name="Button")
+   |    | 
+   |    | Button - '이전조회'    (L1064, T17, R1124, B38)
+   |    | ['이전조회Button', '이전조회', 'Button27']
+   |    | child_window(title="이전조회", class_name="Button")
+   |    | 
+   |    | XTPReport - ''    (L17, T44, R734, B287)
+   |    | ['XTPReport13', '기간XTPReport8']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | DateTimePicker - '2026-02-18 07:00'    (L54, T19, R173, B40)
+   |    | ['DateTimePicker5', '정보DateTimePicker']
+   |    | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | DateTimePicker - '2026-02-19 07:00'    (L192, T19, R311, B40)
+   |    | ['스크ODateTimePicker', 'DateTimePicker6']
+   |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | Static - '∼'    (L176, T23, R190, B35)
+   |    | ['Static23', '∼3', '∼Static3']
+   |    | child_window(title="∼", class_name="Static")
+   |    | 
+   |    | Static - '기간'    (L24, T22, R49, B40)
+   |    | ['기간Static3', '기간3', 'Static24']
+   |    | child_window(title="기간", class_name="Static")
+   |    | 
+   |    | Button - ''    (L313, T22, R329, B37)
+   |    | ['통합으로변경Button3', 'Button28']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | Button - '갱 신'    (L332, T17, R385, B38)
+   |    | ['갱 신Button', 'Button29', '갱 신']
+   |    | child_window(title="갱 신", class_name="Button")
+   |    | 
+   |    | Button - '아웃바운드오더생성'    (L1261, T100, R1385, B121)
+   |    | ['아웃바운드오더생성Button', 'Button30', '아웃바운드오더생성']
+   |    | child_window(title="아웃바운드오더생성", class_name="Button")
+   |    | 
+   |    | Edit - '연결안됨'    (L332, T17, R390, B38)
+   |    | ['Edit14', '통합으로변경Edit']
+   |    | child_window(title="연결안됨", class_name="Edit")
+   |    | 
+   |    | Button - '휴식모드'    (L393, T17, R461, B38)
+   |    | ['휴식모드Button', 'Button31', '휴식모드']
+   |    | child_window(title="휴식모드", class_name="Button")
+   |    | 
+   |    | Button - '아웃바운드번호등록'    (L1326, T17, R1450, B38)
+   |    | ['아웃바운드번호등록Button', 'Button32', '아웃바운드번호등록']
+   |    | child_window(title="아웃바운드번호등록", class_name="Button")
+   |    | 
+   |    | Button - '○아리랑콜▷'    (L728, T17, R807, B38)
+   |    | ['○아리랑콜▷', '○아리랑콜▷Button', 'Button33']
+   |    | child_window(title="○아리랑콜▷", class_name="Button")
+   |    | 
+   |    | Edit - ''    (L915, T17, R1020, B38)
+   |    | ['오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)Edit', 'Edit15']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | CheckBox - '자동 아웃 바운드'    (L1214, T20, R1326, B35)
+   |    | ['자동 아웃 바운드CheckBox', 'CheckBox17', '자동 아웃 바운드']
+   |    | child_window(title="자동 아웃 바운드", class_name="Button")
+   | 
+   | #32770 - ''    (L17, T14, R736, B289)
+   | ['#3277013', '검색#32770']
+   | child_window(class_name="#32770")
+   |    | 
+   |    | Static - '상태'    (L24, T23, R49, B35)
+   |    | ['상태', 'Static20', '상태Static']
+   |    | child_window(title="상태", class_name="Static")
+   |    | 
+   |    | Edit - ''    (L495, T17, R586, B38)
+   |    | ['[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.Edit', 'Edit11']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Button - '전화받기'    (L589, T17, R657, B38)
+   |    | ['전화받기', '전화받기Button', 'Button20']
+   |    | child_window(title="전화받기", class_name="Button")
+   |    | 
+   |    | Button - '끊기'    (L659, T17, R726, B38)
+   |    | ['Button21', '끊기', '끊기Button']
+   |    | child_window(title="끊기", class_name="Button")
+   |    | 
+   |    | Edit - '연결안됨-IP/내선번호 입력요망'    (L54, T17, R194, B38)
+   |    | ['정보Edit4', 'Edit12']
+   |    | child_window(title="연결안됨-IP/내선번호 입력요망", class_name="Edit")
+   |    | 
+   |    | XTPReport - ''    (L17, T44, R734, B287)
+   |    | ['XTPReport11', '기간XTPReport7']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | XTPReport - ''    (L1182, T67, R1182, B287)
+   |    | ['XTPReport12', '공지관리XTPReport']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | Button - 'Up'    (L651, T125, R676, B146)
+   |    | ['Button22', 'UpButton', 'Up']
+   |    | child_window(title="Up", class_name="Button")
+   |    | 
+   |    | Button - 'Dn'    (L679, T125, R704, B146)
+   |    | ['Button23', 'Dn', 'DnButton']
+   |    | child_window(title="Dn", class_name="Button")
+   |    | 
+   |    | Button - '설정'    (L203, T17, R249, B38)
+   |    | ['설정2', 'Button24', '설정Button2']
+   |    | child_window(title="설정", class_name="Button")
+   |    | 
+   |    | Static - '검색'    (L467, T22, R493, B34)
+   |    | ['Static21', '검색Static6', '검색6']
+   |    | child_window(title="검색", class_name="Static")
+   |    | 
+   |    | CheckBox - '갱신중지'    (L255, T20, R327, B37)
+   |    | ['갱신중지', '갱신중지CheckBox', 'CheckBox16']
+   |    | child_window(title="갱신중지", class_name="Button")
+   |    | 
+   |    | Static - 'Static'    (L1023, T43, R1023, B66)
+   |    | ['StaticStatic', 'Static22']
+   |    | child_window(title="Static", class_name="Static")
+   |    | 
+   |    | Edit - ''    (L808, T17, R913, B38)
+   |    | ['요금문의 답변시 구간 요금 자동입력됨(경유제외)Edit', 'Edit13']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | Button - '걸기'    (L1022, T17, R1062, B38)
+   |    | ['Button25', '걸기Button', '걸기']
+   |    | child_window(title="걸기", class_name="Button")
+   |    | 
+   |    | Button - '메모리걸기▷'    (L1127, T17, R1209, B38)
+   |    | ['메모리걸기▷Button', 'Button26', '메모리걸기▷']
+   |    | child_window(title="메모리걸기▷", class_name="Button")
+   |    | 
+   |    | Button - '이전조회'    (L1064, T17, R1124, B38)
+   |    | ['이전조회Button', '이전조회', 'Button27']
+   |    | child_window(title="이전조회", class_name="Button")
+   |    | 
+   |    | XTPReport - ''    (L17, T44, R734, B287)
+   |    | ['XTPReport13', '기간XTPReport8']
+   |    | child_window(class_name="XTPReport")
+   |    | 
+   |    | DateTimePicker - '2026-02-18 07:00'    (L54, T19, R173, B40)
+   |    | ['DateTimePicker5', '정보DateTimePicker']
+   |    | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | DateTimePicker - '2026-02-19 07:00'    (L192, T19, R311, B40)
+   |    | ['스크ODateTimePicker', 'DateTimePicker6']
+   |    | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   |    | 
+   |    | Static - '∼'    (L176, T23, R190, B35)
+   |    | ['Static23', '∼3', '∼Static3']
+   |    | child_window(title="∼", class_name="Static")
+   |    | 
+   |    | Static - '기간'    (L24, T22, R49, B40)
+   |    | ['기간Static3', '기간3', 'Static24']
+   |    | child_window(title="기간", class_name="Static")
+   |    | 
+   |    | Button - ''    (L313, T22, R329, B37)
+   |    | ['통합으로변경Button3', 'Button28']
+   |    | child_window(class_name="Button")
+   |    | 
+   |    | Button - '갱 신'    (L332, T17, R385, B38)
+   |    | ['갱 신Button', 'Button29', '갱 신']
+   |    | child_window(title="갱 신", class_name="Button")
+   |    | 
+   |    | Button - '아웃바운드오더생성'    (L1261, T100, R1385, B121)
+   |    | ['아웃바운드오더생성Button', 'Button30', '아웃바운드오더생성']
+   |    | child_window(title="아웃바운드오더생성", class_name="Button")
+   |    | 
+   |    | Edit - '연결안됨'    (L332, T17, R390, B38)
+   |    | ['Edit14', '통합으로변경Edit']
+   |    | child_window(title="연결안됨", class_name="Edit")
+   |    | 
+   |    | Button - '휴식모드'    (L393, T17, R461, B38)
+   |    | ['휴식모드Button', 'Button31', '휴식모드']
+   |    | child_window(title="휴식모드", class_name="Button")
+   |    | 
+   |    | Button - '아웃바운드번호등록'    (L1326, T17, R1450, B38)
+   |    | ['아웃바운드번호등록Button', 'Button32', '아웃바운드번호등록']
+   |    | child_window(title="아웃바운드번호등록", class_name="Button")
+   |    | 
+   |    | Button - '○아리랑콜▷'    (L728, T17, R807, B38)
+   |    | ['○아리랑콜▷', '○아리랑콜▷Button', 'Button33']
+   |    | child_window(title="○아리랑콜▷", class_name="Button")
+   |    | 
+   |    | Edit - ''    (L915, T17, R1020, B38)
+   |    | ['오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)Edit', 'Edit15']
+   |    | child_window(class_name="Edit")
+   |    | 
+   |    | CheckBox - '자동 아웃 바운드'    (L1214, T20, R1326, B35)
+   |    | ['자동 아웃 바운드CheckBox', 'CheckBox17', '자동 아웃 바운드']
+   |    | child_window(title="자동 아웃 바운드", class_name="Button")
+   | 
+   | Static - '상태'    (L24, T23, R49, B35)
+   | ['상태', 'Static20', '상태Static']
+   | child_window(title="상태", class_name="Static")
+   | 
+   | Edit - ''    (L495, T17, R586, B38)
+   | ['[옵션] - [일반] - [기타옵션]에서 설정한 키로미터 이내의 취소오더를 체크합니다.Edit', 'Edit11']
+   | child_window(class_name="Edit")
+   | 
+   | Button - '전화받기'    (L589, T17, R657, B38)
+   | ['전화받기', '전화받기Button', 'Button20']
+   | child_window(title="전화받기", class_name="Button")
+   | 
+   | Button - '끊기'    (L659, T17, R726, B38)
+   | ['Button21', '끊기', '끊기Button']
+   | child_window(title="끊기", class_name="Button")
+   | 
+   | Edit - '연결안됨-IP/내선번호 입력요망'    (L54, T17, R194, B38)
+   | ['정보Edit4', 'Edit12']
+   | child_window(title="연결안됨-IP/내선번호 입력요망", class_name="Edit")
+   | 
+   | XTPReport - ''    (L17, T44, R734, B287)
+   | ['XTPReport11', '기간XTPReport7']
+   | child_window(class_name="XTPReport")
+   | 
+   | XTPReport - ''    (L1182, T67, R1182, B287)
+   | ['XTPReport12', '공지관리XTPReport']
+   | child_window(class_name="XTPReport")
+   | 
+   | Button - 'Up'    (L651, T125, R676, B146)
+   | ['Button22', 'UpButton', 'Up']
+   | child_window(title="Up", class_name="Button")
+   | 
+   | Button - 'Dn'    (L679, T125, R704, B146)
+   | ['Button23', 'Dn', 'DnButton']
+   | child_window(title="Dn", class_name="Button")
+   | 
+   | Button - '설정'    (L203, T17, R249, B38)
+   | ['설정2', 'Button24', '설정Button2']
+   | child_window(title="설정", class_name="Button")
+   | 
+   | Static - '검색'    (L467, T22, R493, B34)
+   | ['Static21', '검색Static6', '검색6']
+   | child_window(title="검색", class_name="Static")
+   | 
+   | CheckBox - '갱신중지'    (L255, T20, R327, B37)
+   | ['갱신중지', '갱신중지CheckBox', 'CheckBox16']
+   | child_window(title="갱신중지", class_name="Button")
+   | 
+   | Static - 'Static'    (L1023, T43, R1023, B66)
+   | ['StaticStatic', 'Static22']
+   | child_window(title="Static", class_name="Static")
+   | 
+   | Edit - ''    (L808, T17, R913, B38)
+   | ['요금문의 답변시 구간 요금 자동입력됨(경유제외)Edit', 'Edit13']
+   | child_window(class_name="Edit")
+   | 
+   | Button - '걸기'    (L1022, T17, R1062, B38)
+   | ['Button25', '걸기Button', '걸기']
+   | child_window(title="걸기", class_name="Button")
+   | 
+   | Button - '메모리걸기▷'    (L1127, T17, R1209, B38)
+   | ['메모리걸기▷Button', 'Button26', '메모리걸기▷']
+   | child_window(title="메모리걸기▷", class_name="Button")
+   | 
+   | Button - '이전조회'    (L1064, T17, R1124, B38)
+   | ['이전조회Button', '이전조회', 'Button27']
+   | child_window(title="이전조회", class_name="Button")
+   | 
+   | XTPReport - ''    (L17, T44, R734, B287)
+   | ['XTPReport13', '기간XTPReport8']
+   | child_window(class_name="XTPReport")
+   | 
+   | DateTimePicker - '2026-02-18 07:00'    (L54, T19, R173, B40)
+   | ['DateTimePicker5', '정보DateTimePicker']
+   | child_window(title="2026-02-18 07:00", class_name="SysDateTimePick32")
+   | 
+   | DateTimePicker - '2026-02-19 07:00'    (L192, T19, R311, B40)
+   | ['스크ODateTimePicker', 'DateTimePicker6']
+   | child_window(title="2026-02-19 07:00", class_name="SysDateTimePick32")
+   | 
+   | Static - '∼'    (L176, T23, R190, B35)
+   | ['Static23', '∼3', '∼Static3']
+   | child_window(title="∼", class_name="Static")
+   | 
+   | Static - '기간'    (L24, T22, R49, B40)
+   | ['기간Static3', '기간3', 'Static24']
+   | child_window(title="기간", class_name="Static")
+   | 
+   | Button - ''    (L313, T22, R329, B37)
+   | ['통합으로변경Button3', 'Button28']
+   | child_window(class_name="Button")
+   | 
+   | Button - '갱 신'    (L332, T17, R385, B38)
+   | ['갱 신Button', 'Button29', '갱 신']
+   | child_window(title="갱 신", class_name="Button")
+   | 
+   | Button - '아웃바운드오더생성'    (L1261, T100, R1385, B121)
+   | ['아웃바운드오더생성Button', 'Button30', '아웃바운드오더생성']
+   | child_window(title="아웃바운드오더생성", class_name="Button")
+   | 
+   | Edit - '연결안됨'    (L332, T17, R390, B38)
+   | ['Edit14', '통합으로변경Edit']
+   | child_window(title="연결안됨", class_name="Edit")
+   | 
+   | Button - '휴식모드'    (L393, T17, R461, B38)
+   | ['휴식모드Button', 'Button31', '휴식모드']
+   | child_window(title="휴식모드", class_name="Button")
+   | 
+   | Button - '아웃바운드번호등록'    (L1326, T17, R1450, B38)
+   | ['아웃바운드번호등록Button', 'Button32', '아웃바운드번호등록']
+   | child_window(title="아웃바운드번호등록", class_name="Button")
+   | 
+   | Button - '○아리랑콜▷'    (L728, T17, R807, B38)
+   | ['○아리랑콜▷', '○아리랑콜▷Button', 'Button33']
+   | child_window(title="○아리랑콜▷", class_name="Button")
+   | 
+   | Edit - ''    (L915, T17, R1020, B38)
+   | ['오더를 아래로 드래그엔 드롭하시면, 오더이동이 됩니다. (단순 클릭시에 지사 변경 기능으로 사용가능)Edit', 'Edit15']
+   | child_window(class_name="Edit")
+   | 
+   | CheckBox - '자동 아웃 바운드'    (L1214, T20, R1326, B35)
+   | ['자동 아웃 바운드CheckBox', 'CheckBox17', '자동 아웃 바운드']
+   | child_window(title="자동 아웃 바운드", class_name="Button")
+   | 
+   | XTPDockingPaneAutoHidePanel - ''    (L17, T970, R736, B993)
+   | ['XTPDockingPaneAutoHidePanel', '아리랑콜센터-알렉스.기수신[메인/1등급]XTPDockingPaneAutoHidePanel']
+   | child_window(class_name="XTPDockingPaneAutoHidePanel")
+   | 
+   | XTPDockingPaneSplitter - 'Splitter'    (L732, T40, R736, B970)
+   | ['XTPDockingPaneSplitter', 'Splitter', 'SplitterXTPDockingPaneSplitter']
+   | child_window(title="Splitter", class_name="XTPDockingPaneSplitter")
+   | 
+   | XTPDockingPaneTabbedContainer - ''    (L736, T40, R736, B970)
+   | ['아리랑콜센터-알렉스.기수신[메인/1등급]XTPDockingPaneTabbedContainer', 'XTPDockingPaneTabbedContainer2']
+   | child_window(class_name="XTPDockingPaneTabbedContainer")
