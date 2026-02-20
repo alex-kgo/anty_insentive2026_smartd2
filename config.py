@@ -2,7 +2,7 @@ import os
 
 # --- 경로 설정 (폴더 위치) ---
 # 엑셀 파일이 저장될 기본 폴더입니다.
-EXPORT_BASE_DIR = r"C:\RPA\logi_exports"
+EXPORT_BASE_DIR = r"C:\_antigravity\anty_insentive2026_smartd2\logi_exports"
 # 원본 파일 저장 폴더
 RAW_DIR = os.path.join(EXPORT_BASE_DIR, "raw")
 # 가공된 파일 저장 폴더
@@ -14,8 +14,9 @@ LOG_DIR = os.path.join(EXPORT_BASE_DIR, "logs")
 SCREENSHOT_DIR = os.path.join(LOG_DIR, "screens")
 
 # --- 로지 프로그램 설정 ---
+
 # 로지 프로그램 실행 파일 위치 (일반적으로 변경할 필요 없음)
-LOGI_APP_PATH = r"C:\SmartD2\update.exe"
+LOGI_APP_PATH = r"C:\SmartD2\Update.exe"
 LOGI_WINDOW_TITLE = "" 
 
 # --- 엑셀 데이터 처리 설정 ---

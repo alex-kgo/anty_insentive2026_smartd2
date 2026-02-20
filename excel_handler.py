@@ -112,6 +112,10 @@ class ExcelHandler:
                 code = str(row[0]).strip() if row[0] is not None else ""
                 name = str(row[1]).strip() if row[1] is not None else ""
                 
+                # 성명 필드에 '합계'가 포함된 행 제외
+                if "합계" in name:
+                    continue
+
                 def to_int(val):
                     try:
                         return int(float(val)) if val is not None else 0

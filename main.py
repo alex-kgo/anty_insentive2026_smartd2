@@ -28,17 +28,27 @@ def get_month_dates(year_month):
 
 def main():
     if len(sys.argv) < 2:
-        target_month = input("작업할 월을 입력하세요 (예: 2026-02): ").strip()
+        print("Launching GUI Dashboard...")
+        try:
+            from gui_main import GUIApp
+            import tkinter as tk
+            root = tk.Tk()
+            app = GUIApp(root)
+            root.mainloop()
+            return
+        except Exception as e:
+            print(f"Failed to launch GUI: {e}")
+            target_month = input("작업할 월을 입력하세요 (예: 2026-02): ").strip()
     else:
         target_month = sys.argv[1]
 
-    print(f"자동화 시작: {target_month}")
-    
-    # 모듈 초기화
+    # 모듈 초기화 (CLI 모드일 때만 여기서 직접 초기화)
     logi = LogiApp()
     excel = ExcelHandler()
     gsheet = GoogleSheetManager()
     bot = TelegramBot()
+
+    print(f"자동화 시작 (CLI): {target_month}")
 
     try:
         # 1. 로지 프로그램 연결

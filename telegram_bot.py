@@ -22,22 +22,22 @@ class TelegramBot:
             try:
                 response = requests.post(url, json=payload, timeout=10)
                 if response.status_code == 200:
-                    print("Telegram message sent.")
+                    print("텔레그램 메시지 전송 성공.")
                     return True
                 else:
-                    print(f"Telegram error {response.status_code}: {response.text}")
+                    print(f"텔레그램 전송 실패 {response.status_code}: {response.text}")
             except Exception as e:
-                print(f"Telegram exception: {e}")
+                print(f"텔레그램 연결 예외 발생: {e}")
             
             time.sleep(2 ** i) # Exponential backoff
         return False
 
     def send_document(self, file_path, caption="", retries=3):
-        """Send a document (CSV) with caption."""
+        """문서(CSV 등) 전송."""
         url = f"{self.base_url}/sendDocument"
         
         if not os.path.exists(file_path):
-            print(f"File not found: {file_path}")
+            print(f"파일을 찾을 수 없습니다: {file_path}")
             return False
 
         for i in range(retries):
@@ -48,12 +48,12 @@ class TelegramBot:
                     response = requests.post(url, files=files, data=data, timeout=30)
                     
                     if response.status_code == 200:
-                        print(f"Telegram document sent: {os.path.basename(file_path)}")
+                        print(f"텔레그램 파일 전송 성공: {os.path.basename(file_path)}")
                         return True
                     else:
-                         print(f"Telegram upload error {response.status_code}: {response.text}")
+                         print(f"텔레그램 파일 업로드 실패 {response.status_code}: {response.text}")
             except Exception as e:
-                 print(f"Telegram upload exception: {e}")
+                 print(f"텔레그램 파일 업로드 예외 발생: {e}")
             
             time.sleep(2 ** i)
         return False

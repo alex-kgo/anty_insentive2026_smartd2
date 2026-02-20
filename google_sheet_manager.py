@@ -13,6 +13,7 @@ class GoogleSheetManager:
         self.creds = None
         self.client = None
         self.sheet = None # The specific worksheet for the month
+        self.spreadsheet_url = None
 
     def authenticate(self):
         """Authenticate with Google Sheets API."""
@@ -39,16 +40,17 @@ class GoogleSheetManager:
 
         try:
             sh = self.client.open_by_key(spreadsheet_key)
+            self.spreadsheet_url = sh.url
         except gspread.SpreadsheetNotFound:
              raise Exception("Spreadsheet not found. check GOOGLE_SPREADSHEET_KEY.")
 
         try:
             worksheet = sh.worksheet(year_month)
-            print(f"Opened existing worksheet: {year_month}")
+            print(f"기존 워크시트를 열었습니다: {year_month}")
         except gspread.WorksheetNotFound:
-            print(f"Creating new worksheet: {year_month}")
+            print(f"새 워크시트를 생성합니다: {year_month}")
             worksheet = sh.add_worksheet(title=year_month, rows="100", cols="20")
-            # Add Header
+            # 헤더 추가
             worksheet.append_row(config.SHEET_HEADERS)
         
         self.sheet = worksheet
@@ -131,4 +133,4 @@ class GoogleSheetManager:
         
         self.sheet.clear()
         self.sheet.update(data_to_write)
-        print(f"Upserted {len(new_data_list)} rows. Total rows now: {len(final_df)}")
+        print(f"데이터 업로드 완료: {len(new_data_list)}행 추가 (현재 총 {len(final_df)}행)")

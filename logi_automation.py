@@ -11,36 +11,33 @@ class LogiApp:
 
     def connect(self):
         """Connect to the running Logi application using PID."""
+        print("Attempting to locate Logi application window...")
         try:
             import win32gui
             import win32process
             
-            # Find the Logi window (Assuming user has it open as per instructions)
-            # We look for window with title containing "메인" or class "SmartD2-"
-            # But the most reliable way since we just inspected it is: the user just had it open.
-            # We search for the specific class we saw: "SmartD2-"
-            
+            # Find the Logi window
             hwnd = win32gui.FindWindow("SmartD2-", None)
             if not hwnd:
-                # Fallback to loose title search if class search fails
-                print("Class 'SmartD2-' not found. Searching by Title...")
-                # Note: Title varies.
+                print("Window class 'SmartD2-' not found. Scanning all windows...")
+                # Optional: Add title-based search here if class search becomes unreliable
             
             if hwnd:
                 _, pid = win32process.GetWindowThreadProcessId(hwnd)
-                print(f"Found Logi PID: {pid} (Window Handle: {hwnd})")
-                self.app = Application(backend="win32").connect(process=pid) # Use win32 backend for legacy controls as seen in successful dump
+                print(f"Target window found! HWND: {hwnd}, PID: {pid}")
+                self.app = Application(backend="win32").connect(process=pid)
                 try:
                     self.dlg = self.app.window(handle=hwnd)
                     self.dlg.set_focus()
-                    print("Connected to Logi application and set focus.")
+                    print("Connection established and Logi window focused.")
                 except Exception as focus_err:
-                     print(f"Connected but could not focus: {focus_err}")
+                     print(f"Connected but could not set focus: {focus_err}")
             else:
-                 raise Exception("Logi application window not found. Please ensure it is running.")
+                 print("Error: Could not find Logi window. Please make sure the program is open.")
+                 raise Exception("Logi application window not found.")
             
         except Exception as e:
-            print(f"Connection failed: {e}")
+            print(f"Connection error details: {e}")
             raise Exception("Logi application connection failed.")
 
     def login(self, user_id, user_pw):
